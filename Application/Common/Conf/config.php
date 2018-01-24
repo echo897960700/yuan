@@ -1,8 +1,8 @@
 <?php
 return array(
 	
-	'DB_TYPE'   => 'mysql', // 数据库类型
-	'DB_HOST'   => 'localhost', // 服务器地址
+	'DB_TYPE'   => 'mysql', 
+	'DB_HOST'   => 'localhost', 
 	'DB_NAME'   => 'pra', // 数据库名
 	'DB_USER'   => 'caijunpeng', // 用户名
 	'DB_PWD'    => 'Cjp123456.', // 密码
