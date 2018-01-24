@@ -1,7 +1,6 @@
 <?php
 return array(
-	//'閰嶇疆椤?=>'閰嶇疆鍊?
-	//鏁版嵁搴撻厤缃俊鎭?
+	
 	'DB_TYPE'   => 'mysql', // 数据库类型
 	'DB_HOST'   => 'localhost', // 服务器地址
 	'DB_NAME'   => 'pra', // 数据库名
