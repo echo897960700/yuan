@@ -1,0 +1,4458 @@
+[ 2016-03-30T00:03:49+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:03:50+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:03:53+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:04:01+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:11:04+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:11:16+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:11:17+08:00 ] ::1 /Hit/Public/Index/blog/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:12:30+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001417s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:12:30+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:12:33+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:12:33+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:12:35+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:12:35+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:12:35+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:12:38+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:15:09+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:15:10+08:00 ] ::1 /Hit/Public/Index/blog/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:16:13+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:16:13+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:16:15+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:16:15+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:16:15+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:16:17+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:16:17+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:16:18+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:16:41+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:17:21+08:00 ] ::1 /Hit/Public/Index/blog/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:17:57+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:17:57+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:17:58+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:17:58+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:17:58+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:18:21+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:18:27+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:18:34+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:20:44+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:23:21+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:23:22+08:00 ] ::1 /Hit/Public/Index/blog/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:24:39+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:24:40+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:24:43+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:24:44+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:24:48+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:24:50+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:24:54+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:24:56+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:24:58+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:25:02+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:25:03+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:25:06+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:29:33+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:29:35+08:00 ] ::1 /Hit/Public/Index/blog/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:30:36+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:30:36+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:30:39+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:30:39+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001450s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:30:39+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:31:10+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:31:10+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:32:01+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:32:02+08:00 ] ::1 /Hit/Public/Index/blog/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:35:16+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:35:16+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:35:18+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:41:05+08:00 ] ::1 /Hit/Public/Index/blog/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:41:05+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:41:52+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:41:52+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:41:55+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:41:55+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:41:56+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:41:56+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:41:56+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001878s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:43:22+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:43:25+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:43:25+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:43:26+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:43:27+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:44:24+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:44:25+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:44:26+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:45:23+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:45:24+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:45:25+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:45:32+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:45:40+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:45:40+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:45:41+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:45:46+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:46:26+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:46:27+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:46:49+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:46:50+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:46:58+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:47:07+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:47:09+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T00:47:13+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:47:31+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:52:39+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020660s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:53:59+08:00 ] ::1 /Hit/Public/Index/Index/images/56faaa4bcd496.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:53:59+08:00 ] ::1 /Hit/Public/Index/Index/images/56faa96d19bed.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:53:59+08:00 ] ::1 /Hit/Public/Index/Index/images/56ead06dc3b6a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:53:59+08:00 ] ::1 /Hit/Public/Index/Index/images/56ec4f94e7fec.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000297s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T00:57:26+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T01:05:09+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T01:12:05+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002160s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T01:12:57+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T01:13:41+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T01:15:23+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T01:15:52+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T01:19:59+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T01:31:13+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T01:31:45+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T01:31:46+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T01:37:39+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T01:52:11+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T01:56:53+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T01:57:48+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:01:17+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:03:02+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:03:03+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:05:17+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:05:17+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:05:40+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:07:42+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:08:31+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:08:33+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:08:48+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:09:51+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:10:21+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002393s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T02:10:24+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T02:10:27+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:10:47+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T02:12:07+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:13:18+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:36:56+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:36:56+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:45:41+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:45:41+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:45:42+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:45:42+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:45:42+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:45:48+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:45:49+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:45:57+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T02:58:05+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T03:01:37+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T03:01:37+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T03:01:39+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T03:01:39+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002389s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T03:01:40+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T03:01:40+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T03:01:52+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T03:01:56+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T03:02:32+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T03:03:11+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T03:03:38+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T03:03:39+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T03:13:25+08:00 ] ::1 /Hit/Public/Index/Index/images/i0mg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T03:26:35+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T03:26:35+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T03:32:11+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T03:32:36+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T12:03:23+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T12:03:23+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001209s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T12:04:12+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T12:04:15+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T12:04:28+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T12:05:58+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T12:06:00+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T12:06:24+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T12:06:29+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T12:06:30+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T12:20:42+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T12:20:48+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T12:21:13+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T12:22:00+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T12:22:01+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T12:22:05+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T12:22:08+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T12:22:14+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T13:03:21+08:00 ] ::1 /Hit/Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001238s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T13:11:02+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T13:11:05+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T13:12:57+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:20:07+08:00 ] 183.62.38.197 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:20:07+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:21:09+08:00 ] 113.119.206.122 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:21:09+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:21:22+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:21:22+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:21:49+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:21:49+08:00 ] 113.119.206.122 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:21:58+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:22:14+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:22:14+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:22:15+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:22:15+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:22:18+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:22:18+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:22:19+08:00 ] 183.62.38.197 /index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T14:22:19+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:22:19+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:22:20+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:22:21+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:22:25+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:22:31+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:22:36+08:00 ] 183.62.38.197 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:22:36+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:22:39+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:22:39+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:24:19+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:24:19+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:24:22+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:24:22+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:24:23+08:00 ] 183.62.38.197 /index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T14:24:23+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:24:23+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:24:24+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:24:24+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:25:24+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:25:24+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:25:31+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:25:31+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:25:32+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:25:32+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:27:06+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:27:06+08:00 ] 183.62.38.197 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:27:26+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:27:30+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:29:04+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004133s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:29:05+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:29:05+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:29:06+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:29:32+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:29:33+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:29:33+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:29:37+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:29:37+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:29:45+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:29:45+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:29:45+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:32:08+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:32:08+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:33:25+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:33:25+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:33:30+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:33:30+08:00 ] 183.62.38.197 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001142s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:36:16+08:00 ] 183.62.38.197 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:36:17+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:37:03+08:00 ] 183.62.38.197 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:37:03+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:37:04+08:00 ] 183.62.38.197 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:37:04+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:37:28+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:37:28+08:00 ] 183.62.38.197 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:37:29+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:37:30+08:00 ] 183.62.38.197 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:37:34+08:00 ] 183.62.38.197 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:37:34+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:38:13+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:38:13+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022521s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:41:17+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:41:17+08:00 ] 183.62.38.197 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:41:48+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:41:49+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:42:01+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:42:01+08:00 ] 183.62.38.197 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:44:43+08:00 ] 183.62.38.198 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:44:44+08:00 ] 183.62.38.198 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:45:06+08:00 ] 183.62.38.198 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:45:55+08:00 ] 123.125.71.58 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: 无法加载模块:Robots
+
+[ 2016-03-30T14:48:26+08:00 ] 183.62.38.198 /ueditor/php/upload/image/20160330/1459269702124387.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:48:26+08:00 ] 183.62.38.198 /ueditor/php/upload/image/20160330/1459269704547622.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:48:26+08:00 ] 183.62.38.198 /ueditor/php/upload/image/20160330/1459269706564663.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:48:26+08:00 ] 183.62.38.198 /ueditor/php/upload/image/20160330/1459269704130145.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:48:26+08:00 ] 183.62.38.198 /ueditor/php/upload/image/20160330/1459269708722159.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:48:26+08:00 ] 183.62.38.198 /ueditor/php/upload/image/20160330/1459269703467841.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:48:26+08:00 ] 183.62.38.198 /ueditor/php/upload/image/20160330/1459269707887487.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:48:26+08:00 ] 183.62.38.198 /ueditor/php/upload/image/20160330/1459269703467841.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:48:26+08:00 ] 183.62.38.198 /ueditor/php/upload/image/20160330/1459269704130145.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:48:26+08:00 ] 183.62.38.198 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:48:27+08:00 ] 183.62.38.198 /ueditor/php/upload/image/20160330/1459269706564663.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:48:27+08:00 ] 183.62.38.198 /ueditor/php/upload/image/20160330/1459269708722159.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:48:27+08:00 ] 183.62.38.198 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:48:27+08:00 ] 183.62.38.198 /ueditor/php/upload/image/20160330/1459269704547622.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:48:27+08:00 ] 183.62.38.198 /ueditor/php/upload/image/20160330/1459269707887487.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:48:27+08:00 ] 183.62.38.198 /ueditor/php/upload/image/20160330/1459269702124387.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:48:44+08:00 ] 183.62.38.198 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:48:54+08:00 ] 183.62.38.198 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:48:57+08:00 ] 183.62.38.197 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:48:57+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:49:00+08:00 ] 183.62.38.198 /index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T14:49:03+08:00 ] 183.62.38.198 /ueditor/php/upload/image/20160330/1459269704547622.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:49:03+08:00 ] 183.62.38.198 /ueditor/php/upload/image/20160330/1459269702124387.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:49:04+08:00 ] 183.62.38.198 /ueditor/php/upload/image/20160330/1459269707887487.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:49:04+08:00 ] 183.62.38.198 /ueditor/php/upload/image/20160330/1459269706564663.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:49:04+08:00 ] 183.62.38.198 /ueditor/php/upload/image/20160330/1459269704130145.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:49:04+08:00 ] 183.62.38.198 /ueditor/php/upload/image/20160330/1459269703467841.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:49:04+08:00 ] 183.62.38.198 /ueditor/php/upload/image/20160330/1459269708722159.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:50:37+08:00 ] 183.62.38.198 /index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T14:50:49+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:50:49+08:00 ] 183.62.38.197 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:51:18+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:51:19+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:51:29+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:51:29+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:51:32+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:51:32+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:51:34+08:00 ] 183.62.38.197 /index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T14:51:34+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:51:34+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:51:36+08:00 ] 183.62.38.197 /Hit/Public/Ueditor/themes/default/images/spacer.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+ERR: 无法加载模块:Hit
+
+[ 2016-03-30T14:51:36+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169111116.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:51:36+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169440129.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:51:36+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169874405.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:51:36+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169170405.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:51:36+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:51:36+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169722331.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:51:36+08:00 ] 183.62.38.197 /Hit/Public/Ueditor/themes/default/images/spacer.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+ERR: 无法加载模块:Hit
+
+[ 2016-03-30T14:51:36+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169170405.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:51:37+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169722331.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:51:37+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169874405.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:51:37+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169440129.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:51:37+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169111116.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:51:37+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:51:37+08:00 ] 183.62.38.197 /Hit/Public/Ueditor/lang/zh-cn/images/localimage.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+ERR: 无法加载模块:Hit
+
+[ 2016-03-30T14:51:42+08:00 ] 183.62.38.197 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:51:42+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:51:43+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:51:49+08:00 ] 183.62.38.197 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:51:52+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:51:53+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:51:53+08:00 ] 183.62.38.197 /index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T14:51:53+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:51:54+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:51:54+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:51:55+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169440129.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:51:55+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169722331.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:51:55+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169874405.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:51:55+08:00 ] 183.62.38.197 /Hit/Public/Ueditor/themes/default/images/spacer.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+ERR: 无法加载模块:Hit
+
+[ 2016-03-30T14:51:55+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169111116.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:51:55+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169170405.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:51:55+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169440129.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:51:55+08:00 ] 183.62.38.197 /Hit/Public/Ueditor/lang/zh-cn/images/localimage.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+ERR: 无法加载模块:Hit
+
+[ 2016-03-30T14:51:55+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:51:55+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:52:06+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:52:06+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:52:06+08:00 ] 183.62.38.198 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:52:11+08:00 ] 183.62.38.197 /Hit/Public/Ueditor/themes/default/images/spacer.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+ERR: 无法加载模块:Hit
+
+[ 2016-03-30T14:52:11+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169722331.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:52:11+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169874405.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024689s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:52:11+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169111116.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:52:11+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022973s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:52:11+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001306s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:52:11+08:00 ] 183.62.38.197 /Hit/Public/Ueditor/themes/default/images/spacer.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+ERR: 无法加载模块:Hit
+
+[ 2016-03-30T14:52:11+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169440129.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:52:11+08:00 ] 183.62.38.197 /Hit/Public/Ueditor/lang/zh-cn/images/localimage.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+ERR: 无法加载模块:Hit
+
+[ 2016-03-30T14:52:11+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169170405.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T14:52:19+08:00 ] 183.62.38.197 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-03-30T14:52:20+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:52:20+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:52:50+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:52:51+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:52:57+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006083s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:52:57+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:53:01+08:00 ] 183.62.38.197 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:53:01+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:53:51+08:00 ] 183.62.38.197 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:53:51+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:55:35+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:55:35+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:55:38+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:55:38+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:55:53+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:55:53+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:56:03+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:56:03+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:56:06+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:56:06+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:56:09+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:56:09+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:56:15+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:56:15+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:56:21+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T14:56:21+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:03:10+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:03:10+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:14:17+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:14:18+08:00 ] 183.62.38.197 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:14:28+08:00 ] 183.62.38.197 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:14:30+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:14:48+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169170405.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:14:48+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:14:48+08:00 ] 183.62.38.197 /Hit/Public/Ueditor/themes/default/images/spacer.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: 无法加载模块:Hit
+
+[ 2016-03-30T15:14:48+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169111116.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:14:48+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169440129.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:14:48+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169874405.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:14:49+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169722331.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:14:49+08:00 ] 183.62.38.197 /Hit/Public/Ueditor/themes/default/images/spacer.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+ERR: 无法加载模块:Hit
+
+[ 2016-03-30T15:14:49+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169170405.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:14:49+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:14:49+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169440129.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:14:49+08:00 ] 183.62.38.197 /Hit/Public/Ueditor/lang/zh-cn/images/localimage.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+ERR: 无法加载模块:Hit
+
+[ 2016-03-30T15:14:49+08:00 ] 183.62.38.197 /ueditor/php/upload/image/20160330/1459268169111116.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:17:34+08:00 ] 183.62.38.198 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:17:34+08:00 ] 183.62.38.198 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:19:23+08:00 ] 183.62.38.198 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:20:10+08:00 ] 183.62.38.197 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:20:10+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:20:18+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:20:18+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:20:20+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:20:20+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:21:52+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:21:52+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:22:37+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:22:37+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:22:38+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:22:38+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:23:04+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:23:04+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:24:06+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:24:06+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:24:20+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:24:20+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:24:21+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:24:21+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:25:03+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:25:03+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:25:14+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:25:15+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:25:28+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:25:28+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:25:52+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:25:53+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:26:26+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:26:26+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:26:48+08:00 ] 183.62.38.197 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:26:48+08:00 ] 183.62.38.197 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:38:52+08:00 ] 183.62.38.196 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:38:52+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:39:22+08:00 ] 183.62.38.196 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:39:22+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:39:58+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269702124387.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:39:58+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269704547622.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:39:58+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269704130145.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:39:58+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269703467841.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:39:58+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269707887487.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:39:58+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269706564663.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:39:58+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269702124387.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:39:58+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269704547622.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:39:58+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269708722159.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:39:58+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:39:59+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269704130145.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:39:59+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:40:52+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:40:52+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:41:03+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:41:03+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:41:33+08:00 ] 183.62.38.196 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001176s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-03-30T15:42:01+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:42:10+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:42:10+08:00 ] 183.62.38.196 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:42:15+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:42:20+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:43:11+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:43:11+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:44:24+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:44:24+08:00 ] 183.62.38.196 /Hit/Public/Ueditor/themes/default/images/spacer.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+ERR: 无法加载模块:Hit
+
+[ 2016-03-30T15:44:24+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459268169874405.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:44:24+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459268169111116.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:44:24+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459268169722331.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:44:25+08:00 ] 183.62.38.196 /Hit/Public/Ueditor/lang/zh-cn/images/localimage.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+ERR: 无法加载模块:Hit
+
+[ 2016-03-30T15:44:25+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459268169440129.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:44:25+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459268169170405.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:44:25+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:44:27+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:44:27+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:44:42+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:44:45+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:44:52+08:00 ] 183.62.38.196 /index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T15:44:52+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:44:52+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:44:57+08:00 ] 183.62.38.196 /index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T15:44:57+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:44:57+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:45:37+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:45:39+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:46:22+08:00 ] 183.62.38.196 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:47:16+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269704547622.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:47:16+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269702124387.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:47:16+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269704130145.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:47:16+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269706564663.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:47:16+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T15:47:16+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269703467841.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:47:16+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269707887487.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:47:16+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269708722159.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:47:16+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269702124387.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:47:16+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269704547622.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:47:16+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269704130145.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:47:16+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269703467841.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:47:16+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269706564663.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T15:47:16+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:06:59+08:00 ] 183.62.38.196 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:07:00+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:07:05+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:07:05+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:07:09+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:07:10+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:07:28+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:07:28+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:07:30+08:00 ] 183.62.38.196 /index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T16:07:30+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:07:30+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:07:31+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269704130145.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:07:32+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269702124387.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:07:32+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269707887487.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:07:32+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269706564663.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:07:32+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269704130145.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:07:32+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269704547622.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:07:32+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269708722159.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:07:32+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:07:32+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269703467841.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:07:32+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:07:59+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:07:59+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:08:00+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:08:00+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:08:01+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:08:03+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:08:04+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:08:04+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:08:09+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:08:09+08:00 ] 183.62.38.196 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:08:11+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:08:15+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:08:15+08:00 ] 183.62.38.196 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:08:17+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:08:17+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:08:36+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:08:36+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:09:25+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:09:25+08:00 ] 183.62.38.196 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:09:27+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:09:31+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:09:31+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:09:32+08:00 ] 183.62.38.196 /index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T16:09:32+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:09:32+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:33:56+08:00 ] 113.119.206.122 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:33:56+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:34:26+08:00 ] 113.119.206.122 /ueditor/php/upload/image/20160330/1459269704130145.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:34:26+08:00 ] 113.119.206.122 /ueditor/php/upload/image/20160330/1459269702124387.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:34:26+08:00 ] 113.119.206.122 /ueditor/php/upload/image/20160330/1459269706564663.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:34:26+08:00 ] 113.119.206.122 /ueditor/php/upload/image/20160330/1459269704547622.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:34:26+08:00 ] 113.119.206.122 /ueditor/php/upload/image/20160330/1459269707887487.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:34:26+08:00 ] 113.119.206.122 /ueditor/php/upload/image/20160330/1459269703467841.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:34:26+08:00 ] 113.119.206.122 /ueditor/php/upload/image/20160330/1459269708722159.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:34:26+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:34:26+08:00 ] 113.119.206.122 /ueditor/php/upload/image/20160330/1459269706564663.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:34:26+08:00 ] 113.119.206.122 /ueditor/php/upload/image/20160330/1459269704547622.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:34:26+08:00 ] 113.119.206.122 /ueditor/php/upload/image/20160330/1459269702124387.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:34:26+08:00 ] 113.119.206.122 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:34:26+08:00 ] 113.119.206.122 /ueditor/php/upload/image/20160330/1459269704130145.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:34:26+08:00 ] 113.119.206.122 /ueditor/php/upload/image/20160330/1459269707887487.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:34:26+08:00 ] 113.119.206.122 /ueditor/php/upload/image/20160330/1459269703467841.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:34:26+08:00 ] 113.119.206.122 /ueditor/php/upload/image/20160330/1459269708722159.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:34:41+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:34:41+08:00 ] 113.119.206.122 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:34:43+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:35:02+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:36:46+08:00 ] 113.119.206.122 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022298s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:36:47+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:36:49+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:36:51+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:36:51+08:00 ] 183.62.38.196 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:36:56+08:00 ] 113.119.206.122 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:36:56+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:36:58+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:36:58+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:36:59+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:36:59+08:00 ] 113.119.206.122 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:37:02+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:37:02+08:00 ] 113.119.206.122 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:37:08+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:37:08+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:37:10+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:37:17+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:37:17+08:00 ] 183.62.38.196 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:37:20+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:37:20+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:37:21+08:00 ] 183.62.38.196 /index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T16:37:21+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:37:21+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:37:22+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:37:22+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269706564663.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:37:22+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269704547622.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:37:22+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269703467841.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:37:22+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269704130145.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:37:22+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269708722159.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:37:22+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269702124387.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:37:22+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269707887487.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:37:23+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269703467841.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:37:23+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269704547622.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:37:23+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269702124387.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:37:23+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269708722159.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:37:23+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459269706564663.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:37:23+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:37:30+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:37:30+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:37:40+08:00 ] 113.119.206.122 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:37:40+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:37:43+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:37:43+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:37:52+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:37:52+08:00 ] 113.119.206.122 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:37:56+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:37:56+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:00+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:00+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:01+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:01+08:00 ] 113.119.206.122 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:02+08:00 ] 183.62.38.196 /index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T16:38:02+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:02+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:02+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:03+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:03+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:04+08:00 ] 183.62.38.196 /index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T16:38:04+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:04+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:06+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:06+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:07+08:00 ] 183.62.38.196 /index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T16:38:07+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:07+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:09+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459268169874405.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:38:09+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:09+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459268169111116.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:38:09+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459268169440129.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:38:09+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459268169722331.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:38:09+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459268169170405.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:38:09+08:00 ] 183.62.38.196 /Hit/Public/Ueditor/themes/default/images/spacer.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+ERR: 无法加载模块:Hit
+
+[ 2016-03-30T16:38:13+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459268169111116.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:38:13+08:00 ] 183.62.38.196 /Hit/Public/Ueditor/lang/zh-cn/images/localimage.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+ERR: 无法加载模块:Hit
+
+[ 2016-03-30T16:38:13+08:00 ] 183.62.38.196 /Hit/Public/Ueditor/themes/default/images/spacer.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+ERR: 无法加载模块:Hit
+
+[ 2016-03-30T16:38:13+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459268169170405.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:38:13+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459268169440129.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:38:13+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459268169874405.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:38:13+08:00 ] 183.62.38.196 /ueditor/php/upload/image/20160330/1459268169722331.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+ERR: 无法加载模块:Ueditor
+
+[ 2016-03-30T16:38:13+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:13+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:15+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:19+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:25+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:25+08:00 ] 183.62.38.196 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:27+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:28+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:30+08:00 ] 113.119.206.122 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:30+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:31+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:31+08:00 ] 113.119.206.122 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T16:38:45+08:00 ] 113.119.206.122 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:14:44+08:00 ] 183.62.38.196 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:14:46+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:16:04+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:35:50+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:35:50+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:36:10+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:36:18+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:36:25+08:00 ] 183.62.38.196 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:36:25+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:36:29+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:36:36+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:37:11+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:37:12+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:37:14+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:37:14+08:00 ] 183.62.38.196 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:37:48+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:37:48+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:37:49+08:00 ] 183.62.38.196 /index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T17:37:49+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:37:49+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:38:11+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:38:11+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:46:28+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:46:29+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:46:37+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:46:38+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:46:44+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:46:44+08:00 ] 183.62.38.196 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:51:37+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:51:39+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:58:42+08:00 ] 183.62.38.196 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T17:58:42+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T18:00:30+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T18:00:30+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T18:00:36+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T18:00:47+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T18:00:51+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T18:00:51+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T18:00:53+08:00 ] 183.62.38.196 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T18:00:53+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T18:01:50+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T18:01:51+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T18:02:04+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T18:02:05+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T18:02:33+08:00 ] 183.62.38.196 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-03-30T18:02:34+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T18:02:34+08:00 ] 183.62.38.196 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T18:19:02+08:00 ] 183.62.38.196 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T18:19:02+08:00 ] 183.62.38.196 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T20:19:15+08:00 ] 183.62.38.199 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T20:19:15+08:00 ] 183.62.38.199 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T20:19:44+08:00 ] 183.62.38.199 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T20:19:47+08:00 ] 183.62.38.199 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-03-30T20:20:20+08:00 ] 183.62.38.199 /index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-30T20:24:09+08:00 ] 183.62.38.199 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T22:36:05+08:00 ] 14.215.55.74 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T22:36:05+08:00 ] 14.215.55.74 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T22:36:19+08:00 ] 183.24.97.164 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T22:36:20+08:00 ] 183.24.97.164 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T22:36:57+08:00 ] 14.215.55.74 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T23:26:57+08:00 ] 14.215.34.57 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T23:26:59+08:00 ] 14.215.34.57 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001164s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T23:44:35+08:00 ] 183.24.97.164 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T23:44:40+08:00 ] 183.24.97.164 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T23:44:40+08:00 ] 183.24.97.164 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T23:44:44+08:00 ] 183.24.97.164 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T23:44:44+08:00 ] 183.24.97.164 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T23:44:49+08:00 ] 183.24.97.164 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T23:44:49+08:00 ] 183.24.97.164 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T23:44:50+08:00 ] 183.24.97.164 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T23:44:50+08:00 ] 183.24.97.164 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T23:44:52+08:00 ] 183.24.97.164 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T23:44:52+08:00 ] 183.24.97.164 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T23:44:57+08:00 ] 183.24.97.164 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-03-30T23:57:46+08:00 ] 183.24.97.164 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T23:57:46+08:00 ] 183.24.97.164 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T23:59:05+08:00 ] 183.24.97.164 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-30T23:59:05+08:00 ] 183.24.97.164 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+ERR: 无法加载模块:Public
+

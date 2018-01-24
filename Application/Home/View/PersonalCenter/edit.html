@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>猿客栈--在线Web学习交互新阵地</title>
+	
+	<!-- <link rel="stylesheet" href="__PUBLIC__/style/PersonalCenter/edit.css" /> -->
+    <link rel="shortcut icon" href="__PUBLIC__/Index/common/images/bitbug_favicon.ico">
+	<script type="text/javascript" src='__PUBLIC__/script/PersonalCenter/jquery-1.7.2.min.js'></script>
+    <script type='text/javascript' src='__PUBLIC__/script/PersonalCenter/city.js'></script>
+	<script type='text/javascript' src='__PUBLIC__/script/PersonalCenter/edit.js'></script>
+    
+    <!-- 头像 -->
+    
+    <!--<script type="text/javascript" src='__PUBLIC__/Uploadify/jquery.uploadify.min.js'></script>
+	<link rel="stylesheet" href="__PUBLIC__/Uploadify/uploadify.css" />-->
+   
+    <script type='text/javascript'>
+        var address = "{$user.location}";
+        
+        /*var PUBLIC = '__PUBLIC__';
+        var uploadUrl = '{:U("Home/Common/uploadFace")}';
+        var sid = '{:session_id()}';
+        var ROOT = '__ROOT__';*/
+
+    </script>
+
+
+
+</head>
+<body>
+<!--==========内容主体==========-->
+	
+ 
+    
+    <!--=====右侧=====-->
+
+
+    		<div>
+    		<foreach item='v' name='info'>
+    			<form action="{:U('Home/PersonalCenter/doEdit')}" method='post'>
+    				
+    				<p>
+    					<label>昵称：</label>
+    					<input type="text" name='username' value='{$v.username}' />
+    				</p>
+    				<p>
+    					<label>真实名称：</label>
+    					<input type="text" name='truename' value='{$v.truename}' class='input'/>
+    				</p>
+    				<p>
+    					<label>性别：</label>
+    					<input type="radio" name='sex' value='1' <if condition='$user["sex"] == "男"'>checked='checked'</if>/>&nbsp;男&nbsp;&nbsp;
+    					<input type="radio" name='sex' value='2' <if condition='$user["sex"] == "女"'>checked='checked'</if>/>&nbsp;女
+    				</p>
+    				<p>
+    					<label>所在地：</label>
+    					<select name="province" id="">
+    						<option value="">请选择</option>
+    					</select>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <select name="city">
+                            <option value="">请选择</option>
+                        </select>
+    				</p>
+    				<p>
+    					<label>一句话介绍自己：</label>
+    					<textarea name="sign">{$v.sign}</textarea>
+    				</p>
+    				<p>
+    					<input type="submit" value='保存修改'/>
+    				</p>
+    				
+    			</form>
+    			</foreach>
+    		</div>
+    		<hr/>
+    		<form action="__URL__/upload" enctype="multipart/form-data" method="post" >
+	    		<img src="__ROOT__/Uploads/Avater/{$user.avater_path}" width="80" height="80" alt="">
+	    		<input type="text" name="name" />
+	    		<input type="file" name="photo" />
+	    		<input type="submit" value="提交" >
+    		</form>
+
+    		<hr/>
+
+    		<div class='form hidden'>
+    			<form action="{:U('editPwd')}" method='post' name='editPwd'>
+    				<p class='account'>登录邮箱：<span>{$user.email}</span></p>
+    				<p>
+    					<label for=""><span class='red'>*</span>旧密码：</label>
+    					<input type="password" name='old' class='input'/>
+    				</p>
+    				<p>
+    					<label for=""><span class='red'>*</span>新密码：</label>
+    					<input type="password" name='new' class='input' id='new'/>
+    				</p>
+    				<p>
+    					<label for=""><span class='red'>*</span>确认密码：</label>
+    					<input type="password" name='newed' class='input'/>
+    				</p>
+    				<p>
+    					<input type="submit" value='确认修改' class='edit-sub'/>
+    				</p>
+    			</form>
+    		</div>
+    	</div>
+   
+<!--==========内容主体结束==========-->
+
+</body>
+</html>

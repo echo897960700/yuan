@@ -1,0 +1,1684 @@
+[ 2016-03-23T12:49:22+08:00 ] ::1 /Hit/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000373s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001934s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2016-03-23T12:52:08+08:00 ] ::1 /Hit/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2016-03-23T12:52:16+08:00 ] ::1 /Hit/index.php/Home/User/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0165s ]
+NOTIC: [8] Undefined index: auth D:\wamp\www\Hit\ThinkPHP\Library\Think\Model.class.php 第 1264 行.
+SQL: SELECT `id`,`status`,`avater_path`,`truename`,`username` FROM `p_user` WHERE `username` = 'echo' AND `password` = '618d3face2bcc4c583fa3e6548ac0eec' LIMIT 1   [ RunTime:0.0017s ]
+SQL: UPDATE `p_user` SET `last_login`='1458708735',`last_ip`='0.0.0.0' WHERE ( id=44 ) [ RunTime:0.1055s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0042s ]
+SQL: SELECT `group_id` FROM `p_auth_group_access` WHERE `uid` = 44 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-03-23T12:52:16+08:00 ] ::1 /Hit/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2016-03-23T12:52:19+08:00 ] ::1 /Hit/index.php/Home/PersonalCenter/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0113s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0105s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0121s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='2' [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 AND `userid` = 44  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 AND `userid` = 44  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `p_user` WHERE `id` = 44  [ RunTime:0.0008s ]
+SQL: SELECT `avater_path` FROM `p_user` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001892s ]
+
+[ 2016-03-23T12:53:17+08:00 ] ::1 /Hit/index.php/Home/PersonalCenter/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `p_user` WHERE `id` = 44  [ RunTime:0.0004s ]
+SQL: SELECT `location`,`sex`,`avater_path`,`email` FROM `p_user` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2016-03-23T12:53:45+08:00 ] ::1 /Hit/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2016-03-23T12:56:43+08:00 ] ::1 /Hit/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2016-03-23T12:59:24+08:00 ] ::1 /Hit/index.php/Home/PersonalCenter/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0051s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='2' [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 AND `userid` = 44  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 AND `userid` = 44  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `p_user` WHERE `id` = 44  [ RunTime:0.0006s ]
+SQL: SELECT `avater_path` FROM `p_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2016-03-23T13:00:45+08:00 ] ::1 /Hit/index.php/Home/PersonalCenter/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0048s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='2' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 AND `userid` = 44  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 AND `userid` = 44  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `p_user` WHERE `id` = 44  [ RunTime:0.0003s ]
+SQL: SELECT `avater_path` FROM `p_user` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-03-23T14:20:59+08:00 ] ::1 /Hit/index.php/Home/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+
+[ 2016-03-23T14:20:59+08:00 ] ::1 /Hit/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2016-03-23T14:21:02+08:00 ] ::1 /Hit/index.php/Home/User/userReg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2016-03-23T14:21:03+08:00 ] ::1 /Hit/index.php/Home/User/getVerifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001496s ]
+
+[ 2016-03-23T14:21:20+08:00 ] ::1 /Hit/index.php/Home/User/checkFieldUnqiue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0173s ]
+SQL: SELECT `id` FROM `p_user` WHERE `username` = 'xiaomai' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-23T14:21:38+08:00 ] ::1 /Hit/index.php/Home/User/checkFieldUnqiue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0053s ]
+SQL: SELECT `id` FROM `p_user` WHERE `email` = '2524659204@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-23T14:21:43+08:00 ] ::1 /Hit/index.php/Home/User/checkFieldUnqiue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0355s ]
+SQL: SELECT `id` FROM `p_user` WHERE `truename` = '麦培群' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-03-23T14:22:39+08:00 ] ::1 /Hit/index.php/Home/User/doRegister
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `p_user` WHERE `username` = 'xiaomai' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p_user` WHERE `truename` = '麦培群' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p_user` WHERE `email` = '2524659204@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `p_user` (`truename`,`username`,`password`,`email`,`reg_date`,`last_login`,`last_ip`) VALUES ('麦培群','xiaomai','e10adc3949ba59abbe56e057f20f883e','2524659204@qq.com','1458714112','1458714112','0.0.0.0') [ RunTime:0.0739s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0422s ]
+SQL: INSERT INTO `p_auth_group_access` (`uid`,`group_id`) VALUES ('54','3') [ RunTime:0.0677s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0093s ]
+SQL: UPDATE `p_user` SET `token_code`='bc2584c0668b7d74dee1f6efddd03d89',`token_expiry`='1458800512' WHERE ( id=54 ) [ RunTime:0.0711s ]
+
+[ 2016-03-23T14:22:39+08:00 ] ::1 /Hit/index.php/Home/User/userReg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+
+[ 2016-03-23T14:22:39+08:00 ] ::1 /Hit/index.php/Home/User/userReg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+
+[ 2016-03-23T14:22:39+08:00 ] ::1 /Hit/index.php/Home/User/userReg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000367s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000574s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2016-03-23T14:22:39+08:00 ] ::1 /Hit/index.php/Home/User/userReg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2016-03-23T14:22:39+08:00 ] ::1 /Hit/index.php/Home/User/userReg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002450s ]
+
+[ 2016-03-23T14:22:39+08:00 ] ::1 /Hit/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002007s ]
+
+[ 2016-03-23T14:24:25+08:00 ] ::1 /Hit/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2016-03-23T14:24:36+08:00 ] ::1 /Hit/index.php/Home/User/userReg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2016-03-23T14:24:36+08:00 ] ::1 /Hit/index.php/Home/User/getVerifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002892s ]
+
+[ 2016-03-23T14:24:48+08:00 ] ::1 /Hit/index.php/Home/User/checkFieldUnqiue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `p_user` WHERE `username` = 'xiaomai' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-23T14:25:11+08:00 ] ::1 /Hit/index.php/Home/User/checkFieldUnqiue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0047s ]
+SQL: SELECT `id` FROM `p_user` WHERE `email` = '2524659204@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-23T14:25:17+08:00 ] ::1 /Hit/index.php/Home/User/checkFieldUnqiue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002282s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0563s ]
+SQL: SELECT `id` FROM `p_user` WHERE `truename` = '小麦' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-23T14:25:24+08:00 ] ::1 /Hit/index.php/Home/User/doRegister
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014321s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `p_user` WHERE `username` = 'xiaomai' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_user` WHERE `truename` = '小麦' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_user` WHERE `email` = '2524659204@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-03-23T14:25:34+08:00 ] ::1 /Hit/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2016-03-23T14:26:17+08:00 ] ::1 /Hit/index.php/Home/User/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001949s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0546s ]
+NOTIC: [8] Undefined index: auth D:\wamp\www\Hit\ThinkPHP\Library\Think\Model.class.php 第 1264 行.
+SQL: SELECT `id`,`status`,`avater_path`,`truename`,`username` FROM `p_user` WHERE `username` = 'echo' AND `password` = '618d3face2bcc4c583fa3e6548ac0eec' LIMIT 1   [ RunTime:0.0015s ]
+SQL: UPDATE `p_user` SET `last_login`='1458714377',`last_ip`='0.0.0.0' WHERE ( id=44 ) [ RunTime:0.0578s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0042s ]
+SQL: SELECT `group_id` FROM `p_auth_group_access` WHERE `uid` = 44 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-23T14:26:17+08:00 ] ::1 /Hit/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2016-03-23T14:26:21+08:00 ] ::1 /Hit/index.php/Home/PersonalCenter/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0049s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0039s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='2' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 AND `userid` = 44  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 AND `userid` = 44  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `p_user` WHERE `id` = 44  [ RunTime:0.0003s ]
+SQL: SELECT `avater_path` FROM `p_user` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2016-03-23T14:26:46+08:00 ] ::1 /Hit/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2016-03-23T14:26:48+08:00 ] ::1 /Hit/index.php/Home/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+
+[ 2016-03-23T14:26:48+08:00 ] ::1 /Hit/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001803s ]
+
+[ 2016-03-23T14:30:24+08:00 ] ::1 /Hit/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2016-03-23T14:31:43+08:00 ] ::1 /Hit/index.php/Home/User/getPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0332s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_user` WHERE `username` = 'echo' AND `email` = '897960700@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `p_user` SET `password`='5949e035a7f644e4a9b1f4b66433cf98' WHERE `username` = 'echo' AND `email` = '897960700@qq.com' [ RunTime:0.0598s ]
+
+[ 2016-03-23T14:31:45+08:00 ] ::1 /Hit/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2016-03-23T14:32:17+08:00 ] ::1 /Hit/index.php/Home/User/login0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2016-03-23T14:32:33+08:00 ] ::1 /Hit/index.php/Home/User/getPassword
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001540s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_user` WHERE `username` = 'echo' AND `email` = '897960700@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `p_user` SET `password`='2af8799372f95732ebe0586ee120e050' WHERE `username` = 'echo' AND `email` = '897960700@qq.com' [ RunTime:0.0642s ]
+
+[ 2016-03-23T14:32:35+08:00 ] ::1 /Hit/index.php/Home/User/login0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2016-03-23T14:32:56+08:00 ] ::1 /Hit/index.php/Home/User/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0084s ]
+NOTIC: [8] Undefined index: auth D:\wamp\www\Hit\ThinkPHP\Library\Think\Model.class.php 第 1264 行.
+SQL: SELECT `id`,`status`,`avater_path`,`truename`,`username` FROM `p_user` WHERE `username` = 'echo' AND `password` = '2af8799372f95732ebe0586ee120e050' LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `p_user` SET `last_login`='1458714776',`last_ip`='0.0.0.0' WHERE ( id=44 ) [ RunTime:0.0616s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0051s ]
+SQL: SELECT `group_id` FROM `p_auth_group_access` WHERE `uid` = 44 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-03-23T14:32:56+08:00 ] ::1 /Hit/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2016-03-23T14:32:58+08:00 ] ::1 /Hit/index.php/Home/PersonalCenter/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0062s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0043s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='2' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 AND `userid` = 44  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 AND `userid` = 44  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `p_user` WHERE `id` = 44  [ RunTime:0.0003s ]
+SQL: SELECT `avater_path` FROM `p_user` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2016-03-23T14:32:59+08:00 ] ::1 /Hit/index.php/Home/PersonalCenter/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `p_user` WHERE `id` = 44  [ RunTime:0.0003s ]
+SQL: SELECT `location`,`sex`,`avater_path`,`email` FROM `p_user` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2016-03-23T14:33:10+08:00 ] ::1 /Hit/index.php/Home/PersonalCenter/editPwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0041s ]
+SQL: SELECT `password` FROM `p_user` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `p_user` SET `password`='618d3face2bcc4c583fa3e6548ac0eec' WHERE `id` = 44 [ RunTime:0.0614s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2016-03-23T14:33:11+08:00 ] ::1 /Hit/index.php/Home/PersonalCenter/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `p_user` WHERE `id` = 44  [ RunTime:0.0003s ]
+SQL: SELECT `location`,`sex`,`avater_path`,`email` FROM `p_user` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001469s ]
+
+[ 2016-03-23T14:33:44+08:00 ] ::1 /Hit/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001642s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001323s ]
+
+[ 2016-03-23T14:33:46+08:00 ] ::1 /Hit/index.php/Home/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+
+[ 2016-03-23T14:33:46+08:00 ] ::1 /Hit/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2016-03-23T14:33:49+08:00 ] ::1 /Hit/index.php/Home/User/userReg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2016-03-23T14:33:49+08:00 ] ::1 /Hit/index.php/Home/User/getVerifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002547s ]
+
+[ 2016-03-23T14:33:53+08:00 ] ::1 /Hit/index.php/Home/User/userReg0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: deps D:\wamp\www\Hit\Application\Runtime\Cache\Home\cfd18c045aecd60463d2dc3821280869.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2016-03-23T14:33:53+08:00 ] ::1 /Hit/index.php/Home/User/getVerifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001018s ]
+
+[ 2016-03-23T14:33:57+08:00 ] ::1 /Hit/index.php/Home/User/checkFieldUnqiue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0101s ]
+SQL: SELECT `id` FROM `p_user` WHERE `username` = 'xiaomai' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-23T14:34:20+08:00 ] ::1 /Hit/index.php/Home/User/checkFieldUnqiue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0049s ]
+SQL: SELECT `id` FROM `p_user` WHERE `email` = '2524659204@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-23T14:34:24+08:00 ] ::1 /Hit/index.php/Home/User/checkFieldUnqiue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0105s ]
+SQL: SELECT `id` FROM `p_user` WHERE `truename` = '小麦' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-23T14:34:31+08:00 ] ::1 /Hit/index.php/Home/User/doRegister
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `p_user` WHERE `username` = 'xiaomai' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_user` WHERE `truename` = '小麦' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_user` WHERE `email` = '2524659204@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `p_user` (`truename`,`username`,`password`,`email`,`reg_date`,`last_login`,`last_ip`) VALUES ('小麦','xiaomai','e10adc3949ba59abbe56e057f20f883e','2524659204@qq.com','1458714870','1458714870','0.0.0.0') [ RunTime:0.0736s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0518s ]
+SQL: INSERT INTO `p_auth_group_access` (`uid`,`group_id`) VALUES ('55','3') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0927s ]
+SQL: UPDATE `p_user` SET `token_code`='b5953f9f484629bab8d51a0d2dd4b667',`token_expiry`='1458801270' WHERE ( id=55 ) [ RunTime:0.0895s ]
+
+[ 2016-03-23T14:34:38+08:00 ] ::1 /Hit/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2016-03-23T15:10:30+08:00 ] ::1 /Hit/index.php/Home/PersonalCenter/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001669s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0064s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0046s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='2' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 AND `userid` = null  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 AND `userid` = null  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `p_user` WHERE `id` = null  [ RunTime:0.0002s ]
+SQL: SELECT `avater_path` FROM `p_user` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2016-03-23T15:10:35+08:00 ] ::1 /Hit/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-03-23T15:10:36+08:00 ] ::1 /Hit/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2016-03-23T15:10:41+08:00 ] ::1 /Hit/index.php/Home/User/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003140s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0147s ]
+NOTIC: [8] Undefined index: auth D:\wamp\www\Hit\ThinkPHP\Library\Think\Model.class.php 第 1264 行.
+SQL: SELECT `id`,`status`,`avater_path`,`truename`,`username` FROM `p_user` WHERE `username` = 'echo' AND `password` = '618d3face2bcc4c583fa3e6548ac0eec' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `p_user` SET `last_login`='1458717041',`last_ip`='0.0.0.0' WHERE ( id=44 ) [ RunTime:0.0746s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0118s ]
+SQL: SELECT `group_id` FROM `p_auth_group_access` WHERE `uid` = 44 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-03-23T15:10:41+08:00 ] ::1 /Hit/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2016-03-23T15:10:43+08:00 ] ::1 /Hit/index.php/Home/PersonalCenter/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0038s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='2' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 AND `userid` = 44  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 AND `userid` = 44  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `p_user` WHERE `id` = 44  [ RunTime:0.0003s ]
+SQL: SELECT `avater_path` FROM `p_user` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2016-03-23T15:12:22+08:00 ] ::1 /Hit/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001723s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2016-03-23T15:12:24+08:00 ] ::1 /Hit/index.php/Home/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `p_cate` ORDER BY sort asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\Hit\Application\Runtime\Cache\Home\6d164f7c2f6ca2370f3ab6859ad5b9d7.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2016-03-23T15:12:24+08:00 ] ::1 /Hit/index.php/Home/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0052s ]
+SQL: SELECT `click` FROM `p_blog` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `p_blog` SET `click`=click+1 WHERE `id` = 0 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001281s ]
+
+[ 2016-03-23T15:12:29+08:00 ] ::1 /Hit/index.php/Home/Blog/Catelist/id/34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001775s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0662s ]
+SQL: SELECT `name` FROM `p_cate` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\Hit\Application\Home\Controller\BlogController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `p_blog` WHERE `cid` = 34 ORDER BY time desc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_cate` WHERE `pid` = 0  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_blog` WHERE `cid` = 34 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_blog` WHERE `cid` = 34 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_blog` WHERE `userid` = 44 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\Hit\Application\Runtime\Cache\Home\147a64c6d233efa88fcb3acd546ccbd2.php 第 9 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\147a64c6d233efa88fcb3acd546ccbd2.php 第 69 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\147a64c6d233efa88fcb3acd546ccbd2.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2016-03-23T15:12:30+08:00 ] ::1 /Hit/index.php/Home/Blog/Blog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `p_user` WHERE `id` = 44  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_blog` WHERE `userid` = 44 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_blog` WHERE `userid` = 44 LIMIT 4   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0333s ]
+SQL: SELECT * FROM `p_cate` ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `p_attr`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000701s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2016-03-23T15:14:09+08:00 ] ::1 /Hit/index.php/Home/Blog/addBlog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\Hit\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: click D:\wamp\www\Hit\Application\Home\Controller\BlogController.class.php 第 122 行.
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0059s ]
+SQL: INSERT INTO `p_blog` (`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`username`) VALUES ('自由程序员的 3 个开发技巧','56f2424138c2e.jpg','<p><span style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 24px; background-color: rgb(244, 246, 248);\"><strong style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\">1.与你的客户沟通</strong></span><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">\\r\\n作为一个自由职业者，这是你最重要的事情之一！我发现客户更认同以下的做法：</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><img class=\"fresco\" src=\"/ueditor/php/upload/image/20160323/1458717153770268.png\" alt=\"\" width=\"250\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; border: 0px; vertical-align: middle; max-width: 100%; cursor: pointer; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><strong style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\">可靠：</strong><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">做一个可靠的沟通者，及时回复电子邮件和回答问题。另外，通过发送定期状态报告和/或让他们第一时间知道你完成了一个阶段目标，可以避免让你的客户猜疑你究竟在干什么。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><strong style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\">礼貌：</strong><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">礼貌和专业，但同样重要的是，还要友好。毕竟我们是人！</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><strong style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\">诚实：</strong><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">不要说谎，信守诺言。不要承诺那些你不打算履行的承诺。例如，不要在项目结束时承诺实现一定的功能，如果你已经知道，就算不加上这个功能，在预计期限内完成项目也是有困难的。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><strong style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\">不要隐藏问题：</strong><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">如果问题很严重和/或无论无何迟早会暴露出来，那么尽快通知客户问题。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><strong style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\">跟踪你的时间：</strong><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">如果你按小时收费的话，那就应该跟踪你的时间，并定期分享给客户。如果你每个项目都采取统一的收费率，那么它可以帮助你找出估计工作量和实际工作量之间的差异。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><strong style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\">提供技术咨询：</strong><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">如果你发现客户做了错误的技术决策时，一定要对他们指出这一点，而不要应该让他们在错误的路上越走越远，直到举步维艰。一起讨论决策，但要记住，最后的决定权一定以及始终在客户手里。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><strong style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\">提问：</strong><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">不要害怕问问题：这可以避免你和你的客户走弯路。有疑问，就问，遇到有歧义的地方，不要按自作主张自以为是。当需求没有正确定义，或缺少重要细节的时候，让客户提供更多的细节，或给出你的版本，这样对方就可以立即发现错误。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><strong style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\">发布客户期望的内容，而不是你认为他们期望的内容：</strong><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">在软件开发中，常常存在着一种期望代沟——客户的期望和他们真正得到的结果之间的差异。当事情未指明的时候，消除歧义，避免假设是减少这种代沟的好方法。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">例如，如果需求上声明，用户必须通过提供一个电子邮件地址和密码才能进行注册，而另一条则说要求用户通过输入用户名和密码登录，这时你会发现这里有一个不一致的地方：注册需要电子邮件（而不是用户名），而登录期望使用用户名。那么应不应该在登录时使用电子邮件，或者在注册时也要求输入用户名？除了客户，没人能回答这个问题。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><strong style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\">解决问题：</strong><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">碰到问题，那就专心致志地去解决这个问题，而不是在一边怨天尤人。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><img class=\"fresco\" src=\"/ueditor/php/upload/image/20160323/1458717153664152.png\" alt=\"\" width=\"250\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; border: 0px; vertical-align: middle; max-width: 100%; cursor: pointer; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 24px; background-color: rgb(244, 246, 248);\"></span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 24px; background-color: rgb(244, 246, 248);\"><strong style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\">2.保护你的声誉</strong></span><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">\\r\\n作为一个自由职业者，这是最重要的资本！俗话说，好事不出门，坏事传千里。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">我认为，其实我们应该铭记好事，遗忘坏事，但这个世界就是这么残忍。如果你有一个不好的名声，那么就可能很难找到项目，尤其是网上的自由职业者，因为你的名声是公开的。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">几年前，我在Upwork上雇了一个开发人员帮我做一个JEE项目，虽然他没有JEE的特定经验。我愿意支付他去学习他所需要的东西，并且安排的任务也简单，是一个非开发任务，技术写作。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">大约一个星期后，他改变了主意，说JEE太复杂了。更糟的是，他开始毁谤我和我的客户所选择的框架，用一些令人非常反感的话。即使这样，他依然要求我向他支付所有他在这个项目上花的时间，并且指责我让他工作于他不想要处理的技术。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">最后，我只支付了他一小部分的时间费用，并且还在Upwork上给他写了长长的负面评价，我敢肯定这将破坏他在该平台上的声誉。我是有意的。请不要误解我的意思：我不是为了报复。我只是觉得我有必要提醒未来的潜在客户，他们应该预见这个家伙的服务水平和专业性。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">保护和提高声誉的最好方法就是保证客户的满意！</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">那么该怎么做呢？有一种方法是暂时将自己想象成是客户。我从Freelancer和Upwork等平台上雇过几次开发人员，感谢这些经历，因为这让我懂得了：</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/></p><ul style=\"box-sizing: border-box; margin-bottom: 10px; padding: 0px; word-break: normal; word-wrap: break-word; list-style-position: inside; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\" class=\" list-paddingleft-2\"><li><p>如何从若干候选人中选择最好人选<br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\"/></p></li><li><p>在工作进行中该期待什么<br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\"/></p></li><li><p>当碰到开发人员不发送更新、不回复电子邮件时，会有多么沮丧<br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\"/></p></li><li><p>当开发人员总是让你了解内情，能够预料到你的问题，并提供更新时，会有多么开心<br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\"/></p></li></ul><p><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">当然，你不必为了表现得像一个客户而真的去雇佣开发人员。这成本太高了。&nbsp;：]</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">但这种代入的思维可以帮助你从客户的角度看问题。尤其是当你故意做一些事来隐藏问题或者欺骗客户的时候。有一句我最喜欢的格言是：己所不欲，勿施于人。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><img class=\"fresco\" src=\"/ueditor/php/upload/image/20160323/1458717154934650.png\" alt=\"\" width=\"250\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; border: 0px; vertical-align: middle; max-width: 100%; cursor: pointer; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 24px; background-color: rgb(244, 246, 248);\"></span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 24px; background-color: rgb(244, 246, 248);\"><strong style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\">3.解决常见的自由职业问题</strong></span><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">\\r\\n和任何职业一样，自由职业也有危险区域。以下就是关于如何预测和预防最常见的问题。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\"></span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\"><strong style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\">解决前期所有模棱两可的问题</strong></span><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">\\r\\n上面我就提到过，让客户满意的关键方法是明确客户的期望，消除有歧义的地方。项目一开始可能充斥着很多关于费率，酬劳，付款条件和时间期限等有歧义的地方。一定要正确地解决这些问题！</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\"></span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\"><strong style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\">不要在稀里糊涂的情况下签署保密协议</strong></span><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">\\r\\n我曾被多次要求在不告知相关项目任何细节之前签署保密协议。我的态度就是拒绝，即便有失去项目的风险。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">为什么呢？问题就是，在对我需要保密什么都不知道的时候，我怎么能签署保密协议？如果我已经工作过的项目和这份保密协议发生了冲突怎么办？</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">如果你遇到这种情况，那么不妨问问客户是否能给一个项目的大概想法，不需要透露太多——只要足以让你评估你是否可以负责任地签署这份保密协议即可。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">是什么样的项目？是社交app吗？——哦，好吧，我想我应该告诉你我最近开发过类似的项目。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">是什么样的项目？一个用来计算太空火箭的轨迹和油耗的app？——那行，我可以签署保密协议。我敢肯定我从来没有参与过任何哪怕是一点点相似的项目。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\"></span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\"><strong style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\">阅读和理解合同</strong></span><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">\\r\\n这是显而易见的，但是这个话题要格外小心地处理。合同是你和你的客户之间具有法律约束力的协议，但由于通常是你的客户要求你签署得，所以合同主要用来保护他和他的项目，而不是你。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">这里很难给出建议，因为没有两份合同是一样的，最重要的是，我不是律师。但这里有几条通用的指导：</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/></p><ul style=\"box-sizing: border-box; margin-bottom: 10px; padding: 0px; word-break: normal; word-wrap: break-word; list-style-position: inside; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\" class=\" list-paddingleft-2\"><li><p>仔细阅读合同。<br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\"/></p></li><li><p>再次仔细阅读，然后再来一遍！<br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\"/></p></li><li><p>只管去联系有经验的律师来帮你审查合同，尤其是有任何困惑，不清楚或令人不安的地方。诚然，法律咨询是昂贵的，但最后如果有用的话，绝对物超所值。<br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\"/></p></li><li><p>如果你发现任何错误，或含糊不清不利于你的条款，那么只管提出修改。<br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\"/></p></li><li><p>如果客户拒绝修改，那么退一步去寻找其他的项目。<br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\"/></p></li></ul><p><span style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\"><strong style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\">做好突然没工作的准备</strong></span><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">\\r\\n没有提前通知，项目就停了下来，这是自由职业的属性之一。我的对策是一次至少接两个兼职项目，而不是单单一个全职项目。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">每一个项目都是其他项目的后备：如果其中一个被中止，我还有其他工作。毕竟，一半收入总比什么都没有要好。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">当发生这种情况时，你可能会感到沮丧&nbsp;——至少，这有时会发生在我身上。我知道沮丧是正常的反应，并且当我觉得自己调整好心态之后，我会去寻找其他的挑战。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">有时候，如果一两天过去了，我还是没有行动的激情，那么我会选择和家人一起共享天伦之乐，也许会去做一些我平时因为工作太多而没办法做的事情，比如参与业余活动（近日，我在学习打鼓：]），学习新的东西或看书。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">最后，我不知道是运气，巧合，还是其他什么东西。当项目结束时，无论是突然发生的还是因为其自然而然地到了时间期限，我经常收到主动和意想不到的offer。例如上一次，在项目突然被冻结的第二天，我在StackOverflow上收到了一个方案，过了几天之后在LinkedIn上又收到了另一个。这两个都是新的联系人，而不是朋友的朋友。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">不知道在你的身上是否发生过同样神奇的事情。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">然而，无论是否是主动提供的offer，我会保持搜索，保持申请项目，询问我的联系人等，直到我终于找到一个值得我下功夫的新项目。这个过程有时需要几天，有时甚至要几个月。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">如果你想了解更多，这里有一些有趣的读物：</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/></p><ul style=\"box-sizing: border-box; margin-bottom: 10px; padding: 0px; word-break: normal; word-wrap: break-word; list-style-position: inside; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\" class=\" list-paddingleft-2\"><li><p><a href=\"http://www.raywenderlich.com/114368/staying-motivated-work-home-developer\" target=\"_blank\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(43, 133, 174); text-decoration: none; background: transparent;\">Staying&nbsp;motivated&nbsp;as&nbsp;a&nbsp;work-from-home&nbsp;developer</a><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\"/></p></li></ul><ul style=\"box-sizing: border-box; margin-bottom: 10px; padding: 0px; word-break: normal; word-wrap: break-word; list-style-position: inside; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\" class=\" list-paddingleft-2\"><li><p><a href=\"http://www.nomadned.com/interviews/piero-toffanin/\" target=\"_blank\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(43, 133, 174); text-decoration: none; background: transparent;\">Interview&nbsp;to&nbsp;Piero&nbsp;Toffanin</a>,&nbsp;a&nbsp;former&nbsp;digital&nbsp;nomad<br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\"/></p></li><li><p><a href=\"https://digitalleaves.com/blog/2014/03/why-you-shouldnt-be-scared-of-going-freelance/\" target=\"_blank\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(43, 133, 174); text-decoration: none; background: transparent;\">Why&nbsp;you&nbsp;shouldn’t&nbsp;be&nbsp;scared&nbsp;of&nbsp;going&nbsp;freelance</a>,&nbsp;by&nbsp;Ignacio&nbsp;Nieto<br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\"/></p></li><li><p><a href=\"https://digitalleaves.com/blog/2015/08/dos-and-donts-of-a-freelance-developer/\" target=\"_blank\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(43, 133, 174); text-decoration: none; background: transparent;\">Do’s&nbsp;and&nbsp;Don’ts&nbsp;of&nbsp;a&nbsp;Freelance&nbsp;Developer</a>,&nbsp;by&nbsp;Ignacio&nbsp;Nieto<br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\"/></p></li><li><p><a href=\"http://mariano.zerously.com/post/28497816299/fixed-quotes\" target=\"_blank\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(43, 133, 174); text-decoration: none; background: transparent;\">Fixed&nbsp;quotes</a>,&nbsp;by&nbsp;Mariano&nbsp;Abdala<br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\"/></p></li><li><p><a href=\"http://www.toptal.com/freelance/busting-the-top-5-myths-about-remote-workers\" target=\"_blank\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(43, 133, 174); text-decoration: none; background: transparent;\">Busting&nbsp;the&nbsp;Top&nbsp;5&nbsp;Myths&nbsp;About&nbsp;Remote&nbsp;Workers</a>,&nbsp;by&nbsp;Scott&nbsp;Ritter<br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\"/></p></li><li><p><a href=\"http://www.toptal.com/freelance/the-traveling-engineers-survival-guide\" target=\"_blank\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(43, 133, 174); text-decoration: none; background: transparent;\">How&nbsp;to&nbsp;Travel&nbsp;While&nbsp;Working:&nbsp;The&nbsp;Traveling&nbsp;Engineer’s&nbsp;Survival&nbsp;Guide</a>,&nbsp;by&nbsp;Breanden&nbsp;Beneschott<br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\"/></p></li><li><p><a href=\"http://www.toptal.com/freelance/don-t-be-fooled-the-real-cost-of-employees-and-consultants\" target=\"_blank\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(43, 133, 174); text-decoration: none; background: transparent;\">Don’t&nbsp;Be&nbsp;Fooled:&nbsp;Calculate&nbsp;the&nbsp;Real&nbsp;Cost&nbsp;of&nbsp;Employees&nbsp;and&nbsp;Consultants</a>,&nbsp;by&nbsp;Hyam&nbsp;Singer<br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word;\"/></p></li></ul><p><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">有人曾推荐给我《</span><a href=\"http://weidelonwinning.com/\" target=\"_blank\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(43, 133, 174); text-decoration: none; font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background: rgb(244, 246, 248);\">Serial&nbsp;Winner</a><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">》，一本并不是专门针对自由职业者，但任何想要成功的人都必须阅读的伟大书籍。我还没有看过，但我已经添加到我的阅读列表。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">另一本是我个人建议的，并非全部有关于自由职业，但在管理财务状况方面比较实用的书籍是《</span><a href=\"http://www.amazon.com/The-Richest-Babylon-George-Clason/dp/1505339111\" target=\"_blank\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(43, 133, 174); text-decoration: none; font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background: rgb(244, 246, 248);\">The&nbsp;Richest&nbsp;Man&nbsp;in&nbsp;Babylon</a><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">》。</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">欢迎留下任何你想分享的问题或建议！</span><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><br style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background-color: rgb(244, 246, 248);\"/><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">译文链接：</span><a href=\"http://www.codeceo.com/article/freelance-programmer-tips.html\" target=\"_blank\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(43, 133, 174); text-decoration: none; font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background: rgb(244, 246, 248);\">http://www.codeceo.com/article/freelance-programmer-tips.html</a><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">英文原文：</span><a href=\"https://www.raywenderlich.com/122835/freelance-software-development-tips\" target=\"_blank\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(43, 133, 174); text-decoration: none; font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background: rgb(244, 246, 248);\">Freelance&nbsp;Software&nbsp;Development&nbsp;Tips</a><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">翻译作者：</span><a href=\"http://www.codeceo.com/\" target=\"_blank\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(43, 133, 174); text-decoration: none; font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; white-space: normal; background: rgb(244, 246, 248);\">码农网</a><span style=\"color: rgb(51, 51, 51); font-family: &#39;Century Gothic&#39;, &#39;MicroSoft YaHei&#39;, &#39;hiragino sans GB&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 36px; background-color: rgb(244, 246, 248);\">&nbsp;–&nbsp;小峰</span></p><p>来自：<a href=\"http://www.oschina.net/news/71737/freelance-programmer-tips\" target=\"_blank\" style=\"box-sizing: border-box; margin: 0px; padding: 0px; word-break: normal; word-wrap: break-word; color: rgb(43, 133, 174); text-decoration: none; background: transparent;\">开源中国</a></p><p><br/></p>','1458717249','0','34','44','echo') [ RunTime:0.2928s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0651s ]
+NOTIC: [8] Undefined index: mapping_name D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 259 行.
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0289s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001661s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003637s ]
+
+[ 2016-03-23T15:14:10+08:00 ] ::1 /Hit/index.php/Home/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `p_cate` ORDER BY sort asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\Hit\Application\Runtime\Cache\Home\6d164f7c2f6ca2370f3ab6859ad5b9d7.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2016-03-23T15:14:10+08:00 ] ::1 /Hit/index.php/Home/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0046s ]
+SQL: SELECT `click` FROM `p_blog` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `p_blog` SET `click`=click+1 WHERE `id` = 0 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2016-03-23T15:14:14+08:00 ] ::1 /Hit/index.php/Home/Blog/Catelist/id/34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0075s ]
+SQL: SELECT `name` FROM `p_cate` WHERE `id` = 34 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\Hit\Application\Home\Controller\BlogController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `p_blog` WHERE `cid` = 34 ORDER BY time desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p_cate` WHERE `pid` = 0  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_blog` WHERE `cid` = 34 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_blog` WHERE `cid` = 34 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_blog` WHERE `userid` = 44 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\Hit\Application\Runtime\Cache\Home\147a64c6d233efa88fcb3acd546ccbd2.php 第 9 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\147a64c6d233efa88fcb3acd546ccbd2.php 第 69 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\Hit\Application\Runtime\Cache\Home\147a64c6d233efa88fcb3acd546ccbd2.php 第 70 行.
+NOTIC: [8] Use of undefined constant blogpic - assumed 'blogpic' D:\wamp\www\Hit\Application\Runtime\Cache\Home\147a64c6d233efa88fcb3acd546ccbd2.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002196s ]
+
+[ 2016-03-23T15:14:15+08:00 ] ::1 /Hit/index.php/Home/Blog/one/id/3?id=3&cid=34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0092s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0052s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='2' [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='3' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='34' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `id` = 3 AND `del` = 0  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='3' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='34' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0044s ]
+SQL: SELECT blog.id AS id,blog.title AS title,blog.content AS content,blog.time AS time,blog.click AS click,blog.userid AS userid,blog.username AS username,user.avater_path AS avater_path,user.sign AS sign,user.sex AS sex,user.sign AS sign,user.location AS location FROM p_blog blog LEFT JOIN p_user user ON blog.userid = user.id WHERE blog.id = '3'  [ RunTime:0.0184s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `id` = 3 AND `del` = 0  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='3' [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='34' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_blog` WHERE `cid` = 34 LIMIT 8   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `p_say` [ RunTime:0.0058s ]
+SQL: SELECT say.id AS id,say.content AS content,say.time AS time,say.uid AS uid,say.bid AS bid,say.eid AS eid,say.youke AS youke,user.username AS username,user.avater_path AS avater_path,user.sign AS sign,user.location AS location FROM p_say say LEFT JOIN p_user user ON say.uid = user.id WHERE say.bid = '3'  [ RunTime:0.0388s ]
+SQL: SELECT `id` FROM `p_say` WHERE `uid` = 44 AND `bid` = 3  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined variable: value D:\wamp\www\Hit\Application\Runtime\Cache\Home\8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 57 行.
+NOTIC: [8] Undefined variable: value D:\wamp\www\Hit\Application\Runtime\Cache\Home\8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 58 行.
+NOTIC: [8] Use of undefined constant blogpic - assumed 'blogpic' D:\wamp\www\Hit\Application\Runtime\Cache\Home\8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 68 行.
+NOTIC: [8] Use of undefined constant blogpic - assumed 'blogpic' D:\wamp\www\Hit\Application\Runtime\Cache\Home\8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.003619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002673s ]
+
+[ 2016-03-23T15:14:15+08:00 ] ::1 /Hit/index.php/Home/Blog/clickNum/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0049s ]
+SQL: SELECT `click` FROM `p_blog` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0014s ]
+SQL: UPDATE `p_blog` SET `click`=click+1 WHERE `id` = 3 [ RunTime:0.0688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2016-03-23T15:14:42+08:00 ] ::1 /Hit/index.php/Home/PersonalCenter/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0048s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0047s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='2' [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='3' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='34' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 AND `userid` = 44  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='3' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='34' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 AND `userid` = 44  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `p_user` WHERE `id` = 44  [ RunTime:0.0003s ]
+SQL: SELECT `avater_path` FROM `p_user` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2016-03-23T23:27:23+08:00 ] ::1 /Hit/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013317s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000822s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093106s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012255s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001645s ]
+

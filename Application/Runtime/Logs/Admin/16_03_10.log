@@ -1,0 +1,3361 @@
+[ 2016-03-10T08:59:27+08:00 ] ::1 /Hit/index.php/Admin/public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000496s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001815s ]
+
+[ 2016-03-10T08:59:31+08:00 ] ::1 /Hit/index.php/Admin/User/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `p_admin` [ RunTime:0.0951s ]
+SQL: SELECT `id` FROM `p_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0386s ]
+SQL: UPDATE `p_admin` SET `last_login`='1457571570',`last_ip`='0.0.0.0' WHERE ( id=1 ) [ RunTime:0.0860s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001746s ]
+
+[ 2016-03-10T08:59:33+08:00 ] ::1 /Hit/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0478s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM p_auth_group_access a INNER JOIN p_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0752s ]
+SQL: SHOW COLUMNS FROM `p_auth_rule` [ RunTime:0.0393s ]
+SQL: SELECT `condition`,`name` FROM `p_auth_rule` WHERE `id` IN ('1') AND `type` = 1 AND `status` = 1  [ RunTime:0.0101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000472s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001897s ]
+
+[ 2016-03-10T08:59:34+08:00 ] ::1 /Hit/index.php/Admin/Node/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001958s ]
+
+[ 2016-03-10T08:59:35+08:00 ] ::1 /Hit/index.php/Admin/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `p_admin` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `p_admin`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2016-03-10T08:59:35+08:00 ] ::1 /Hit/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0425s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_user` LIMIT 1   [ RunTime:0.0134s ]
+SQL: SELECT `id`,`username`,`truename`,`last_login`,`last_ip` FROM `p_user` LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2016-03-10T08:59:36+08:00 ] ::1 /Hit/index.php/Admin/Rule/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `p_auth_rule` [ RunTime:0.0886s ]
+SQL: SELECT * FROM `p_auth_rule`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-03-10T08:59:37+08:00 ] ::1 /Hit/index.php/Admin/Attribute/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0880s ]
+SQL: SELECT * FROM `p_attr`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2016-03-10T08:59:38+08:00 ] ::1 /Hit/index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `p_cate` ORDER BY sort ASC  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2016-03-10T08:59:48+08:00 ] ::1 /Hit/index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `p_cate` ORDER BY sort ASC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2016-03-10T08:59:49+08:00 ] ::1 /Hit/index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0198s ]
+SQL: SELECT `id`,`title`,`content`,`time`,`click`,`cid`,`userid`,`username` FROM `p_blog` WHERE `del` = 0  [ RunTime:0.0144s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='57' [ RunTime:0.0236s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0041s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='58' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='59' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='60' [ RunTime:0.0146s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='63' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='22' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='65' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='66' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='67' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title`,`content`,`time`,`click`,`cid`,`userid`,`username` FROM `p_blog` WHERE `del` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='57' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='58' [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='59' [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='60' [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='63' [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='22' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='65' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='66' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='67' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined variable: count D:\wamp\www\Hit\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 75 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\Hit\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-03-10T08:59:49+08:00 ] ::1 /Hit/index.php/Admin/Blog/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`title`,`content`,`time`,`click`,`cid`,`userid`,`username` FROM `p_blog` WHERE `del` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='53' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0031s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='22' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='54' [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='55' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='61' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='64' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: count D:\wamp\www\Hit\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 75 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\Hit\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2016-03-10T08:59:50+08:00 ] ::1 /Hit/index.php/Admin/Exper/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0610s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0  [ RunTime:0.0108s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2016-03-10T08:59:50+08:00 ] ::1 /Hit/index.php/Admin/Exper/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2016-03-10T08:59:53+08:00 ] ::1 /Hit/index.php/Admin/Node/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2016-03-10T08:59:53+08:00 ] ::1 /Hit/index.php/Admin/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `p_admin` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `p_admin`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2016-03-10T08:59:54+08:00 ] ::1 /Hit/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`truename`,`last_login`,`last_ip` FROM `p_user` LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001595s ]
+
+[ 2016-03-10T08:59:54+08:00 ] ::1 /Hit/index.php/Admin/Rule/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `p_auth_rule` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `p_auth_rule`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-03-10T09:00:36+08:00 ] ::1 /Hit/index.php/Admin/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2016-03-10T10:39:05+08:00 ] ::1 /Hit/index.php/Admin/public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001342s ]
+
+[ 2016-03-10T10:39:09+08:00 ] ::1 /Hit/index.php/Admin/User/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `p_admin` [ RunTime:0.0062s ]
+SQL: SELECT `id` FROM `p_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `p_admin` SET `last_login`='1457577549',`last_ip`='0.0.0.0' WHERE ( id=1 ) [ RunTime:0.0858s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001669s ]
+
+[ 2016-03-10T10:39:10+08:00 ] ::1 /Hit/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM p_auth_group_access a INNER JOIN p_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_auth_rule` [ RunTime:0.0038s ]
+SQL: SELECT `condition`,`name` FROM `p_auth_rule` WHERE `id` IN ('1') AND `type` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2016-03-10T10:39:15+08:00 ] ::1 /Hit/index.php/Admin/Node/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001762s ]
+
+[ 2016-03-10T10:39:16+08:00 ] ::1 /Hit/index.php/Admin/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+SQL: SHOW COLUMNS FROM `p_admin` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `p_admin`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001421s ]
+
+[ 2016-03-10T10:39:16+08:00 ] ::1 /Hit/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`truename`,`last_login`,`last_ip` FROM `p_user` LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2016-03-10T10:39:17+08:00 ] ::1 /Hit/index.php/Admin/Rule/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `p_auth_rule` [ RunTime:0.0495s ]
+SQL: SELECT * FROM `p_auth_rule`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011123s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2016-03-10T10:39:18+08:00 ] ::1 /Hit/index.php/Admin/Attribute/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `p_attr`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001723s ]
+
+[ 2016-03-10T10:39:19+08:00 ] ::1 /Hit/index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `p_cate` ORDER BY sort ASC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2016-03-10T10:39:20+08:00 ] ::1 /Hit/index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`title`,`content`,`time`,`click`,`cid`,`userid`,`username` FROM `p_blog` WHERE `del` = 0  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='57' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0050s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='58' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='59' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='60' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='63' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='22' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='65' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='66' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='67' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`title`,`content`,`time`,`click`,`cid`,`userid`,`username` FROM `p_blog` WHERE `del` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='57' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='58' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='59' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='60' [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='63' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='22' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='65' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='66' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='67' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined variable: count D:\wamp\www\Hit\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 75 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\Hit\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2016-03-10T10:39:21+08:00 ] ::1 /Hit/index.php/Admin/Blog/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0079s ]
+SQL: SELECT `id`,`title`,`content`,`time`,`click`,`cid`,`userid`,`username` FROM `p_blog` WHERE `del` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0038s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='53' [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0045s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='22' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='54' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='55' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='61' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='64' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined variable: count D:\wamp\www\Hit\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 75 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\Hit\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001429s ]
+
+[ 2016-03-10T10:39:21+08:00 ] ::1 /Hit/index.php/Admin/Exper/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2016-03-10T10:39:22+08:00 ] ::1 /Hit/index.php/Admin/Exper/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2016-03-10T10:41:57+08:00 ] ::1 /Hit/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002511s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0069s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM p_auth_group_access a INNER JOIN p_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_auth_rule` [ RunTime:0.0042s ]
+SQL: SELECT `condition`,`name` FROM `p_auth_rule` WHERE `id` IN ('1') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007463s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2016-03-10T10:41:58+08:00 ] ::1 /Hit/index.php/Admin/Attribute/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `p_attr`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2016-03-10T10:41:58+08:00 ] ::1 /Hit/index.php/Admin/Exper/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2016-03-10T10:41:59+08:00 ] ::1 /Hit/index.php/Admin/Share/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+ERR: 无法加载控制器:Share
+
+[ 2016-03-10T10:50:49+08:00 ] ::1 /Hit/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0068s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM p_auth_group_access a INNER JOIN p_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `p_auth_rule` [ RunTime:0.0048s ]
+SQL: SELECT `condition`,`name` FROM `p_auth_rule` WHERE `id` IN ('1') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2016-03-10T10:50:49+08:00 ] ::1 /Hit/index.php/Admin/Share/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002590s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `p_share`  [ RunTime:0.0003s ]
+ERR: 模板不存在:./Application/Admin/View/Share/index.html
+
+[ 2016-03-10T10:50:49+08:00 ] ::1 /Hit/index.php/Admin/Attribute/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002975s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `p_attr`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2016-03-10T10:51:27+08:00 ] ::1 /Hit/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0035s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM p_auth_group_access a INNER JOIN p_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_auth_rule` [ RunTime:0.0037s ]
+SQL: SELECT `condition`,`name` FROM `p_auth_rule` WHERE `id` IN ('1') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2016-03-10T10:51:27+08:00 ] ::1 /Hit/index.php/Admin/Share/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `p_share`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\Hit\Application\Runtime\Cache\Admin\db6fe4e10392464184ea11c7ecd654ea.php 第 58 行.
+NOTIC: [8] Undefined index: alt</td>
+                <td><?php echo (Array D:\wamp\www\Hit\Application\Runtime\Cache\Admin\db6fe4e10392464184ea11c7ecd654ea.php 第 58 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\Hit\Application\Runtime\Cache\Admin\db6fe4e10392464184ea11c7ecd654ea.php 第 60 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\Hit\Application\Runtime\Cache\Admin\db6fe4e10392464184ea11c7ecd654ea.php 第 58 行.
+NOTIC: [8] Undefined index: alt</td>
+                <td><?php echo (Array D:\wamp\www\Hit\Application\Runtime\Cache\Admin\db6fe4e10392464184ea11c7ecd654ea.php 第 58 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\Hit\Application\Runtime\Cache\Admin\db6fe4e10392464184ea11c7ecd654ea.php 第 60 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\Hit\Application\Runtime\Cache\Admin\db6fe4e10392464184ea11c7ecd654ea.php 第 58 行.
+NOTIC: [8] Undefined index: alt</td>
+                <td><?php echo (Array D:\wamp\www\Hit\Application\Runtime\Cache\Admin\db6fe4e10392464184ea11c7ecd654ea.php 第 58 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\Hit\Application\Runtime\Cache\Admin\db6fe4e10392464184ea11c7ecd654ea.php 第 60 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\Hit\Application\Runtime\Cache\Admin\db6fe4e10392464184ea11c7ecd654ea.php 第 58 行.
+NOTIC: [8] Undefined index: alt</td>
+                <td><?php echo (Array D:\wamp\www\Hit\Application\Runtime\Cache\Admin\db6fe4e10392464184ea11c7ecd654ea.php 第 58 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\Hit\Application\Runtime\Cache\Admin\db6fe4e10392464184ea11c7ecd654ea.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001270s ]
+
+[ 2016-03-10T10:51:27+08:00 ] ::1 /Hit/index.php/Admin/Attribute/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `p_attr`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004948s ]
+
+[ 2016-03-10T10:51:54+08:00 ] ::1 /Hit/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0077s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM p_auth_group_access a INNER JOIN p_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_auth_rule` [ RunTime:0.0041s ]
+SQL: SELECT `condition`,`name` FROM `p_auth_rule` WHERE `id` IN ('1') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2016-03-10T10:51:55+08:00 ] ::1 /Hit/index.php/Admin/Share/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `p_share`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000321s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000677s ]
+
+[ 2016-03-10T10:51:55+08:00 ] ::1 /Hit/index.php/Admin/Attribute/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003070s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `p_attr`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001582s ]
+
+[ 2016-03-10T10:52:01+08:00 ] ::1 /Hit/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0430s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM p_auth_group_access a INNER JOIN p_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_auth_rule` [ RunTime:0.0034s ]
+SQL: SELECT `condition`,`name` FROM `p_auth_rule` WHERE `id` IN ('1') AND `type` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2016-03-10T10:52:01+08:00 ] ::1 /Hit/index.php/Admin/Share/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0660s ]
+SQL: SELECT * FROM `p_share`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\Hit\Application\Runtime\Cache\Admin\db6fe4e10392464184ea11c7ecd654ea.php 第 58 行.
+NOTIC: [8] Undefined index: alt</td>
+                <td><?php echo (Array D:\wamp\www\Hit\Application\Runtime\Cache\Admin\db6fe4e10392464184ea11c7ecd654ea.php 第 58 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\Hit\Application\Runtime\Cache\Admin\db6fe4e10392464184ea11c7ecd654ea.php 第 58 行.
+NOTIC: [8] Undefined index: alt</td>
+                <td><?php echo (Array D:\wamp\www\Hit\Application\Runtime\Cache\Admin\db6fe4e10392464184ea11c7ecd654ea.php 第 58 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\Hit\Application\Runtime\Cache\Admin\db6fe4e10392464184ea11c7ecd654ea.php 第 58 行.
+NOTIC: [8] Undefined index: alt</td>
+                <td><?php echo (Array D:\wamp\www\Hit\Application\Runtime\Cache\Admin\db6fe4e10392464184ea11c7ecd654ea.php 第 58 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\Hit\Application\Runtime\Cache\Admin\db6fe4e10392464184ea11c7ecd654ea.php 第 58 行.
+NOTIC: [8] Undefined index: alt</td>
+                <td><?php echo (Array D:\wamp\www\Hit\Application\Runtime\Cache\Admin\db6fe4e10392464184ea11c7ecd654ea.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-03-10T10:52:01+08:00 ] ::1 /Hit/index.php/Admin/Attribute/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `p_attr`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003183s ]
+
+[ 2016-03-10T10:52:22+08:00 ] ::1 /Hit/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0032s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM p_auth_group_access a INNER JOIN p_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_auth_rule` [ RunTime:0.0035s ]
+SQL: SELECT `condition`,`name` FROM `p_auth_rule` WHERE `id` IN ('1') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2016-03-10T10:52:23+08:00 ] ::1 /Hit/index.php/Admin/Attribute/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0265s ]
+SQL: SELECT * FROM `p_attr`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001458s ]
+
+[ 2016-03-10T10:52:23+08:00 ] ::1 /Hit/index.php/Admin/Share/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `p_share`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2016-03-10T10:52:55+08:00 ] ::1 /Hit/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0064s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM p_auth_group_access a INNER JOIN p_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_auth_rule` [ RunTime:0.0042s ]
+SQL: SELECT `condition`,`name` FROM `p_auth_rule` WHERE `id` IN ('1') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2016-03-10T10:52:55+08:00 ] ::1 /Hit/index.php/Admin/Attribute/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `p_attr`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-03-10T10:52:55+08:00 ] ::1 /Hit/index.php/Admin/Share/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002368s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `p_share`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003608s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003922s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2016-03-10T10:53:00+08:00 ] ::1 /Hit/index.php/Admin/Share/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+ERR: 非法操作:edit
+
+[ 2016-03-10T10:54:54+08:00 ] ::1 /Hit/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0074s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM p_auth_group_access a INNER JOIN p_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_auth_rule` [ RunTime:0.0039s ]
+SQL: SELECT `condition`,`name` FROM `p_auth_rule` WHERE `id` IN ('1') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2016-03-10T10:54:54+08:00 ] ::1 /Hit/index.php/Admin/Attribute/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `p_attr`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000523s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2016-03-10T10:54:54+08:00 ] ::1 /Hit/index.php/Admin/Share/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `p_share`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001745s ]
+
+[ 2016-03-10T10:54:57+08:00 ] ::1 /Hit/index.php/Admin/Share/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+ERR: 非法操作:add
+
+[ 2016-03-10T10:56:37+08:00 ] ::1 /Hit/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0034s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM p_auth_group_access a INNER JOIN p_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_auth_rule` [ RunTime:0.0043s ]
+SQL: SELECT `condition`,`name` FROM `p_auth_rule` WHERE `id` IN ('1') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2016-03-10T10:56:38+08:00 ] ::1 /Hit/index.php/Admin/Share/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `p_share`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001278s ]
+
+[ 2016-03-10T10:56:38+08:00 ] ::1 /Hit/index.php/Admin/Attribute/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003556s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `p_attr`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001880s ]
+
+[ 2016-03-10T10:56:38+08:00 ] ::1 /Hit/index.php/Admin/Exper/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2016-03-10T10:56:39+08:00 ] ::1 /Hit/index.php/Admin/Share/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `p_share`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2016-03-10T10:56:40+08:00 ] ::1 /Hit/index.php/Admin/Share/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2016-03-10T10:57:25+08:00 ] ::1 /Hit/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM p_auth_group_access a INNER JOIN p_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_auth_rule` [ RunTime:0.0042s ]
+SQL: SELECT `condition`,`name` FROM `p_auth_rule` WHERE `id` IN ('1') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2016-03-10T10:57:26+08:00 ] ::1 /Hit/index.php/Admin/Share/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `p_share`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-03-10T10:57:26+08:00 ] ::1 /Hit/index.php/Admin/Attribute/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `p_attr`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001538s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002646s ]
+
+[ 2016-03-10T10:57:27+08:00 ] ::1 /Hit/index.php/Admin/Exper/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2016-03-10T10:57:27+08:00 ] ::1 /Hit/index.php/Admin/Share/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `p_share`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2016-03-10T10:57:28+08:00 ] ::1 /Hit/index.php/Admin/Share/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2016-03-10T10:57:30+08:00 ] ::1 /Hit/index.php/Admin/Exper/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2016-03-10T10:57:32+08:00 ] ::1 /Hit/index.php/Admin/Share/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `p_share`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2016-03-10T10:57:38+08:00 ] ::1 /Hit/index.php/Admin/Share/delete/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+ERR: 非法操作:delete
+
+[ 2016-03-10T10:58:30+08:00 ] ::1 /Hit/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0036s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM p_auth_group_access a INNER JOIN p_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_auth_rule` [ RunTime:0.0034s ]
+SQL: SELECT `condition`,`name` FROM `p_auth_rule` WHERE `id` IN ('1') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2016-03-10T10:58:30+08:00 ] ::1 /Hit/index.php/Admin/Attribute/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001738s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `p_attr`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2016-03-10T10:58:30+08:00 ] ::1 /Hit/index.php/Admin/Share/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003413s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `p_share`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002291s ]
+
+[ 2016-03-10T10:58:32+08:00 ] ::1 /Hit/index.php/Admin/Share/delete/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2016-03-10T10:58:36+08:00 ] ::1 /Hit/index.php/Admin/Share/delete/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2016-03-10T11:00:03+08:00 ] ::1 /Hit/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0067s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM p_auth_group_access a INNER JOIN p_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_auth_rule` [ RunTime:0.0044s ]
+SQL: SELECT `condition`,`name` FROM `p_auth_rule` WHERE `id` IN ('1') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-03-10T11:00:03+08:00 ] ::1 /Hit/index.php/Admin/Attribute/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `p_attr`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001429s ]
+
+[ 2016-03-10T11:00:03+08:00 ] ::1 /Hit/index.php/Admin/Share/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `p_share`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001633s ]
+
+[ 2016-03-10T11:00:06+08:00 ] ::1 /Hit/index.php/Admin/Share/delete/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0075s ]
+SQL: DELETE FROM `p_share` WHERE `id` = 3 [ RunTime:0.1038s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2016-03-10T11:00:07+08:00 ] ::1 /Hit/index.php/Admin/Share/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0395s ]
+SQL: SELECT * FROM `p_share`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001256s ]
+
+[ 2016-03-10T11:01:19+08:00 ] ::1 /Hit/index.php/Admin/Exper/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001579s ]
+
+[ 2016-03-10T11:01:19+08:00 ] ::1 /Hit/index.php/Admin/Share/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `p_share`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2016-03-10T11:01:20+08:00 ] ::1 /Hit/index.php/Admin/Exper/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2016-03-10T11:01:22+08:00 ] ::1 /Hit/index.php/Admin/Share/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `p_share`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-03-10T11:01:23+08:00 ] ::1 /Hit/index.php/Admin/Exper/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2016-03-10T11:01:24+08:00 ] ::1 /Hit/index.php/Admin/Exper/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001346s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2016-03-10T11:01:24+08:00 ] ::1 /Hit/index.php/Admin/Exper/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000546s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2016-03-10T11:01:25+08:00 ] ::1 /Hit/index.php/Admin/Exper/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2016-03-10T11:01:28+08:00 ] ::1 /Hit/index.php/Admin/Blog/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0082s ]
+SQL: SELECT `id`,`title`,`content`,`time`,`click`,`cid`,`userid`,`username` FROM `p_blog` WHERE `del` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='53' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0041s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='22' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='54' [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='55' [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='61' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='64' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined variable: count D:\wamp\www\Hit\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 75 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\Hit\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2016-03-10T11:01:31+08:00 ] ::1 /Hit/index.php/Admin/Exper/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2016-03-10T11:01:32+08:00 ] ::1 /Hit/index.php/Admin/Exper/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001485s ]
+
+[ 2016-03-10T11:01:33+08:00 ] ::1 /Hit/index.php/Admin/Exper/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2016-03-10T11:01:44+08:00 ] ::1 /Hit/index.php/Admin/Blog/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0072s ]
+SQL: SELECT `id`,`title`,`content`,`time`,`click`,`cid`,`userid`,`username` FROM `p_blog` WHERE `del` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='53' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0037s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='22' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='54' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='55' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='61' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='64' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: count D:\wamp\www\Hit\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 75 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\Hit\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2016-03-10T11:01:45+08:00 ] ::1 /Hit/index.php/Admin/Exper/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2016-03-10T11:01:45+08:00 ] ::1 /Hit/index.php/Admin/Blog/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0085s ]
+SQL: SELECT `id`,`title`,`content`,`time`,`click`,`cid`,`userid`,`username` FROM `p_blog` WHERE `del` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='53' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0043s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='22' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='54' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='55' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='61' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='64' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000469s ]
+NOTIC: [8] Undefined variable: count D:\wamp\www\Hit\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 75 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\Hit\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2016-03-10T11:01:46+08:00 ] ::1 /Hit/index.php/Admin/Exper/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2016-03-10T11:01:47+08:00 ] ::1 /Hit/index.php/Admin/Blog/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0043s ]
+SQL: SELECT `id`,`title`,`content`,`time`,`click`,`cid`,`userid`,`username` FROM `p_blog` WHERE `del` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='53' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0032s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='22' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='54' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='55' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='61' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='64' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: count D:\wamp\www\Hit\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 75 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\Hit\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2016-03-10T11:01:47+08:00 ] ::1 /Hit/index.php/Admin/Exper/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2016-03-10T11:01:48+08:00 ] ::1 /Hit/index.php/Admin/Blog/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0038s ]
+SQL: SELECT `id`,`title`,`content`,`time`,`click`,`cid`,`userid`,`username` FROM `p_blog` WHERE `del` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='53' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='22' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='54' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='55' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='61' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='64' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined variable: count D:\wamp\www\Hit\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 75 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\Hit\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2016-03-10T11:01:49+08:00 ] ::1 /Hit/index.php/Admin/Exper/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2016-03-10T11:01:52+08:00 ] ::1 /Hit/index.php/Admin/Exper/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2016-03-10T11:01:52+08:00 ] ::1 /Hit/index.php/Admin/Exper/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-03-10T11:01:54+08:00 ] ::1 /Hit/index.php/Admin/Exper/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2016-03-10T11:01:59+08:00 ] ::1 /Hit/index.php/Admin/Exper/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2016-03-10T11:02:00+08:00 ] ::1 /Hit/index.php/Admin/Share/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `p_share`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2016-03-10T11:02:01+08:00 ] ::1 /Hit/index.php/Admin/Attribute/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `p_attr`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001481s ]
+
+[ 2016-03-10T11:02:37+08:00 ] ::1 /Hit/index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `p_cate` ORDER BY sort ASC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2016-03-10T11:02:38+08:00 ] ::1 /Hit/index.php/Admin/Attribute/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `p_attr`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-03-10T11:02:47+08:00 ] ::1 /Hit/index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `p_cate` ORDER BY sort ASC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2016-03-10T11:02:49+08:00 ] ::1 /Hit/index.php/Admin/Attribute/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `p_attr`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2016-03-10T11:02:50+08:00 ] ::1 /Hit/index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `p_cate` ORDER BY sort ASC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2016-03-10T11:02:52+08:00 ] ::1 /Hit/index.php/Admin/Attribute/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `p_attr`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2016-03-10T11:02:52+08:00 ] ::1 /Hit/index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `p_cate` ORDER BY sort ASC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-03-10T11:02:55+08:00 ] ::1 /Hit/index.php/Admin/Node/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2016-03-10T11:02:56+08:00 ] ::1 /Hit/index.php/Admin/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `p_admin` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `p_admin`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2016-03-10T11:02:56+08:00 ] ::1 /Hit/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`truename`,`last_login`,`last_ip` FROM `p_user` LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2016-03-10T11:02:57+08:00 ] ::1 /Hit/index.php/Admin/Rule/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001793s ]
+SQL: SHOW COLUMNS FROM `p_auth_rule` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `p_auth_rule`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2016-03-10T11:02:58+08:00 ] ::1 /Hit/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`truename`,`last_login`,`last_ip` FROM `p_user` LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2016-03-10T11:02:58+08:00 ] ::1 /Hit/index.php/Admin/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `p_admin` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `p_admin`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2016-03-10T11:02:58+08:00 ] ::1 /Hit/index.php/Admin/Node/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2016-03-10T12:47:39+08:00 ] ::1 /Hit/index.php/Admin/public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002260s ]
+
+[ 2016-03-10T12:47:45+08:00 ] ::1 /Hit/index.php/Admin/User/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `p_admin` [ RunTime:0.0061s ]
+SQL: SELECT `id` FROM `p_admin` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `p_admin` SET `last_login`='1457585265',`last_ip`='0.0.0.0' WHERE ( id=1 ) [ RunTime:0.0898s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2016-03-10T12:47:46+08:00 ] ::1 /Hit/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0049s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM p_auth_group_access a INNER JOIN p_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `p_auth_rule` [ RunTime:0.0042s ]
+SQL: SELECT `condition`,`name` FROM `p_auth_rule` WHERE `id` IN ('1') AND `type` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2016-03-10T12:47:49+08:00 ] ::1 /Hit/index.php/Admin/Node/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001840s ]
+
+[ 2016-03-10T12:47:49+08:00 ] ::1 /Hit/index.php/Admin/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002553s ]
+SQL: SHOW COLUMNS FROM `p_admin` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `p_admin`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2016-03-10T12:47:49+08:00 ] ::1 /Hit/index.php/Admin/Role/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `p_admin` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `p_admin`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2016-03-10T12:47:50+08:00 ] ::1 /Hit/index.php/Admin/Attribute/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `p_attr`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2016-03-10T12:47:55+08:00 ] ::1 /Hit/index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `p_cate` ORDER BY sort ASC  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-03-10T12:48:00+08:00 ] ::1 /Hit/index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0045s ]
+SQL: SELECT `id`,`title`,`content`,`time`,`click`,`cid`,`userid`,`username` FROM `p_blog` WHERE `del` = 0  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='57' [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0041s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='58' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='59' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='60' [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='63' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='22' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='65' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='66' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='67' [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`content`,`time`,`click`,`cid`,`userid`,`username` FROM `p_blog` WHERE `del` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='57' [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='58' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='59' [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='60' [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='63' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='22' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='65' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='66' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='0' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Hit\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='67' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined variable: count D:\wamp\www\Hit\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 75 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\Hit\Application\Runtime\Cache\Admin\89e99d0d2b381951e18954c1486fc18f.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2016-03-10T12:48:14+08:00 ] ::1 /Hit/index.php/Admin/Share/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `p_share`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2016-03-10T23:06:26+08:00 ] ::1 /Hit/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0169s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM p_auth_group_access a INNER JOIN p_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `p_auth_rule` [ RunTime:0.0043s ]
+SQL: SELECT `condition`,`name` FROM `p_auth_rule` WHERE `id` IN ('1') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2016-03-10T23:06:29+08:00 ] ::1 /Hit/index.php/Admin/Node/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2016-03-10T23:06:30+08:00 ] ::1 /Hit/index.php/Admin/Attribute/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `p_attr`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001541s ]
+
+[ 2016-03-10T23:06:31+08:00 ] ::1 /Hit/index.php/Admin/Share/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `p_share`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2016-03-10T23:23:27+08:00 ] ::1 /Hit/index.php/Admin/Share/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2016-03-10T23:23:30+08:00 ] ::1 /Hit/index.php/Admin/Exper/trach.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001482s ]
+
+[ 2016-03-10T23:23:30+08:00 ] ::1 /Hit/index.php/Admin/Exper/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+

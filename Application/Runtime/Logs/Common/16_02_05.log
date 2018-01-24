@@ -1,0 +1,48 @@
+[ 2016-02-05T01:22:42+08:00 ] ::1 /Hit/index.php/Public/Uploads/56b387299ef04.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-05T01:23:21+08:00 ] ::1 /Hit/index.php/Public/Uploads/56b387299ef04.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-05T01:23:22+08:00 ] ::1 /Hit/index.php/Public/Uploads/56b387299ef04.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-05T01:23:25+08:00 ] ::1 /Hit/Public/Public/Uploads/56b387299ef04.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-05T01:23:35+08:00 ] ::1 /Hit/Public/Public/Uploads/56b387299ef04.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-05T01:23:38+08:00 ] ::1 /Hit/Public/Uploads/56b387299ef04.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-05T01:25:27+08:00 ] ::1 /Hit/Public/Uploads/56b387299ef04.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-05T01:25:27+08:00 ] ::1 /Hit/Public/Uploads/56b387299ef04.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+ERR: 无法加载模块:Public
+

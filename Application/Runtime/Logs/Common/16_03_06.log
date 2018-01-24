@@ -1,0 +1,1108 @@
+[ 2016-03-06T15:30:40+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:40+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:40+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:40+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:40+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:44+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:44+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:44+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:44+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:44+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:46+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:46+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:46+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:46+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002019s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:46+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:48+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:48+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:48+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:48+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:48+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:49+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:49+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:49+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:49+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:49+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001239s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:49+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:49+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:49+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:49+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:49+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:50+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:50+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:50+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:50+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:50+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:50+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:50+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:50+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:50+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:50+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:50+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:50+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:50+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:50+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:30:50+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:31:06+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:31:06+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:31:06+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:31:06+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:31:06+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:31:07+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:31:07+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:31:07+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:31:07+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001293s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:31:07+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:31:07+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:31:08+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:33:28+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:33:28+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:33:28+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:33:28+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:33:28+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:33:32+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:33:32+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:33:32+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:33:32+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T15:33:32+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:02:26+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:02:26+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:02:26+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:02:26+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:02:26+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:02:26+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:02:27+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:05:03+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:05:03+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001302s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:05:03+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:05:03+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:05:03+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001390s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:05:11+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:05:11+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002760s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:05:11+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:05:11+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:05:11+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:05:11+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:05:11+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:47+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:47+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+ERR: 无法加载模块:Public
+
+��:Public
+
+[ 2016-03-06T16:06:47+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:47+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:48+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001601s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:48+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+ERR: 无法加载模块:Public
+
+c
+
+[ 2016-03-06T16:06:48+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024828s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:48+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:48+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:48+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:48+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002164s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:48+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:48+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:48+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:48+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:48+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:48+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:48+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:49+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:49+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:49+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:49+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001547s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:49+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:49+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:49+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:49+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:49+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:06:49+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:08:53+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:08:53+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:08:53+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:08:53+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:08:53+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:09:42+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:09:42+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000523s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001252s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:09:42+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:09:42+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:09:42+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:09:43+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002113s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:09:43+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:09:43+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:09:43+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:09:43+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:09:44+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002438s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:09:44+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:09:44+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:09:44+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:09:44+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:09:44+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001377s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:09:44+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:09:44+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:09:44+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:09:44+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:10:47+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:10:47+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009926s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:10:47+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:10:47+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001377s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:10:47+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:10:47+08:00 ] ::1 /Hit/Public/Uploads/Avater/default.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:10:48+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:10:48+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:10:48+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:10:48+08:00 ] ::1 /Hit/Public/Uploads/Avater/default.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:10:48+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:10:48+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:10:48+08:00 ] ::1 /Hit/Public/Uploads/Avater/default.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:10:48+08:00 ] ::1 /Hit/Public/Uploads/Avater/default.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:10:48+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:10:48+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:10:48+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:10:48+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:10:48+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:10:48+08:00 ] ::1 /Hit/Public/Uploads/Avater/default.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:11:06+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001827s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:11:06+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:11:06+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005383s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:11:06+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001542s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:11:06+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:11:43+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:11:43+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009226s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:11:43+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:11:43+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001644s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:11:43+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:11:48+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002511s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:11:48+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:11:48+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:11:48+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T16:11:48+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003169s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T19:23:25+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001391s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T19:23:25+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003725s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T19:23:25+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012922s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T19:23:25+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T19:23:25+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T19:26:50+08:00 ] ::1 /Hit/Public/Css/nav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T19:26:50+08:00 ] ::1 /Hit/Public/Css/bottom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T19:26:50+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T19:26:50+08:00 ] ::1 /Hit/Public/Css/sech_user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-06T19:26:50+08:00 ] ::1 /Hit/Public/Js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001912s ]
+ERR: 无法加载模块:Public
+

@@ -1,0 +1,342 @@
+[ 2016-03-08T08:36:09+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T08:36:19+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T08:36:19+08:00 ] ::1 /Hit/Public/search/Images/line.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:36:44+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:36:51+08:00 ] ::1 /Hit/Public/search/Images/line.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001999s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:36:51+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001395s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:39:32+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:40:21+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:40:21+08:00 ] ::1 /Hit/Public/search/Images/line.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:44:44+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:44:48+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:44:48+08:00 ] ::1 /Hit/Public/search/Images/line.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:45:25+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:45:29+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:45:29+08:00 ] ::1 /Hit/Public/search/Images/line.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:46:13+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:46:18+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:46:18+08:00 ] ::1 /Hit/Public/search/Images/line.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:48:02+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:48:08+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:48:08+08:00 ] ::1 /Hit/Public/search/Images/line.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:48:14+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:48:18+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:48:18+08:00 ] ::1 /Hit/Public/search/Images/line.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:49:43+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:49:48+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:49:48+08:00 ] ::1 /Hit/Public/search/Images/line.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:50:33+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:50:37+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T14:50:37+08:00 ] ::1 /Hit/Public/search/Images/line.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T15:00:23+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T15:00:26+08:00 ] ::1 /Hit/Public/search/Images/line.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T15:00:26+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T15:02:33+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T15:02:36+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T15:02:36+08:00 ] ::1 /Hit/Public/search/Images/line.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T15:02:43+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T15:03:33+08:00 ] ::1 /Hit/Public/search/Images/line.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T15:03:33+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T21:24:38+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T21:24:55+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T21:24:55+08:00 ] ::1 /Hit/Public/search/Images/line.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001686s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T21:27:08+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T21:33:49+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T21:33:49+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-08T21:33:51+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T21:37:23+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T21:37:23+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-08T21:37:28+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T21:38:29+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T21:38:29+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-08T22:47:30+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T22:47:37+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T22:47:37+08:00 ] ::1 /Hit/Public/search/Images/line.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T22:48:41+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T22:48:45+08:00 ] ::1 /Hit/Public/search/Images/line.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-08T22:48:45+08:00 ] ::1 /Hit/Public/search/Images/sech_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+ERR: 无法加载模块:Public
+

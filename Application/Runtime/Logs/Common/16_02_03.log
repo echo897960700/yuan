@@ -1,0 +1,468 @@
+[ 2016-02-03T19:29:52+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T19:29:52+08:00 ] ::1 /Hit/index.php/Blog/clickNum.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-02-03T19:31:27+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T19:31:27+08:00 ] ::1 /Hit/index.php/Blog/clickNum.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-02-03T19:38:19+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T19:38:19+08:00 ] ::1 /Hit/index.php/Blog/clickNum.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-02-03T19:38:52+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:19:17+08:00 ] ::1 /Hit/Public/style/Index/reset.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:19:31+08:00 ] ::1 /Hit/Public/style/Index/reset.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:19:43+08:00 ] ::1 /Hit/Public/style/Index/reset.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:25:27+08:00 ] ::1 /Hit/Public/style/Index/reset.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:25:27+08:00 ] ::1 /Hit/Public/style/Index/comment.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:25:27+08:00 ] ::1 /Hit/Public/style/StudentCenter/dropkick.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001890s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:25:27+08:00 ] ::1 /Hit/Public/script/Index/jquery-1.11.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:25:27+08:00 ] ::1 /Hit/Public/script/Index/jquery-color.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:25:27+08:00 ] ::1 /Hit/Public/style/StudentCenter/ucenter.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:25:27+08:00 ] ::1 /Hit/Public/script/StudentCenter/ucenter.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:25:27+08:00 ] ::1 /Hit/Public/script/StudentCenter/jquery.dropkick-min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:25:27+08:00 ] ::1 /Hit/Uploads/Avater/56a5839848a7c.jpg_thubm.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001208s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-02-03T20:25:27+08:00 ] ::1 /Hit/Public/script/Index/comm.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001547s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:25:27+08:00 ] ::1 /Hit/Public/script/Index/easing.1.3.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004057s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:25:27+08:00 ] ::1 /Hit/Public/script/StudentCenter/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:39:19+08:00 ] ::1 /Hit/Public/style/Index/reset.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001707s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:39:19+08:00 ] ::1 /Hit/Public/script/Index/jquery-1.11.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:39:19+08:00 ] ::1 /Hit/Public/style/Index/comment.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:39:19+08:00 ] ::1 /Hit/Public/style/StudentCenter/ucenter.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:39:19+08:00 ] ::1 /Hit/Public/script/StudentCenter/jquery.dropkick-min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:39:19+08:00 ] ::1 /Hit/Public/style/StudentCenter/dropkick.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:39:19+08:00 ] ::1 /Hit/Public/script/Index/jquery-color.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:39:19+08:00 ] ::1 /Hit/Public/script/Index/easing.1.3.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:39:19+08:00 ] ::1 /Hit/Public/script/Index/comm.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001468s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:39:19+08:00 ] ::1 /Hit/Public/script/StudentCenter/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:39:19+08:00 ] ::1 /Hit/Public/script/StudentCenter/ucenter.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:41:28+08:00 ] ::1 /Hit/Public/script/Index/jquery-1.11.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:41:28+08:00 ] ::1 /Hit/Public/script/Index/comm.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:41:28+08:00 ] ::1 /Hit/Public/style/Index/comment.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:41:28+08:00 ] ::1 /Hit/Public/style/Index/reset.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:41:28+08:00 ] ::1 /Hit/Public/script/Index/jquery-color.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:41:28+08:00 ] ::1 /Hit/Public/images/Index/head2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:41:28+08:00 ] ::1 /Hit/Public/images/Index/head3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032179s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:41:28+08:00 ] ::1 /Hit/Public/images/Index/head5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:41:28+08:00 ] ::1 /Hit/Public/script/Index/easing.1.3.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:41:28+08:00 ] ::1 /Hit/Public/images/Index/head4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:41:28+08:00 ] ::1 /Hit/Public/images/Index/head1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:41:55+08:00 ] ::1 /Hit/Public/style/Index/reset.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:41:55+08:00 ] ::1 /Hit/Public/script/Index/jquery-1.11.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:41:55+08:00 ] ::1 /Hit/Public/script/Index/easing.1.3.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:41:55+08:00 ] ::1 /Hit/Public/script/Index/jquery-color.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:41:55+08:00 ] ::1 /Hit/Public/style/Index/comment.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:41:55+08:00 ] ::1 /Hit/Public/script/Index/comm.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:42:16+08:00 ] ::1 /Hit/Public/style/Index/reset.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:42:16+08:00 ] ::1 /Hit/Public/script/Index/jquery-1.11.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:42:17+08:00 ] ::1 /Hit/Public/style/StudentCenter/dropkick.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:42:17+08:00 ] ::1 /Hit/Public/script/Index/jquery-color.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:42:17+08:00 ] ::1 /Hit/Public/script/Index/easing.1.3.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001652s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:42:17+08:00 ] ::1 /Hit/Public/script/Index/comm.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:42:17+08:00 ] ::1 /Hit/Public/style/StudentCenter/ucenter.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T20:42:17+08:00 ] ::1 /Hit/Public/style/Index/comment.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-03T22:54:15+08:00 ] ::1 /Hit/index.php/Index/Index/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+ERR: 无法加载模块:Index
+
+[ 2016-02-03T22:54:17+08:00 ] ::1 /Hit/index.php/Index/Index/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+ERR: 无法加载模块:Index
+
+[ 2016-02-03T22:54:18+08:00 ] ::1 /Hit/index.php/Index/Index/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+ERR: 无法加载模块:Index
+
+[ 2016-02-03T22:54:19+08:00 ] ::1 /Hit/index.php/Index/Index/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+ERR: 无法加载模块:Index
+
+[ 2016-02-03T22:54:20+08:00 ] ::1 /Hit/index.php/Index/Index/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+ERR: 无法加载模块:Index
+
+[ 2016-02-03T22:54:20+08:00 ] ::1 /Hit/index.php/Index/Index/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+ERR: 无法加载模块:Index
+
+[ 2016-02-03T22:54:20+08:00 ] ::1 /Hit/index.php/Index/Index/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+ERR: 无法加载模块:Index
+
+[ 2016-02-03T22:54:21+08:00 ] ::1 /Hit/index.php/Index/Index/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+ERR: 无法加载模块:Index
+
+[ 2016-02-03T22:54:21+08:00 ] ::1 /Hit/index.php/Index/Index/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+ERR: 无法加载模块:Index
+
+[ 2016-02-03T22:54:21+08:00 ] ::1 /Hit/index.php/Index/Index/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+ERR: 无法加载模块:Index
+
+[ 2016-02-03T22:54:21+08:00 ] ::1 /Hit/index.php/Index/Index/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+ERR: 无法加载模块:Index
+
+[ 2016-02-03T22:54:22+08:00 ] ::1 /Hit/index.php/Index/Index/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+ERR: 无法加载模块:Index
+
+[ 2016-02-03T22:54:22+08:00 ] ::1 /Hit/index.php/Index/Index/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+ERR: 无法加载模块:Index
+
+[ 2016-02-03T22:54:22+08:00 ] ::1 /Hit/index.php/Index/Index/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+ERR: 无法加载模块:Index
+
+[ 2016-02-03T22:54:22+08:00 ] ::1 /Hit/index.php/Index/Index/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+ERR: 无法加载模块:Index
+
+[ 2016-02-03T22:54:22+08:00 ] ::1 /Hit/index.php/Index/Index/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+ERR: 无法加载模块:Index
+
+[ 2016-02-03T22:54:23+08:00 ] ::1 /Hit/index.php/Index/Index/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+ERR: 无法加载模块:Index
+
+[ 2016-02-03T22:54:23+08:00 ] ::1 /Hit/index.php/Index/Index/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+ERR: 无法加载模块:Index
+
+[ 2016-02-03T22:54:23+08:00 ] ::1 /Hit/index.php/Index/Index/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载模块:Index
+
+[ 2016-02-03T22:54:23+08:00 ] ::1 /Hit/index.php/Index/Index/handle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+ERR: 无法加载模块:Index
+

@@ -1,0 +1,72 @@
+[ 2016-03-04T00:00:00+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-04T00:00:06+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-04T00:02:09+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001917s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-04T00:09:25+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-04T00:09:26+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001541s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-04T00:09:26+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-04T00:10:03+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-04T00:14:51+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-04T00:15:43+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-04T00:17:01+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-04T00:17:32+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-04T00:43:08+08:00 ] ::1 /Hit/Uploads/Avater/56d86850e23e6.jpg_thubm.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+ERR: 无法加载模块:Uploads
+

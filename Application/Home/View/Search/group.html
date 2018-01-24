@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>猿客栈--在线Web学习交互新阵地</title>
+	<link rel="shortcut icon" href="__PUBLIC__/Index/common/images/bitbug_favicon.ico">
+</head>
+<body>
+<!--==========创建分组==========-->
+
+<form method="post" action="{:U('Home/Search/addGroup')}">
+<h4>创建好友分组</h4>
+<span>分组名称：</span>
+<input type="text" name='name' id='gp_name'><br/>
+<input type="submit" value="提交" />
+</form>
+    <!--==========创建分组==========-->
+
+<!--==========加关注弹出框==========-->
+<hr/>
+<?php 
+	$group = M('group')->where(array('uid'=>session('UID')))->select();
+	/*var_dump($group);*/
+?>
+<div>
+	<span>关注好友</span>
+	<div>
+		<span>好友分组：</span>
+		<select name="gid">
+			<option value="0">默认分组</option>
+			
+			<foreach name='group' item='v'>
+				<option value="{$v.id}">{$v.name}</option>
+			</foreach>
+		</select>
+	</div>
+	<div>
+		<input type="hidden" name="follow">
+		<a href="#">关注</a>
+		<a href="#">取消</a>
+	</div>
+</div>
+</body>
+</html>

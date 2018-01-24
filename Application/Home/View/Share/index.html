@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>猿客栈--在线Web学习交互新阵地</title>
+	<link rel="shortcut icon" href="__PUBLIC__/Index/common/images/bitbug_favicon.ico">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Index/common/css/common.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Index/share/css/index.css">
+</head>
+<body>
+<include file="Public:head" />
+<div class="content">
+	<div class="content_title">
+		<h1>共享资源，让知识传递</h1>
+	</div>
+	<ul class="share_nav">
+		<li class="share">
+			<a href="{:U('Home/share/learnweb')}">
+			    <div class="pic">
+			     	<img src="__PUBLIC__/Index/share/images/left1.jpg" alt="" />
+                    <div class="text">
+                         <h3>学习网站</h3>
+                    </div>
+                    <div class="line"></div>
+    			</div>
+			</a>
+			<ul class="text_nav">
+			<foreach name='res' item='v'>
+                <li>
+               	 	<a href="{$v.url}" target="_blank">[{$v.name}]{$v.alt}</a>
+                </li>
+            </foreach>                            
+            </ul>
+		</li>
+            
+        <li class="share">
+			<a href="{:U('Home/share/learnres')}">
+			    <div class="pic">
+			     	<img src="__PUBLIC__/Index/share/images/left1.jpg" alt="" />
+                    <div class="text">
+                         <h3>网盘资源</h3>
+                    </div>
+                    <div class="line"></div>
+    			</div>
+			</a>
+			<ul class="text_nav">
+			<foreach name='resu' item='v'>
+                <li>
+               	 	<a href="{$v.url}" target="_blank">{$v.name} {$v.pass}</a>
+                </li>
+            </foreach>                            
+            </ul>
+		</li>
+		    
+		<li class="share">
+			<a href="{:U('Home/share/learnbook')}">
+			    <div class="pic">
+			     	<img src="__PUBLIC__/Index/share/images/left1.jpg" alt="" />
+                    <div class="text">
+                         <h3>文档资源</h3>
+                    </div>
+                    <div class="line"></div>
+    			</div>
+			</a>
+			<ul class="text_nav">
+			<foreach name='result' item='v'>
+                <li>
+               	 	<a href="__ROOT__/Uploads/share/{$v.url}">{$v.name} {$v.pass}</a>
+                </li>
+            </foreach>                            
+            </ul>
+		</li> 
+
+        
+
+		    
+        <div class="clear"></div>
+	</ul>
+</div>
+<include file="Public:footer" />
+
+</body>
+</html>

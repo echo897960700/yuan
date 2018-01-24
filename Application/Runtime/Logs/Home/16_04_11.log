@@ -1,0 +1,1888 @@
+[ 2016-04-11T08:37:33+08:00 ] 222.216.110.50 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001363s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `p_blog` WHERE `del` = 0 ORDER BY good desc LIMIT 4   [ RunTime:0.0772s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0052s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.1936s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0727s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0476s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0071s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0023s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2 LIMIT 5   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001985s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2016-04-11T08:37:54+08:00 ] 222.216.110.50 /index.php/Home/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `p_cate` ORDER BY sort asc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] Undefined variable: blog /www/users/H10044002/Application/Runtime/Cache/Home/6d164f7c2f6ca2370f3ab6859ad5b9d7.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2016-04-11T08:37:54+08:00 ] 222.216.110.50 /index.php/Home/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0047s ]
+SQL: SELECT `click` FROM `p_blog` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `p_blog` SET `click`=click+1 WHERE `id` = 0 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2016-04-11T08:37:59+08:00 ] 222.216.110.50 /index.php/Home/Exper/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Undefined index: id /www/users/H10044002/Application/Runtime/Cache/Home/f7c41315f37948de092bd72800eaef1d.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2016-04-11T08:37:59+08:00 ] 222.216.110.50 /index.php/Home/Exper/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0047s ]
+SQL: SELECT `click` FROM `p_exper` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `p_exper` SET `click`=click+1 WHERE `id` = 0 [ RunTime:0.0031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2016-04-11T08:38:05+08:00 ] 222.216.110.50 /index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2 LIMIT 6   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1 LIMIT 6   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3 LIMIT 6   [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2016-04-11T09:57:12+08:00 ] 14.152.68.138 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:1.3966s ]
+SQL: SELECT * FROM `p_blog` WHERE `del` = 0 ORDER BY good desc LIMIT 4   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.1082s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0148s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0139s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0024s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0048s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2 LIMIT 5   [ RunTime:0.0079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2016-04-11T09:57:27+08:00 ] 59.63.178.22 /index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2 LIMIT 6   [ RunTime:0.1040s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1 LIMIT 6   [ RunTime:0.0231s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3 LIMIT 6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-04-11T09:57:33+08:00 ] 122.226.167.118 /index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2 LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1 LIMIT 6   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3 LIMIT 6   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001260s ]
+
+[ 2016-04-11T09:57:33+08:00 ] 122.228.19.78 /index.php/Home/Exper/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0  [ RunTime:0.1032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Undefined index: id /www/users/H10044002/Application/Runtime/Cache/Home/f7c41315f37948de092bd72800eaef1d.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2016-04-11T09:57:39+08:00 ] 59.63.178.29 /index.php/Home/Exper/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.3298s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+NOTIC: [8] Undefined index: id /www/users/H10044002/Application/Runtime/Cache/Home/f7c41315f37948de092bd72800eaef1d.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000996s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-11T09:57:43+08:00 ] 59.63.178.29 /index.php/Home/Exper/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0046s ]
+SQL: SELECT `click` FROM `p_exper` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `p_exper` SET `click`=click+1 WHERE `id` = 0 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2016-04-11T09:57:53+08:00 ] 59.63.178.29 /index.php/Home/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `p_cate` ORDER BY sort asc  [ RunTime:0.1025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined variable: blog /www/users/H10044002/Application/Runtime/Cache/Home/6d164f7c2f6ca2370f3ab6859ad5b9d7.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2016-04-11T09:57:54+08:00 ] 122.226.167.118 /index.php/Home/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.2100s ]
+SQL: SELECT `click` FROM `p_blog` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0372s ]
+SQL: UPDATE `p_blog` SET `click`=click+1 WHERE `id` = 0 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2016-04-11T11:04:35+08:00 ] 183.62.38.197 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `p_blog` WHERE `del` = 0 ORDER BY good desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0047s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0037s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0477s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2 LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2016-04-11T11:15:14+08:00 ] 183.62.38.197 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `p_blog` WHERE `del` = 0 ORDER BY good desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0049s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0250s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0186s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2 LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000919s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2016-04-11T11:15:50+08:00 ] 183.62.38.197 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `p_blog` WHERE `del` = 0 ORDER BY good desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0057s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0074s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2 LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001295s ]
+
+[ 2016-04-11T11:23:54+08:00 ] 183.62.38.197 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `p_blog` WHERE `del` = 0 ORDER BY good desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2 LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001221s ]
+
+[ 2016-04-11T11:24:08+08:00 ] 183.62.38.197 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `p_blog` WHERE `del` = 0 ORDER BY good desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0029s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2 LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2016-04-11T11:24:57+08:00 ] 183.62.38.197 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001950s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2016-04-11T11:25:19+08:00 ] 183.62.38.197 /index.php/Home/User/userReg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000435s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.702288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.702411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001057s ]
+
+[ 2016-04-11T11:25:20+08:00 ] 183.62.38.197 /index.php/Home/User/getVerifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2016-04-11T11:25:34+08:00 ] 183.62.38.197 /index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2016-04-11T11:25:38+08:00 ] 183.62.38.197 /index.php/Home/User/userReg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2016-04-11T11:25:39+08:00 ] 183.62.38.197 /index.php/Home/User/getVerifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2016-04-11T11:53:24+08:00 ] 113.140.29.234 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `p_blog` WHERE `del` = 0 ORDER BY good desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0028s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2 LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2016-04-11T11:53:37+08:00 ] 113.140.29.234 /index.php/Home/Blog/one/id/7?id=7&cid=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0052s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0  [ RunTime:0.0777s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0044s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0032s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='2' [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='5' [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='6' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='8' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='10' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='34' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='14' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='25' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='15' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='16' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='17' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='18' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='19' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='20' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='21' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='22' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='23' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='31' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='24' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `id` = 7 AND `del` = 0  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0043s ]
+SQL: SELECT blog.id AS id,blog.title AS title,blog.content AS content,blog.time AS time,blog.click AS click,blog.userid AS userid,blog.username AS username,user.avater_path AS avater_path,user.sign AS sign,user.sex AS sex,user.sign AS sign,user.location AS location FROM p_blog blog LEFT JOIN p_user user ON blog.userid = user.id WHERE blog.id = '7'  [ RunTime:0.0019s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `id` = 7 AND `del` = 0  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_blog` WHERE `cid` = 33 AND `del` = 0 LIMIT 8   [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `p_say` [ RunTime:0.0074s ]
+SQL: SELECT say.id AS id,say.content AS content,say.time AS time,say.uid AS uid,say.bid AS bid,say.eid AS eid,say.youke AS youke,user.username AS username,user.avater_path AS avater_path,user.sign AS sign,user.location AS location FROM p_say say LEFT JOIN p_user user ON say.uid = user.id WHERE say.bid = '7'  [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `p_say` WHERE `uid` = null AND `bid` = 7  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+NOTIC: [8] Undefined variable: value /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 52 行.
+NOTIC: [8] Undefined variable: value /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 53 行.
+NOTIC: [8] Use of undefined constant blogpic - assumed 'blogpic' /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 63 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 77 行.
+NOTIC: [8] Use of undefined constant avater_path - assumed 'avater_path' /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 102 行.
+NOTIC: [8] Undefined variable: selfadd /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 115 行.
+NOTIC: [8] Use of undefined constant blogpic - assumed 'blogpic' /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2016-04-11T11:53:37+08:00 ] 113.140.29.234 /index.php/Home/Blog/clickNum/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0059s ]
+SQL: SELECT `click` FROM `p_blog` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `p_blog` SET `click`=click+1 WHERE `id` = 7 [ RunTime:0.0041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2016-04-11T11:53:46+08:00 ] 113.140.29.234 /index.php/Home/Blog/one/id/8?id=8&cid=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0049s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0  [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0029s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='2' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='5' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='6' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='8' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='10' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='34' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='14' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='25' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='15' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='16' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='17' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='18' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='19' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='20' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='21' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='22' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='23' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='31' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='24' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `id` = 8 AND `del` = 0  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='8' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0037s ]
+SQL: SELECT blog.id AS id,blog.title AS title,blog.content AS content,blog.time AS time,blog.click AS click,blog.userid AS userid,blog.username AS username,user.avater_path AS avater_path,user.sign AS sign,user.sex AS sex,user.sign AS sign,user.location AS location FROM p_blog blog LEFT JOIN p_user user ON blog.userid = user.id WHERE blog.id = '8'  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `id` = 8 AND `del` = 0  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='8' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `p_blog` WHERE `cid` = 23 AND `del` = 0 LIMIT 8   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `p_say` [ RunTime:0.0046s ]
+SQL: SELECT say.id AS id,say.content AS content,say.time AS time,say.uid AS uid,say.bid AS bid,say.eid AS eid,say.youke AS youke,user.username AS username,user.avater_path AS avater_path,user.sign AS sign,user.location AS location FROM p_say say LEFT JOIN p_user user ON say.uid = user.id WHERE say.bid = '8'  [ RunTime:0.0012s ]
+SQL: SELECT `id` FROM `p_say` WHERE `uid` = null AND `bid` = 8  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+NOTIC: [8] Undefined variable: value /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 52 行.
+NOTIC: [8] Undefined variable: value /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 53 行.
+NOTIC: [8] Use of undefined constant blogpic - assumed 'blogpic' /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 63 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 77 行.
+NOTIC: [8] Use of undefined constant blogpic - assumed 'blogpic' /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 136 行.
+NOTIC: [8] Use of undefined constant blogpic - assumed 'blogpic' /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 136 行.
+NOTIC: [8] Use of undefined constant blogpic - assumed 'blogpic' /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 136 行.
+NOTIC: [8] Use of undefined constant blogpic - assumed 'blogpic' /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 136 行.
+NOTIC: [8] Use of undefined constant blogpic - assumed 'blogpic' /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 136 行.
+NOTIC: [8] Use of undefined constant blogpic - assumed 'blogpic' /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 136 行.
+NOTIC: [8] Use of undefined constant blogpic - assumed 'blogpic' /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2016-04-11T11:53:46+08:00 ] 113.140.29.234 /index.php/Home/Blog/clickNum/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0045s ]
+SQL: SELECT `click` FROM `p_blog` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0012s ]
+SQL: UPDATE `p_blog` SET `click`=click+1 WHERE `id` = 8 [ RunTime:0.1932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2016-04-11T11:53:51+08:00 ] 113.140.29.234 /index.php/Home/Blog/one/id/14?id=14&cid=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0039s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0  [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0028s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='2' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='5' [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='6' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='8' [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='10' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='34' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='14' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='25' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='15' [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='16' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='17' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='18' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='19' [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='20' [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='21' [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='22' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='23' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='31' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='24' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `id` = 14 AND `del` = 0  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='14' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='25' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0034s ]
+SQL: SELECT blog.id AS id,blog.title AS title,blog.content AS content,blog.time AS time,blog.click AS click,blog.userid AS userid,blog.username AS username,user.avater_path AS avater_path,user.sign AS sign,user.sex AS sex,user.sign AS sign,user.location AS location FROM p_blog blog LEFT JOIN p_user user ON blog.userid = user.id WHERE blog.id = '14'  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `id` = 14 AND `del` = 0  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='14' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='25' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `p_blog` WHERE `cid` = 25 AND `del` = 0 LIMIT 8   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `p_say` [ RunTime:0.0034s ]
+SQL: SELECT say.id AS id,say.content AS content,say.time AS time,say.uid AS uid,say.bid AS bid,say.eid AS eid,say.youke AS youke,user.username AS username,user.avater_path AS avater_path,user.sign AS sign,user.location AS location FROM p_say say LEFT JOIN p_user user ON say.uid = user.id WHERE say.bid = '14'  [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `p_say` WHERE `uid` = null AND `bid` = 14  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: value /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 52 行.
+NOTIC: [8] Undefined variable: value /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 53 行.
+NOTIC: [8] Use of undefined constant blogpic - assumed 'blogpic' /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 63 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 77 行.
+NOTIC: [8] Use of undefined constant blogpic - assumed 'blogpic' /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-04-11T11:53:51+08:00 ] 113.140.29.234 /index.php/Home/Blog/clickNum/id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0046s ]
+SQL: SELECT `click` FROM `p_blog` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `p_blog` SET `click`=click+1 WHERE `id` = 14 [ RunTime:0.0066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2016-04-11T11:53:57+08:00 ] 113.140.29.234 /index.php/Home/Exper/one/id/16?id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `p_exper` WHERE `id` = 16  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_exper` ORDER BY click desc LIMIT 8   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_say` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0058s ]
+SQL: SELECT say.id AS id,say.content AS content,say.time AS time,say.uid AS uid,say.bid AS bid,say.eid AS eid,say.youke AS youke,user.username AS username,user.avater_path AS avater_path,user.sign AS sign,user.location AS location FROM p_say say LEFT JOIN p_user user ON say.uid = user.id WHERE say.eid = '16'  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+NOTIC: [8] Use of undefined constant experpic - assumed 'experpic' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 58 行.
+NOTIC: [8] Use of undefined constant avater_path - assumed 'avater_path' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 93 行.
+NOTIC: [8] Undefined index: avater_path /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 93 行.
+NOTIC: [8] Undefined index: youke /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 100 行.
+NOTIC: [8] Undefined index: time /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 100 行.
+NOTIC: [8] Undefined index: content /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 101 行.
+NOTIC: [8] Undefined variable: selfadd /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 106 行.
+NOTIC: [8] Use of undefined constant avater_path - assumed 'avater_path' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 114 行.
+NOTIC: [8] Undefined variable: selfadd /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 127 行.
+NOTIC: [8] Use of undefined constant avater_path - assumed 'avater_path' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 114 行.
+NOTIC: [8] Undefined variable: selfadd /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 127 行.
+NOTIC: [8] Use of undefined constant avater_path - assumed 'avater_path' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 114 行.
+NOTIC: [8] Undefined variable: selfadd /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 127 行.
+NOTIC: [8] Use of undefined constant avater_path - assumed 'avater_path' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 114 行.
+NOTIC: [8] Undefined variable: selfadd /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 127 行.
+NOTIC: [8] Undefined variable: id /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 141 行.
+NOTIC: [8] Use of undefined constant experpic - assumed 'experpic' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 148 行.
+NOTIC: [8] Use of undefined constant experpic - assumed 'experpic' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 148 行.
+NOTIC: [8] Use of undefined constant experpic - assumed 'experpic' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 148 行.
+NOTIC: [8] Use of undefined constant experpic - assumed 'experpic' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 148 行.
+NOTIC: [8] Use of undefined constant experpic - assumed 'experpic' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 148 行.
+NOTIC: [8] Use of undefined constant experpic - assumed 'experpic' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 148 行.
+NOTIC: [8] Use of undefined constant experpic - assumed 'experpic' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 148 行.
+NOTIC: [8] Use of undefined constant experpic - assumed 'experpic' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2016-04-11T11:53:57+08:00 ] 113.140.29.234 /index.php/Home/Exper/clickNum/id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0050s ]
+SQL: SELECT `click` FROM `p_exper` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `p_exper` SET `click`=click+1 WHERE `id` = 16 [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2016-04-11T11:54:00+08:00 ] 113.140.29.234 /index.php/Home/Exper/one/id/6?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `p_exper` WHERE `id` = 6  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `p_exper` ORDER BY click desc LIMIT 8   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_say` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0034s ]
+SQL: SELECT say.id AS id,say.content AS content,say.time AS time,say.uid AS uid,say.bid AS bid,say.eid AS eid,say.youke AS youke,user.username AS username,user.avater_path AS avater_path,user.sign AS sign,user.location AS location FROM p_say say LEFT JOIN p_user user ON say.uid = user.id WHERE say.eid = '6'  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Use of undefined constant experpic - assumed 'experpic' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 58 行.
+NOTIC: [8] Use of undefined constant avater_path - assumed 'avater_path' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 93 行.
+NOTIC: [8] Undefined index: avater_path /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 93 行.
+NOTIC: [8] Undefined index: youke /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 100 行.
+NOTIC: [8] Undefined index: time /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 100 行.
+NOTIC: [8] Undefined index: content /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 101 行.
+NOTIC: [8] Undefined variable: selfadd /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 106 行.
+NOTIC: [8] Use of undefined constant avater_path - assumed 'avater_path' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 114 行.
+NOTIC: [8] Undefined variable: selfadd /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 127 行.
+NOTIC: [8] Use of undefined constant avater_path - assumed 'avater_path' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 114 行.
+NOTIC: [8] Undefined variable: selfadd /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 127 行.
+NOTIC: [8] Use of undefined constant avater_path - assumed 'avater_path' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 114 行.
+NOTIC: [8] Undefined variable: selfadd /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 127 行.
+NOTIC: [8] Use of undefined constant avater_path - assumed 'avater_path' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 114 行.
+NOTIC: [8] Undefined variable: selfadd /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 127 行.
+NOTIC: [8] Use of undefined constant avater_path - assumed 'avater_path' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 114 行.
+NOTIC: [8] Undefined variable: selfadd /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 127 行.
+NOTIC: [8] Use of undefined constant avater_path - assumed 'avater_path' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 114 行.
+NOTIC: [8] Undefined variable: selfadd /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 127 行.
+NOTIC: [8] Use of undefined constant avater_path - assumed 'avater_path' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 114 行.
+NOTIC: [8] Undefined variable: selfadd /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 127 行.
+NOTIC: [8] Use of undefined constant avater_path - assumed 'avater_path' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 114 行.
+NOTIC: [8] Undefined variable: selfadd /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 127 行.
+NOTIC: [8] Use of undefined constant avater_path - assumed 'avater_path' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 114 行.
+NOTIC: [8] Undefined variable: selfadd /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 127 行.
+NOTIC: [8] Use of undefined constant avater_path - assumed 'avater_path' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 114 行.
+NOTIC: [8] Undefined variable: selfadd /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 127 行.
+NOTIC: [8] Use of undefined constant avater_path - assumed 'avater_path' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 114 行.
+NOTIC: [8] Undefined variable: selfadd /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 127 行.
+NOTIC: [8] Undefined variable: id /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 141 行.
+NOTIC: [8] Use of undefined constant experpic - assumed 'experpic' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 148 行.
+NOTIC: [8] Use of undefined constant experpic - assumed 'experpic' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 148 行.
+NOTIC: [8] Use of undefined constant experpic - assumed 'experpic' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 148 行.
+NOTIC: [8] Use of undefined constant experpic - assumed 'experpic' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 148 行.
+NOTIC: [8] Use of undefined constant experpic - assumed 'experpic' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 148 行.
+NOTIC: [8] Use of undefined constant experpic - assumed 'experpic' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 148 行.
+NOTIC: [8] Use of undefined constant experpic - assumed 'experpic' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 148 行.
+NOTIC: [8] Use of undefined constant experpic - assumed 'experpic' /www/users/H10044002/Application/Runtime/Cache/Home/f6cd6e1788782ee84575d142e0beec1e.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-04-11T11:54:00+08:00 ] 113.140.29.234 /index.php/Home/Exper/clickNum/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0049s ]
+SQL: SELECT `click` FROM `p_exper` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `p_exper` SET `click`=click+1 WHERE `id` = 6 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2016-04-11T14:20:33+08:00 ] 183.24.102.131 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `p_blog` WHERE `del` = 0 ORDER BY good desc LIMIT 4   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0047s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0035s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2 LIMIT 5   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2016-04-11T14:20:51+08:00 ] 183.24.102.131 /index.php/Home/Blog/one/id/7?id=7&cid=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0048s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0  [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0043s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0042s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='2' [ RunTime:0.0023s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='5' [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='6' [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='8' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='10' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='34' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='14' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='25' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='15' [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='16' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='17' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='18' [ RunTime:0.0055s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='19' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='20' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='21' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='22' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='23' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='31' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='24' [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `id` = 7 AND `del` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0041s ]
+SQL: SELECT blog.id AS id,blog.title AS title,blog.content AS content,blog.time AS time,blog.click AS click,blog.userid AS userid,blog.username AS username,user.avater_path AS avater_path,user.sign AS sign,user.sex AS sex,user.sign AS sign,user.location AS location FROM p_blog blog LEFT JOIN p_user user ON blog.userid = user.id WHERE blog.id = '7'  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `id` = 7 AND `del` = 0  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `p_blog` WHERE `cid` = 33 AND `del` = 0 LIMIT 8   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_say` [ RunTime:0.0039s ]
+SQL: SELECT say.id AS id,say.content AS content,say.time AS time,say.uid AS uid,say.bid AS bid,say.eid AS eid,say.youke AS youke,user.username AS username,user.avater_path AS avater_path,user.sign AS sign,user.location AS location FROM p_say say LEFT JOIN p_user user ON say.uid = user.id WHERE say.bid = '7'  [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `p_say` WHERE `uid` = null AND `bid` = 7  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+NOTIC: [8] Undefined variable: value /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 52 行.
+NOTIC: [8] Undefined variable: value /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 53 行.
+NOTIC: [8] Use of undefined constant blogpic - assumed 'blogpic' /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 63 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 77 行.
+NOTIC: [8] Use of undefined constant avater_path - assumed 'avater_path' /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 102 行.
+NOTIC: [8] Undefined variable: selfadd /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 115 行.
+NOTIC: [8] Use of undefined constant blogpic - assumed 'blogpic' /www/users/H10044002/Application/Runtime/Cache/Home/8f3a251b1e5bd9da84dbb3a5e0fbca83.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2016-04-11T14:20:52+08:00 ] 183.24.102.131 /index.php/Home/Blog/clickNum/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0049s ]
+SQL: SELECT `click` FROM `p_blog` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0022s ]
+SQL: UPDATE `p_blog` SET `click`=click+1 WHERE `id` = 7 [ RunTime:0.1137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2016-04-11T14:21:09+08:00 ] 183.24.102.131 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `p_blog` WHERE `del` = 0 ORDER BY good desc LIMIT 4   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0042s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0031s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2 LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2016-04-11T14:21:32+08:00 ] 183.24.102.131 /index.php/Home/Exper/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined index: id /www/users/H10044002/Application/Runtime/Cache/Home/f7c41315f37948de092bd72800eaef1d.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2016-04-11T14:21:32+08:00 ] 183.24.102.131 /index.php/Home/Exper/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0038s ]
+SQL: SELECT `click` FROM `p_exper` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `p_exper` SET `click`=click+1 WHERE `id` = 0 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2016-04-11T14:21:48+08:00 ] 183.24.102.131 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0766s ]
+SQL: SELECT * FROM `p_blog` WHERE `del` = 0 ORDER BY good desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0049s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0076s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2 LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000436s ]
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2016-04-11T21:29:43+08:00 ] 113.17.152.22 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0929s ]
+SQL: SELECT * FROM `p_blog` WHERE `del` = 0 ORDER BY good desc LIMIT 4   [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0046s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0128s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0448s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2 LIMIT 5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2016-04-11T21:29:45+08:00 ] 113.17.152.22 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0785s ]
+SQL: SELECT * FROM `p_blog` WHERE `del` = 0 ORDER BY good desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0035s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0027s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2 LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2016-04-11T21:29:49+08:00 ] 113.17.152.22 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `p_blog` WHERE `del` = 0 ORDER BY good desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0047s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0034s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2 LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2016-04-11T21:31:02+08:00 ] 113.17.152.22 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `p_blog` WHERE `del` = 0 ORDER BY good desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0042s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0027s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/users/H10044002/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2 LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given /www/users/H10044002/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2016-04-11T21:31:03+08:00 ] 113.17.152.22 /index.php/Home/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `p_cate` ORDER BY sort asc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Undefined variable: blog /www/users/H10044002/Application/Runtime/Cache/Home/6d164f7c2f6ca2370f3ab6859ad5b9d7.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2016-04-11T21:31:03+08:00 ] 113.17.152.22 /index.php/Home/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0051s ]
+SQL: SELECT `click` FROM `p_blog` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `p_blog` SET `click`=click+1 WHERE `id` = 0 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2016-04-11T21:31:05+08:00 ] 113.17.152.22 /index.php/Home/Exper/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+NOTIC: [8] Undefined index: id /www/users/H10044002/Application/Runtime/Cache/Home/f7c41315f37948de092bd72800eaef1d.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2016-04-11T21:31:06+08:00 ] 113.17.152.22 /index.php/Home/Exper/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0052s ]
+SQL: SELECT `click` FROM `p_exper` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0031s ]
+SQL: UPDATE `p_exper` SET `click`=click+1 WHERE `id` = 0 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2016-04-11T21:31:07+08:00 ] 113.17.152.22 /index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2 LIMIT 6   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1 LIMIT 6   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3 LIMIT 6   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+

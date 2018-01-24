@@ -1,0 +1,356 @@
+[ 2016-03-12T09:54:03+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T10:09:08+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T10:09:08+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T10:13:29+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T10:13:29+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T10:14:59+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T10:14:59+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T10:15:00+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T10:15:00+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T10:15:16+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T10:15:16+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T10:28:42+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T10:28:42+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T10:34:28+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T10:34:28+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T10:34:36+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T10:34:59+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T10:34:59+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T10:39:20+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T10:39:34+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T10:39:34+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T10:39:53+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T10:40:08+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T10:40:08+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T10:40:45+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T10:40:45+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T10:40:58+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T10:40:58+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T10:41:20+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T10:41:20+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T10:42:12+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T10:42:12+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T10:42:44+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T10:42:44+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T10:42:44+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T10:42:44+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001570s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T10:43:35+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+ERR: 无法加载模块:Blog
+
+��:Public
+
+[ 2016-03-12T10:44:08+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T10:44:08+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T10:56:52+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T10:56:52+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T12:44:27+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001164s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T12:44:27+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T12:52:20+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T12:52:20+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T14:17:50+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T14:17:50+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T14:48:16+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T15:42:24+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T15:42:24+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T15:42:42+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T15:43:01+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T16:04:50+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T16:04:50+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T16:08:08+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T19:56:07+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T19:56:07+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载模块:Blog
+
+[ 2016-03-12T19:56:16+08:00 ] ::1 /Hit/Public/admin/public/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-12T19:56:16+08:00 ] ::1 /Hit/index.php/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+ERR: 无法加载模块:Blog
+

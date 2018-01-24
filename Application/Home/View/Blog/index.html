@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+<title>猿客栈--在线Web学习交互新阵地</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="__PUBLIC__/Index/common/images/bitbug_favicon.ico">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Index/common/css/common.css">
+<link rel="stylesheet" href="__PUBLIC__/Index/blog/css/class.css" />
+<link rel="stylesheet" href="__PUBLIC__/Index/common/css/font-awesome.min.css" />
+<script type='text/javascript' src='{:U("Home/Blog/clickNum",array("id"=>$blog["id"]))}'></script>
+</head>
+    <body>
+<include file="Public:head" />
+<div class="content">
+    <div class="content_title">
+                <h1>文章分类</h1>
+                <span><i class="fa fa-quote-left"></i> 分享是一种美德，让知识传递！ <i class="fa fa-quote-right"></i></span>
+    </div>
+    <ul class="article">
+            <foreach name="cate" item="v">    
+                <li>
+                    <a href="{:U('Home/Blog/Catelist',array('id'=>$v['id']))}">
+                    <div class="pic">
+                        <img src="__ROOT__/Uploads/catepic/{$v.catepic}" alt="{$v.name}" />
+                    </div>
+                     <div class="text">
+                        <h2 style="color:#0099FE;font-weight:bold;">『{$v.name}』</h2>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-location-arrow"></i>
+                    </div>
+                    </a>
+                </li>
+            </foreach>
+            <div class="clear"></div>
+    </ul>
+    <div class="clear"></div>
+    <div class="pagination">
+        　　{$page}
+          </div>
+</div>
+<include file="Public:footer" />
+    </body>
+</html>

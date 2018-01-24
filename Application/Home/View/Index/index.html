@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+<title>猿客栈--在线Web学习交互新阵地</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="__PUBLIC__/Index/common/images/bitbug_favicon.ico">
+<link rel="stylesheet" href="__PUBLIC__/Index/common/css/common.css" />
+<link rel="stylesheet" href="__PUBLIC__/Index/Index/css/index.css" />
+<link rel="stylesheet" href="__PUBLIC__/Index/Index/css/font-awesome.min.css" />
+<script src="__PUBLIC__/Index/Index/js/jquery.min.js"></script>
+<script src="__PUBLIC__/Index/Index/js/jquery.kinMaxShow-1.0.min.js"></script>
+</head>
+    <body>
+    	<include file="Public:head" />
+      <div class="warp"></div>
+      <!-- banner -->
+        <div class="banner">
+            <div id="kinMaxShow">
+               <div> <img src="__PUBLIC__/Index/Index/images/1_1.jpg" class="pic1"/>
+                  <div> <img class="sub_1_1" src="__PUBLIC__/Index/Index/images/sub_1_1.png"  /> 
+                          <img class="sub_1_2" src="__PUBLIC__/Index/Index/images/sub_1_2.png" usemap="#Map_1_2"  border="0" />
+                          <map name="Map_1_2" id="Map_1_2">
+                              <area shape="rect" coords="2,96,106,123" href="#"/>
+                          </map>
+                  </div>
+               </div>
+               <div> <img src="__PUBLIC__/Index/Index/images/2_2.jpg" class="pic2" />
+                  <div> <img class="sub_2_1" src="__PUBLIC__/Index/Index/images/sub_2_1.png"  /> 
+                           <img class="sub_2_2" src="__PUBLIC__/Index/Index/images/sub_2_2.png" usemap="#Map_2_2"  border="0" />
+                          <map name="Map_2_2" id="Map_2_2">
+                              <area shape="rect" coords="3,97,104,124" href="#" target="_blank"/>
+                          </map>
+                  </div>
+               </div>
+               <div> <img src="__PUBLIC__/Index/Index/images/3_3.jpg" class="pic3" />
+                  <div> <!-- <img class="sub_3_1" src="images/sub_3_1.png"  /> --> 
+                          <img class="sub_3_2" src="__PUBLIC__/Index/Index/images/sub_3_2.png" usemap="#Map_3_2"  border="0" />
+                           <map name="Map_3_2" id="Map_3_2">
+                               <area shape="rect" coords="1,98,106,124" href="#" target="_blank"/>
+                           </map>
+                  </div>
+               </div>
+              </div>
+        </div>
+        <!-- banner结束 -->
+        <!-- 内容 -->
+        <div class="content">
+          <!-- 推荐文章4 -->
+          <div class="content_top">
+              <foreach name="tuijian" item="v">
+                <div class="story">
+                      <a href="__APP__/Home/Blog/one/id/{$v.id}?id={$v.id}&cid={$v.cid}" class="stoty_a"> 
+                          <h2 class="text">
+                             <span>{$v.title}</span>
+                          </h2>
+                          <img src="__ROOT__/Uploads/blogpic/{$v.blogpic}" alt="" />
+                      </a>
+                </div>
+              </foreach>
+          </div>
+          <!-- 推荐文章4结束 -->
+          <!-- 热门文章3 -->
+          <div class="content_bottom">
+              <div class="left">
+                  <div class="left_top">
+                       <div class="title1">
+                           <img src="__PUBLIC__/Index/Index/images/title1.png" alt="" />
+                       </div>
+                       <foreach name="remen" item="v">
+                         <div class="con">
+                                <a href="#">
+                                <div class="pic">
+                                    <img src="__ROOT__/Uploads/blogpic/{$v.blogpic}" alt="" />
+                                </div>
+                                </a>
+                                <div class="info">
+                                      <a href="__APP__/Home/Blog/one/id/{$v.id}?id={$v.id}&cid={$v.cid}">
+                                      <h2>{$v.title}</h2>
+                                      </a>
+                                      <span><i class="fa fa-user"></i> {$v.username}</span>
+                                      <p>{$v.content|mb_substr=###,0,300,'utf-8',false}</p>
+                                      <span class="tag"><i class="fa fa-tag"></i>&nbsp;{$v.cate}&nbsp;&nbsp;&nbsp;<i class="fa fa-clock-o"></i>&nbsp;{$v.time|date='Y-m-d',###}</span>
+                                      <span class="comment"><i class="fa fa-comment-o"></i>&nbsp;{$v.saycount}&nbsp;<i class="fa fa-heart"></i>&nbsp;{$v.good}&nbsp;</span>
+                                </div>
+                                <div class="clear"></div>
+                         </div>
+                       </foreach>
+                  </div>
+                  <!-- 热门文章3结束 -->
+                  <!-- 学习心得 -->
+                  <div class="left_bottom">
+                      <div class="title1">
+                          <img src="__PUBLIC__/Index/Index/images/title2.png" alt="" />
+                      </div>
+                      <div class="con1">
+                          <ul>
+                            <foreach name="xuexi" item="v">
+                            <li>
+                                <div class="img">
+                                      <a href="__APP__/Home/Exper/one/id/{$v.id}?id={$v.id}"><img src="__ROOT__/Uploads/experpic/{$v.experpic}" alt="{$v.title}" /></a>
+                                </div>
+                                <div class="info1">
+                                    <h2><a href="__APP__/Home/Exper/one/id/{$v.id}?id={$v.id}">{$v.title}</a></h2>
+                                    <p>{$v.story|msubstr=###,0,65,'utf-8',false}</p>
+                                    <span><i class="fa fa-comment-o"></i>&nbsp;0&nbsp;<i class="fa fa-thumbs-o-up"></i>&nbsp;{$v.saycount}&nbsp; <i class="fa fa-share"></i>&nbsp;{$v.click}&nbsp; </span>
+                                    <span class="time">{$v.addtime|date='Y-m-d',###}</span>
+                                </div>
+                            </li>
+                            </foreach>
+                          </ul>
+                      </div>
+                  </div>
+                  <!-- 学习心得 -->
+              </div>
+              <!-- <dic class="clear"></dic> -->
+              <div class="right">
+                <div class="blog">
+                    <a href="{:U('Home/User/userReg')}">注册猿客栈</a>
+                </div>
+                <div class="bq">
+                    <div class="bq_title">
+                      <h2>
+                          热门标签
+                      </h2>
+                    </div>
+                    <ul class="bq_con">
+                            <li><a href="#">JavaScript</a></li>
+                              <li><a href="#">HTML</a></li>
+                              <li><a href="#">CSS</a></li>
+                              <li><a href="#">JQuery</a></li>
+                              <li><a href="#">PHP</a></li>  
+                              <div class="clear"></div>
+                    </ul>
+                </div>
+                <div class="tz">
+                    <div class="tz_img">
+                      <img src="__PUBLIC__/Index/Index/images/tz.png" alt="" />
+                    </div>
+                    <ul class="tz_con">
+                          <foreach name="wangzhi" item="v">  
+                            <li><a href="{$v.url}" target="_blank">[{$v.name}]{$v.alt}</a></li>
+                          </foreach>
+                    </ul>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="clear"></div>
+		<include file="Public:footer" />
+    </body>
+    <script type="text/javascript">
+    $(function(){
+  
+            $("#kinMaxShow").kinMaxShow({
+            
+              height:560,
+			  intervalTime:3,
+              button:{
+                showIndex:false,
+                normal:{background:'url(__PUBLIC__/Index/Index/images/button.png) no-repeat -14px 0',marginRight:'8px',border:'0',right:'44%',bottom:'20px'},
+                focus:{background:'url(__PUBLIC__/Index/Index/images/button.png) no-repeat 0 0',border:'0'}
+              },
+            
+              callback:function(index,action){
+                switch(index){
+                  case 0 :
+                  if(action=='fadeIn'){
+                    $(this).find('.sub_1_1').animate({left:'20px'},600)
+                    $(this).find('.sub_1_2').animate({right:'160px'},600)
+                    
+                  }else{
+                    $(this).find('.sub_1_1').animate({left:'0px'},600)
+                    $(this).find('.sub_1_2').animate({right:'-220px'},600)
+                    
+                  };
+                  break;
+                      
+                  case 1 :
+                  if(action=='fadeIn'){
+                    $(this).find('.sub_2_1').animate({left:'100px'},600)
+                    $(this).find('.sub_2_2').animate({top:'80px'},600)
+                  }else{
+                    $(this).find('.sub_2_1').animate({left:'0px'},600) 
+                    $(this).find('.sub_2_2').animate({top:'30px'},600)
+                  };
+                  break;
+                      
+                  case 2 :
+                  if(action=='fadeIn'){
+                    $(this).find('.sub_3_1').animate({right:'350px'},600)
+                    $(this).find('.sub_3_2').animate({left:'180px'},600)
+                  }else{
+                    $(this).find('.sub_3_1').animate({right:'180px'},600) 
+                    $(this).find('.sub_3_2').animate({left:'30px'},600)
+                  };
+                  break;                      
+                }
+              }
+            
+            });
+     });
+</script>
+</html>

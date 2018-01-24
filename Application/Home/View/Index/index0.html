@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<empty name="Think.session.username">
+<a href="{:U('Home/User/login/')}">用户登录</a>
+<a href="{:U('Admin/public/login')}">后台登录</a>
+<a href="{:U('Home/User/userReg')}">用户注册</a>
+<else />
+	<if condition="$Think.session.group_id eq 3 ">	
+	<a href="">{$Think.session.username}<span>，你好！</span></a>
+	<a href="{:U('Home/PersonalCenter/index')}">个人中心</a>
+	<a href="{:U('Home/User/logout')}">用户注销</a>
+	<a href="{:U('Admin/public/login')}">后台登录</a>
+	<else/>
+	<if condition="$Think.session.group_id eq 3 ">	
+	<a href="">{$Think.session.username}<span>，你好！</span></a>
+	<a href="{:U('Home/VipCenter/index')}">个人中心</a>
+	<a href="{:U('Home/User/logout')}">用户注销</a>
+	<a href="{:U('Admin/public/login')}">后台登录</a>
+	</if>
+</empty>
+<hr/>
+Blog:
+<a href="{:U('Home/Blog/index')}">博文列表</a>
+<!--左：  标题（大）【上】  admin,click,time（小）下 
+	右上： 公告：相聚志同道合的人，十指敲未来。（添加博文）
+	右下： 热门列表
+-->
+<a href="{:U('Home/Blog/blog')}">博文添加</a>
+<!-- 左：添加博文
+	 右：公告
+	 右下：热门博文、推荐博文
+ -->
+<a href="{:U('Home/Blog/content')}"></a>
+<!-- 左：博文（title,content）,评论（多说）
+	 右：博文信息（admin,title,click,cate,attr）
+	 右下：（顶，踩，收藏）
+	 右下下：
+ -->
+<br/><br/>
+
+experience：
+<a href="{:U('Home/Exper/index')}">展示故事</a>
+<a href="{:U('Home/Exper/add')}">添加故事</a>
+
+<br/><br/>
+<!-- 共享空间share -->
+share:
+<a href="{:U('Home/Share/index')}">共享展示</a>
+<a href="{:U('Home/Share/add')}">共享添加</a>
+<br/>
+<div>
+	<form action="{:U('Home/Search/sechUser')}" method="get">
+		<input type="text" name="keyword" value="搜索找人、博文" />
+		<input type="submit" value="提交" />
+	</form>
+</div>
+</body>
+</html>

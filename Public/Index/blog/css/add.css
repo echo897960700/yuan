@@ -1,0 +1,96 @@
+#main{
+	padding-top: 30px;
+	margin: 0px auto;
+	width: 1160px;
+}
+.clear{
+	zoom:1;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#title{
+	text-align: center;
+	font-size: 24px;
+}
+.sendform{
+	margin-top: 60px;
+	float: left;
+}
+.userinfo{	
+	margin-top: 115px;
+	margin-left: 40px;
+	width: 300px;
+	/*height: 370px;*/
+	float: left;
+	display: block;
+	background: #fff;
+}
+#facebg{
+	background:url(../images/user.jpg);
+	width: 100%;
+	height: 130px;
+	padding-top: 20px;
+}
+.pic{
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 0px auto;
+	/*margin-top: 40px;*/
+}
+.usercontent{
+	margin: 20px 20px; 
+
+}
+.usercontent li{
+	line-height: 30px;
+}
+.usercontent a{
+	color:#8A8A8A;
+}
+.usercontent a:hover{
+	color: #0099FE;
+	
+}
+
+.userblog{	
+	margin-top: 30px;
+	margin-left: 40px;
+	width: 300px;
+	float: left;
+	display: block;
+	background: #fff;
+}
+#blogbg{
+	background:url(../images/blogbg.png) 300px 180px;
+	background-size: 300px;
+	width: 100%;
+	height: 130px;
+	padding-top: 20px;
+}
+#blogbg a{
+	display: block;
+	font-size: 30px;
+	color: #fff;
+	margin-left: 90px;
+	margin-top:50px; 
+}
+.zx_blog{
+	background: #fff;
+}
+.zx_blog li{
+	border-right: 1px solid #dddddd;
+	border-top: 1px solid #dddddd;
+	padding: 8px 4px;
+}
+.zx_blog li a{
+	color: #333333;
+	margin-left: 5px;
+}
+.zx_blog li a:hover{
+	color: #09f;
+}

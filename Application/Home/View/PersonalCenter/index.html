@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>猿客栈--在线Web学习交互新阵地</title>
+	<link rel="shortcut icon" href="__PUBLIC__/Index/common/images/bitbug_favicon.ico">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Index/common/css/common.css" />
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Index/common/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Index/Person/css/index.css">
+	<script src="__PUBLIC__/Index/common/js/jquery.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/Index/Person/js/index.js"></script>
+	<!-- 资料修改 -->
+	<script type="text/javascript" src='__PUBLIC__/script/PersonalCenter/jquery-1.7.2.min.js'></script>
+    <script type='text/javascript' src='__PUBLIC__/script/PersonalCenter/city.js'></script>
+	<script type='text/javascript' src='__PUBLIC__/script/PersonalCenter/edit.js'></script>
+	<script type='text/javascript'>
+        var address = "{$zl_user.location}";
+    </script>
+    <!-- 个人空间的记录 -->
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Index/Person/css/scr.css">
+</head>
+<body>
+<include file="Public:head" />
+<div id="userFrame">
+	<div id="userSlide">
+		<div class="myProduction" id="myblog">
+			<span><i class="fa fa-bookmark-o"></i>&nbsp;我的文章</span>
+		</div>
+		<div class="myProduction" id="mythink">
+			<span><i class="fa fa-bookmark-o"></i>&nbsp;我的心得</span>
+		</div>
+		<div class="myProduction" id="myshare">
+			<span><i class="fa fa-bookmark-o"></i>&nbsp;我的共享</span>
+		</div>
+		<div class="myProduction" id="myinformation">
+			<span><i class="fa fa-bookmark-o"></i>&nbsp;我的资料</span>
+		</div>
+		<div class="myProduction" id="writething">
+			<span><i class="fa fa-bookmark-o"></i>&nbsp;记录点滴</span>
+		</div>
+		<!-- <div class="myProduction" id="shezhi">
+			<span><i class="fa fa-bookmark-o"></i>&nbsp;我的猿友</span>
+		</div> -->
+	</div>
+	<div id="userContent">
+		<div id="userTitle">
+
+			<span class="user-img"><img src="__ROOT__/Uploads/Avater/{$user.avater_path}" alt="" width="50px" height="50px"></span>
+			<span class="nickname">{$user.username}</span>
+		</div>
+		
+		<div class="right">
+			<div class="myblog none">
+				<!-- 我的文章 -->
+				<div id="mb_blog">
+					<div class="teddy-bear">
+						<div class="teddy-text" style="height:204px;background:url(__ROOT__/Uploads/Avater/{$user.avater_path});background-size:cover;" >
+							<!-- <h4>我的第一篇文章！</h4>
+							<hr/>
+							<span class="w-line"> </span>-->
+							<!-- <img src="./images/a.jpeg" alt="" >  -->
+					    </div>
+					    <div class="teddy-follow">
+					    	<ul>
+					    		<li class="folw-h"><h3>{$blogcount}</h3>
+					    			<p>文章篇数</p>
+					    		</li>
+					    		<li><a href="{:U('Home/Blog/Blog')}"><i class="fa fa-comments"></i></a>
+					    			<p><a href="{:U('Home/Blog/Blog')}">添加</a></p>
+					    		</li>
+					    	</ul>
+					    </div>
+					</div>
+					<foreach name='blog' item='v'>
+					<div class="teddy-bear">
+						<div class="teddy-text">							
+							<h4><a href="__APP__/Home/Blog/one/id/{$v.id}?id={$v.id}&cid={$v.cid}">{$v.title}
+				                <foreach name='v.attr' item='value'>
+				                    <strong style='color:{$value.color};padding:0 5px'>
+				                        [{$value.name}]
+				                    </strong>
+				                </foreach></a>
+			                </h4>
+							<hr/>
+							<a href="__APP__/Home/Blog/one/id/{$v.id}?id={$v.id}&cid={$v.cid}"><img src="__ROOT__/Uploads/blogpic/{$v.blogpic}" alt=""  class="img-responsive"></a>							
+					    </div>
+					    <div class="teddy-follow">
+					    	<ul>
+					    		<li class="folw-h"><h3>{$v.click}</h3> 
+					    			<p>浏览数</p>
+					    		</li>
+					    		<li class="folw-h"><h3>{$v.saycount}</h3>
+					    			<p>评论数</p>
+					    		</li>
+					    		<li><a href="{:U('Home/Blog/toTrach',array('id'=>$v['id'],'type'=>1))}"><i class="fa fa-times"></i></a>
+					    			<p><a href="{:U('Home/Blog/toTrach',array('id'=>$v['id'],'type'=>1))}">删除</a></p>
+					    		</li>
+					    	</ul>
+					    </div>
+					</div>
+					</foreach>					
+				</div>	
+			</div>
+			<!-- 我的文章结束 -->
+
+			<!-- 我的心得 -->
+			<div class="mythink none">
+				<!-- 我的心得。欢迎你！ -->
+				<div class="teddy-bear">
+					<div class="teddy-text" style="height:204px;background:url(__ROOT__/Uploads/Avater/{$user.avater_path});background-size:cover;" >
+				    </div>
+				    <div class="teddy-follow">
+				    	<ul>
+				    		<li class="folw-h"><h3>{$expercount}</h3>
+				    			<p>心得篇数</p>
+				    		</li>
+				    		<li><a href="{:U('Home/Exper/index')}"><i class="fa fa-comments"></i></a>
+				    			<p><a href="{:U('Home/Exper/index')}">添加</a></p>
+				    		</li>
+				    	</ul>
+				    </div>
+				</div>
+
+			<foreach name='result' item='vo'>	   
+				<div class="teddy-bear">
+					<div class="teddy-text">
+						<h4><a href="__APP__/Home/Exper/one/id/{$vo.id}?id={$vo.id}">{$vo.title}</a></h4>
+						<hr/>
+						<span class="w-line"> </span>
+						<a href="__APP__/Home/Exper/one/id/{$vo.id}?id={$vo.id}"><img src="__ROOT__/Uploads/experpic/{$vo.experpic}" alt=""  class="img-responsive"></a>
+				    </div>
+				    <div class="teddy-follow">
+				    	<ul>
+				    		<li class="folw-h"><h3>{$vo.click}</h3>
+				    			<p>浏览数</p>
+				    		</li>
+				    		<li class="folw-h"><h3>{$vo.saycount}</h3>
+				    			<p>评论数</p>
+				    		</li>
+				    		<li><a href="{:U('Home/Exper/toTrach/',array('id'=>$vo['id'],'type'=>1))}"><i class="fa fa-times"></i></a>
+				    			<p><a href="{:U('Home/Exper/toTrach/',array('id'=>$vo['id'],'type'=>1))}">删除</a></p>
+				    		</li>
+				    	</ul>
+				    </div>
+				</div>
+			</foreach>	
+		</div>
+		<!-- 我的心得结束 -->
+			<!-- 我的共享 -->
+			<div class="myshare none">
+				
+				<div class="gx_kuang">
+					<div class="teddy-text">
+						<h4>我的共享，猿来有你！ </h4>
+						<hr/>
+						<span class="w-line"> </span>
+						
+				    </div>
+				    <div class="teddy-follow">
+				    	<ul>
+				    		<li><a href="#">{$sharecount}</a>
+				    			<p>共享量</p>
+				    		</li>
+				    	</ul>
+				    </div>
+				</div>
+				<foreach name="myshare" item="v"> 
+					<div class="gx_kuang">
+						<div class="teddy-text">
+							<h4>
+								<if condition="$v[sta] eq 3">
+									<a href="__ROOT__/Uploads/share/{$v.url}" target="_blank">{$v.name}</a>
+								<else/>
+									<a href="{$v.url}">{$v.name}</a>
+								</if>	
+							</h4>
+							<hr/>
+							<span class="w-line"> </span>
+							
+					    </div>
+					    <div class="teddy-follow">
+					    	<ul>
+					    		<li><a href="#"><i class="fa fa-times"></i></a>
+					    			<p><a href="#">删除</a></p>
+					    		</li>
+					    	</ul>
+					    </div>
+					</div>
+				</foreach>
+
+
+
+			</div>
+			<div class="myinformation none">
+				<!-- 我的资料 -->
+				<div id="zl_left">
+					<div class="zl_nav">
+						<ul>
+							<li id="xg_zl"><a href="#">修改资料</a></li>
+							<li id="xg_tx"><a href="#">修改头像</a></li>
+							<li id="xg_mm"><a href="#">修改密码</a></li>
+						</ul>
+					</div>
+					<div class="zl_caozuo">
+						<div class="xg_zl">
+							
+					    		<foreach item='v' name='info'>
+					    			<form action="{:U('Home/PersonalCenter/doEdit')}" method='post'>
+					    				
+					    				<p>
+					    					<label>昵称：</label>
+					    					<input type="text" name='username' class="input" value='{$v.username}' />
+					    				</p>
+					    				<p>
+					    					<label>猿名：</label>
+					    					<input type="text" name='truename' value='{$v.truename}' class='input'/>
+					    				</p>
+					    				<p>
+					    					<label>性别：</label>
+					    					<input type="radio" name='sex' value='1' <if condition='$zl_user["sex"] == "男"'>checked='checked'</if>/>&nbsp;男&nbsp;&nbsp;
+					    					<input type="radio" name='sex' value='2' <if condition='$zl_user["sex"] == "女"'>checked='checked'</if>/>&nbsp;女
+					    				</p>
+					    				<p>
+					    					<label>猿址：</label>
+					    					<select name="province" id="" class="select">
+					    						<option value="" >请选择</option>
+					    					</select>&nbsp;&nbsp;&nbsp;&nbsp;
+					                        <select name="city" class="select">
+					                            <option value="">请选择</option>
+					                        </select>
+					    				</p>
+					    				<p>
+					    					<label>猿语：</label>
+					    					<textarea name="sign" class="textarea">{$v.sign}</textarea>
+					    				</p>
+					    				<p>
+					    					<input type="submit" class="submit_btn" value='保存修改'/>
+					    				</p>
+					    				
+					    			</form>
+					    			</foreach>					    		
+							</div>
+						<div class="xg_tx"><br/>
+							<form action="__URL__/upload" enctype="multipart/form-data" method="post" >
+					    		<img src="__ROOT__/Uploads/Avater/{$user.avater_path}" width="80" height="80" alt=""><br/><br/>
+					    		<input type="file" name="photo" class="input" /><br/><br/>
+					    		<input type="submit" class="submit_btn" value="提交" >
+				    		</form>
+						</div>
+						<div class="xg_mm">
+							<form action="{:U('editPwd')}" method='post' name='editPwd'>
+			    				<p class='account'>登录邮箱：<span>{$zl_user.email}</span></p>
+			    				<p>
+			    					<label for=""><span class='red'>*</span>旧密码：</label>
+			    					<input type="password" name='old' class='input'/>
+			    				</p>
+			    				<p>
+			    					<label for=""><span class='red'>*</span>新密码：</label>
+			    					<input type="password" name='new' class='input' id='new'/>
+			    				</p>
+			    				<p>
+			    					<label for=""><span class='red'>*</span>确认密码：</label>
+			    					<input type="password" name='newed' class='input'/>
+			    				</p>
+			    				<p>
+			    					<input type="submit" value='确认修改' class='edit-sub submit_btn'/>
+			    				</p>
+			    			</form>
+						</div>
+					</div>
+				</div>
+				<div id="zl_right">
+					<!-- 用户信息 -->
+					<div class="userinfo">
+					<foreach name="userRes" item="vo">
+						<ul>
+							<li id="facebg">
+								<div class="pic">
+									<img src="__ROOT__/Uploads/Avater/{$vo.avater_path}" width="80px;" height="80px;" alt="" />
+								</div>
+							</li>
+						</ul>
+						<ul class="usercontent">
+									
+								<li>
+									昵称： <a href="#">{$vo.username}</a>	
+								</li>
+								<li>
+									地址：<a href="#">{$vo.location}</a>
+								</li>
+								<li>
+									签名：<a href="#">{$vo.sign}</a>
+								</li>
+								<!-- <li>
+									文章：<a href="#">{$blogcount}</a>
+								</li> -->
+								<li>
+									实名：<a href="#">{$vo.truename}</a> 		
+								</li>
+								<li>
+									注册时间： <a href="#"><?php echo floor(date(time()-$vo[reg_date])/(60*60*24)) ?>天</a>	
+								</li>
+								<li>
+									最后登录IP：<a href="#">{$vo.last_ip}</a>
+								</li>
+								<li>
+									用户组：<a href="#">{$group_id}</a>
+								</li>
+							
+						</ul>
+						</foreach>
+					</div>					
+					<!-- 用户信息结束 -->
+				</div>
+			</div>
+			<div class="writething none">
+				<h2>猿客栈，记录点滴</h2>
+				<div class="box">
+				<!--内容发布区域-->
+					<div class="boxcenter">
+						<form action="{:U('Home/PersonalCenter/shiguangAdd')}" method="post" >
+						<div class="boxc_t"><h4>呐喊吧，吐槽吧...</h4></div>
+						<textarea class="boxc_c" contenteditable="true" id="aa" name="content" style="margin-left:20px;resize: none;"></textarea>
+						<input type="submit" class="submit_btn" style="margin-top:0px;" value="发布">	
+						</form>
+					</div>
+				<!--时光轴线-->
+					<div class="timeline">
+						<div class="timeline_t" style="background:url(__ROOT__/Uploads/Avater/yuan.png);background-size:cover;">				
+						</div>
+						<div class="allbox">
+							<foreach name="shiguang" item="v">
+								<div class="nextbox">
+									<div class='a'>
+									<div class='b'></div>
+									<span id='time'>{$v.time|date='Y-m-d',###}</span>&nbsp;&nbsp;<span id="hour">{$v.time|date='H:s:i',###}</span><br/>
+									<p style='padding:4px'>{$v.content}</p>
+									</div>
+								</div>	
+							</foreach>
+							<div class="start">猿</div><!-- 时光轴的开始 -->
+						</div>
+					</div>	 
+				</div>
+			</div>
+			
+			<!-- <div class="shezhi none">
+				我的猿友正在建设中！
+			</div> -->
+		</div>
+
+		
+	</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+[ 2016-03-27T12:19:24+08:00 ] ::1 /Hit/Public/images/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-27T12:19:24+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001414s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-27T12:19:24+08:00 ] ::1 /Hit/Public/images/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-27T12:21:15+08:00 ] ::1 /Hit/Public/images/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-27T12:21:25+08:00 ] ::1 /Hit/Public/images/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-27T12:21:25+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-27T12:21:29+08:00 ] ::1 /Hit/Public/images/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-27T12:21:29+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-27T12:21:30+08:00 ] ::1 /Hit/Public/images/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-27T17:43:42+08:00 ] ::1 /Hit/Public/images/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-27T17:43:43+08:00 ] ::1 /Hit/Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-27T17:43:43+08:00 ] ::1 /Hit/Public/images/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-27T20:46:46+08:00 ] ::1 /Hit/Public/images/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-27T20:46:47+08:00 ] ::1 /Hit/Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-27T20:46:48+08:00 ] ::1 /Hit/Public/images/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-27T21:40:39+08:00 ] ::1 /Hit/Public/images/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+ERR: 无法加载模块:Public
+

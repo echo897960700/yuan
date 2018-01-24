@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/Css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/Css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/admin/Css/style.css" />
+    <script type="text/javascript" src="__PUBLIC__/admin/Js/jquery.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/admin/Js/jquery.sorted.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/admin/Js/bootstrap.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/admin/Js/ckform.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/admin/Js/common.js"></script>
+    <!-- 编辑器 -->
+    <script type="text/javascript">
+        window.UEDITOR_HOME_URL = '__ROOT__/Public/Ueditor/';
+        window.onload = function(){
+            window.UEDITOR_CONFIG.initialFrameWidth=800;
+            window.UEDITOR_CONFIG.initialFrameHeight=500;
+            window.UEDITOR_CONFIG.imageUrl="{:U( 'Admin/Blog/upload')}";
+            UE.getEditor('content');
+        }
+    </script>
+    <js file='__ROOT__/Public/Ueditor/ueditor.config.js' />
+    <js file='__ROOT__/Public/Ueditor/ueditor.all.min.js' />
+    <!--结束 -->
+    <style type="text/css">
+        body {
+            padding-bottom: 40px;
+        }
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media (max-width: 980px) {
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<form action="{:U('/Admin/Blog/addBlog')}" enctype="multipart/form-data" method="post">
+<table class="table table-bordered table-hover definewidth m10">
+    <tr>
+        <td width="10%" class="tableleft">所属分类</td>
+        <td>
+            <select name="cid">
+                <option value="">===请选择分类===</option>
+                <foreach name='cate' item='v'>
+                    <option value="{$v.id}">
+                        {$v.html}{$v.name}
+                    </option>
+                </foreach>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td class="tableleft">博文属性：</td>
+        <td>
+            <foreach name='attr' item='v'>
+                    <label style="margin-right:10px;">
+                        <input type="checkbox" name="aid[]" value="{$v.id}" />&nbsp;{$v.name}
+                    </label>
+            </foreach>
+        </td>
+    </tr>
+    <tr>
+        <td class="tableleft">博文封面：</td>
+        <td>
+            <input type="file" name="blogpic" />
+        </td>
+    </tr>   
+    <tr>
+        <td class="tableleft">点击次数：</td>
+        <td>
+            <input type="text" name="click" value="0">
+        </td>
+    </tr>
+    <tr>
+        <td class="tableleft">博文标题：</td>
+        <td>
+            <input type="text" name="title">
+        </td>
+    </tr>
+    <tr>
+        <td class="tableleft">博文内容：</td>
+        <td>
+            <textarea name="content" id="content"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td class="tableleft"></td>
+        <td>
+            <button type="submit" class="btn btn-primary" type="button">保存</button>&nbsp;&nbsp;<button type="button" class="btn btn-success" name="backid" id="backid">返回列表</button>
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
+<script>
+    $(function () {       
+		$('#backid').click(function(){
+				window.location.href="index.html";
+		 });
+
+    });
+</script>

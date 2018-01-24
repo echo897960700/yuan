@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>猿客栈--在线Web学习交互新阵地</title>
+	<link rel="shortcut icon" href="__PUBLIC__/Index/common/images/bitbug_favicon.ico">
+	<link rel="stylesheet" href="__PUBLIC__/admin/public/css/common.css" />
+</head>
+<body>
+<table>
+	<tr>
+		<th>ID</th>
+		<th>属性名称</th>
+		<th>颜色</th>
+		<th>操作</th>
+	</tr>
+	<foreach name='attr' item='v'>
+		<tr>
+			<th>{$v.id}</th>
+			<th>{$v.name}</th>
+			<th>
+				<div style="width:20px;height:20px;background:{$v.color}"></div>
+			</th>
+			<th>
+				<a href="#">[修改]</a>
+				<a href="#">[删除]</a>
+			</th>
+		</tr>
+	</foreach>
+</table>
+</body>
+</html>

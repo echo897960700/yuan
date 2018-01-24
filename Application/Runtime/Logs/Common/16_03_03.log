@@ -1,0 +1,3680 @@
+[ 2016-03-03T09:05:05+08:00 ] ::1 /Hit/Public/style/Common/reset.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T09:05:05+08:00 ] ::1 /Hit/Public/style/User/register.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T09:05:41+08:00 ] ::1 /Hit/Public/style/Common/reset.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T09:05:41+08:00 ] ::1 /Hit/Public/style/User/register.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:15:36+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:20:08+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:20:08+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:20:09+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000305s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:20:09+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:20:09+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:20:09+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:20:09+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:14+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:14+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:22:14+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:14+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:14+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:15+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:22:15+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:15+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:15+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:15+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:15+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:15+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001634s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:15+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002772s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:15+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:22:15+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:15+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:16+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:16+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001148s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:16+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:22:16+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:16+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:16+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:16+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:22:16+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:16+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:16+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:22:16+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:16+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002302s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:16+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:16+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:17+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:17+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:22:17+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:17+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:17+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000217s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003296s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:18+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:22:18+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:18+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:18+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:18+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:18+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:18+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:22:18+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:18+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:22:18+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:18+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:18+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:18+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:18+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:18+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:22:18+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:19+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:19+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008358s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:22:19+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:19+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:19+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:22:19+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:19+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:22:19+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:09+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:09+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:09+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:24:09+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:09+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:12+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:12+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:12+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:12+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:24:12+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:12+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:12+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:24:12+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:12+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:13+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:24:13+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:13+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:13+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:13+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:13+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:13+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:24:13+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:13+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:13+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:24:13+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 无法加载模块:Public
+
+��块:Public
+
+[ 2016-03-03T11:24:13+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:13+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:13+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:13+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:13+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001567s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:13+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001323s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:24:13+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:42+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:42+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:24:42+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:42+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:42+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:44+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:44+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001334s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:44+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:44+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:24:44+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:44+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:24:44+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:44+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:44+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:44+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:44+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:24:44+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:44+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:44+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:44+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:45+08:00 ] ::1 /Hit/Publicstyle/PersonalCenter/edit.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+ERR: 无法加载模块:Publicstyle
+
+[ 2016-03-03T11:24:45+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:45+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001325s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:45+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:56+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001148s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:56+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:56+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:24:56+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:25:18+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:25:18+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:25:19+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:25:19+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:25:19+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:25:19+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:25:19+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:25:19+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:25:19+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:25:20+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:25:20+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:25:20+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004285s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:27:32+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:27:32+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:27:32+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:27:34+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:27:34+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:27:34+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:27:34+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:27:34+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:27:34+08:00 ] ::1 /Hit/Public/style/PersonalCenter/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:27:34+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:31:20+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:31:20+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:31:20+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:31:53+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:31:53+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:31:53+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:31:53+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:33:44+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:33:44+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:33:44+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:33:44+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:33:58+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:33:58+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:33:58+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:33:58+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:34:06+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:34:06+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:34:07+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:34:07+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:35:17+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:35:17+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002412s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:35:17+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:35:17+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:35:41+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:35:41+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:35:41+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:35:41+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:35:47+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:35:47+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001877s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T11:35:47+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:44:14+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:44:14+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:44:14+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:44:14+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:44:19+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:44:19+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:44:19+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:44:19+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:01+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:01+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:01+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:01+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:02+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:02+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:02+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:02+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001146s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:13+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:13+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:13+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001948s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:13+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:14+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:14+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:14+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:14+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:14+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:14+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:14+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:14+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:14+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:14+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:14+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:49+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:49+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001538s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:49+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:49+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:49+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:49+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:49+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:49+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:50+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:50+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:50+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:50+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:50+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:50+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:50+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005487s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:59+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:59+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:59+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:45:59+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:46:32+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:46:32+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:46:32+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:46:32+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:46:52+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:46:52+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001712s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:46:52+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:46:55+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:46:55+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:46:55+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T13:46:55+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:58:51+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:58:51+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:58:51+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:58:51+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:58:53+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002335s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:58:53+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:58:53+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:58:53+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:58:53+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:58:53+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:58:53+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:58:53+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:58:54+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:58:54+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:58:54+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:58:54+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:04+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:04+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:04+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:04+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:07+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:07+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001328s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:07+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:12+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001460s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:12+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:12+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001434s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:12+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:25+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:25+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:25+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:25+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:26+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:26+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001284s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:26+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:26+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:26+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:26+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:26+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001582s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:27+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:27+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:27+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001628s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:27+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:27+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:27+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:27+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:27+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:27+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:27+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002316s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:27+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:27+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:28+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:28+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:28+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:28+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:28+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:28+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:28+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:33+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+ERR: 无法加载模块:Public
+
+:Public
+
+[ 2016-03-03T15:59:33+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:33+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:34+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:34+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002726s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:34+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:34+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:34+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000890s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001586s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:34+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:34+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:37+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:37+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:37+08:00 ] ::1 /Hit/Public/script/PersonalCenter/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T15:59:38+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:01:56+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:01:56+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:01:57+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:01:57+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:01:57+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:02:00+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:02:00+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:02:00+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:02:03+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:02:03+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:02:32+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:02:32+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:02:59+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:02:59+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:02:59+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:03:01+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:03:01+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:03:01+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003519s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:03:01+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:03:01+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:03:01+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:03:13+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:03:14+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:03:14+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:03:14+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:03:14+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:03:14+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:03:22+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:03:22+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:03:22+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:04:17+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:04:17+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:04:17+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:04:18+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:04:18+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:04:18+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:09:35+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:09:35+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:09:37+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:09:37+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:09:37+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:09:37+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:09:37+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:09:38+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:09:38+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:09:38+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:09:48+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:09:48+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001254s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:15:40+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:15:40+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:15:41+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:15:41+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:16:46+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:16:46+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:16:46+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:17:11+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:17:11+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:17:53+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:17:53+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:19:54+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:19:54+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:20:21+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:20:21+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:25:20+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:25:20+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:25:21+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:25:36+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:25:36+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001125s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:25:36+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:26:33+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:26:33+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:28:13+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:28:13+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:28:13+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:28:14+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:28:14+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000332s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:28:14+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:28:14+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:28:14+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:28:15+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:28:15+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:28:16+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:28:16+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:28:16+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:28:16+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002400s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:28:17+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:28:17+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:28:38+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:28:38+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:28:38+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:35:04+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:35:04+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001327s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:35:48+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:35:48+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:35:48+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:36:51+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:36:51+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:37:05+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:37:05+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:37:06+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:37:06+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:37:06+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:37:06+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:37:06+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:37:06+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:37:07+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:37:07+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:37:46+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:37:46+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:38:02+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:38:02+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:38:26+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:38:26+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:42:43+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:42:43+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:42:44+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:42:44+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:42:44+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:42:44+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:42:44+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001348s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:42:45+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001188s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:42:45+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:42:45+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:42:46+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:42:46+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:42:46+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:42:46+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:42:46+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:42:46+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:42:46+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:42:47+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:42:47+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:42:47+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:45:10+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:45:10+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:45:10+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:45:11+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:45:11+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:45:11+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:45:11+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:45:11+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:45:12+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:45:12+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001402s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:45:12+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:45:12+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:45:29+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+ERR: 无法加载模块:Public
+
+��块:Public
+
+[ 2016-03-03T16:45:29+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:45:29+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:45:29+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:45:30+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:45:30+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001861s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:45:30+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:45:30+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:45:30+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:45:30+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:45:30+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:45:30+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001978s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:48:57+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:48:57+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:48:57+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:49:12+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:49:12+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001576s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:49:13+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:49:13+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:49:15+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:49:15+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:49:15+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:49:15+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:49:16+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:49:16+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:49:16+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+ERR: 无法加载模块:Public
+
+��块:Public
+
+[ 2016-03-03T16:49:17+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:49:17+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001057s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:49:17+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:49:27+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:49:27+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003757s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:50:02+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:50:02+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:50:02+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:50:23+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:50:23+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:50:23+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:50:45+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:50:45+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:50:46+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:50:46+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:50:46+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:50:46+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:50:46+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:50:46+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:50:47+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:50:47+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:50:47+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:51:29+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:51:29+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:51:29+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:51:56+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:51:56+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:51:57+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:51:57+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:51:57+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:52:45+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:52:45+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:52:46+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001471s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:52:46+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:52:46+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:52:46+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:52:46+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:52:46+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:53:19+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:53:19+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:53:20+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:53:20+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001297s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:53:20+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:53:21+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:53:21+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:53:21+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:53:21+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:53:21+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:53:21+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T16:53:21+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:16:48+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:16:48+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:17:32+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:18:19+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:18:19+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:18:20+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:20:08+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:20:09+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:20:09+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:20:10+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:21:54+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:27:34+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:27:44+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:27:46+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:29:24+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:30:00+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:30:45+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:30:45+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:33:18+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:33:18+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:33:19+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:33:19+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:33:44+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:33:45+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:33:45+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:33:46+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:33:46+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:36:46+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:41:21+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:41:22+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:41:22+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:43:28+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:43:33+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:43:34+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:43:36+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:43:36+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:43:37+08:00 ] ::1 /Hit/Public/Uploadify/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:00+08:00 ] ::1 /Hit/Public/style/PersonalCenter/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:00+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:00+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:00+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:00+08:00 ] ::1 /Hit/Public/style/PersonalCenter/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001121s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:00+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:01+08:00 ] ::1 /Hit/Public/style/PersonalCenter/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001101s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:01+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:01+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:01+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:01+08:00 ] ::1 /Hit/Public/style/PersonalCenter/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:01+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:01+08:00 ] ::1 /Hit/Public/style/PersonalCenter/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:01+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:02+08:00 ] ::1 /Hit/Public/style/PersonalCenter/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001391s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:02+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:02+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:02+08:00 ] ::1 /Hit/Public/style/PersonalCenter/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:02+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:03+08:00 ] ::1 /Hit/Public/style/PersonalCenter/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001341s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:03+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:03+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:03+08:00 ] ::1 /Hit/Public/style/PersonalCenter/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:03+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:08+08:00 ] ::1 /Hit/Public/style/PersonalCenter/uploadify.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001403s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:54+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:54+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:55+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:55+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:55+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:56+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:56+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:56+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001866s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:57+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:57+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:57+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:57:58+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001541s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:59:59+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-03T23:59:59+08:00 ] ::1 /Hit/Public/Images/noface.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载模块:Public
+

@@ -1,0 +1,322 @@
+
+#create_group{
+	display: block;
+	width:80px;
+	margin-left: 20px;
+	font-size:12px;
+	color:#2B96E1;
+	cursor: pointer;
+}
+/*****创建分组弹出框*****/
+#add-group {
+	width: 300px;
+	height: auto;
+	overflow: hidden;
+	z-index: 5;
+	position: absolute;
+	background:#fff;
+	border:3px solid #9D9D9D;
+	border-radius: 4px;
+	display: none;
+}
+#add-group .group_head{
+	width:300px;
+	height:29px;
+	background: #F6F6F6;
+	border-bottom: 1px solid #0099FE;
+}
+#add-group .group_head .group_text{
+	display:block;
+	width:300px;
+	height:30px;
+	line-height:30px;
+	/*font-weight: bold;*/
+	text-indent: 1em;
+	cursor: move;
+}
+#add-group .group-name {
+	width: 260px;
+	height: 36px;
+	line-height: 36px;
+	margin: 20px auto;
+	
+	text-align: center;
+	border-radius: 2px;
+}
+#add-group .gp-btn-wrap {
+	width: 300px;
+	height: 36px;
+	line-height: 36px;
+	text-align: right;
+	margin-bottom: 10px;
+}
+#add-group .gp-btn-wrap span {
+	display: inline-block;
+	width: 58px;
+	height: 22px;
+	line-height: 22px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	text-align: center;
+	cursor: pointer;
+	margin-right: 10px;
+}
+#add-group .gp-btn-wrap .add-group-sub {
+	/*background: #0099fe;
+	color: #fff;
+	font-weight: bold;
+	border:1px solid #F2F4F8;*/
+	background: #f6f6f6;
+	color: #000;
+	border:1px solid #ccc;
+}
+#add-group .gp-btn-wrap .group-cencle {
+	background: #f6f6f6;
+}
+
+/******右侧******/
+#right{
+	width: 1160px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+#right #sech div{
+	width: 530px;
+	height: 40px;
+	border: 2px solid #D5EAF4;
+}
+#right #sech #sech-cons {
+	width: 429px;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 10px;
+	border: 1px solid #dcdcdc;
+	border-right: none;
+	float: left;
+	color: #949AA6;
+}
+#right #sech #sech-sub {
+	width: 80px;
+	height: 40px;
+	background: #0099FE;
+	border: 1px solid #dcdcdc;
+	border-left: none;
+	float: left;
+	cursor: pointer;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+#right #sech ul li{
+	float: left;
+	width: 40px;
+	height: 20px;
+	padding: 5px;
+}
+#right #sech ul li span {
+	font-size: 14px;
+	color: #949696;
+	cursor: pointer;
+	line-height: 20px;
+	font-weight: bold;
+}
+#right #sech ul li .cur {
+	/*color: #0099FE;*/
+	color: #0099FE;
+}
+
+#right #sech {
+	width: 534px;
+	height: 74px;
+	margin: 10px auto;
+	margin-bottom: 30px;
+}
+#right #sech-logo {
+	width: 1000px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background : url(../Images/sech_logo.png) no-repeat left;
+}
+
+
+#content ul li .list-left dd span {
+	padding-right: 10px;
+}
+#content ul li .list-left dd .bd-l {
+	border-left: 1px solid #ccc;
+	padding-left: 5px;
+}
+/*
+#content ul li .list-right {
+	width: 280px;
+	height: 59px;
+	float: right;
+	padding-top: 20px;
+}*/
+#content ul li .list-right dt {
+	width: 70px;
+	height: 20px;
+	line-height:20px;
+	text-align: center;
+	color: #444444;
+	background: #FAFAFA;
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;
+	float: left;
+	margin: 0 20px;
+}
+
+#content ul li .list-right .add-fl {
+	border: 1px solid #FF9B00;
+	background: #FFB53F;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}/*
+#content ul li .list-right dd {
+	width: 30px;
+	height: 20px;
+	line-height: 20px;
+	float: left;
+	margin-left: 15px;
+	cursor: pointer;
+	color: #088CDB;
+}*/
+
+
+
+
+/*****加关注弹出框*****/
+#follow {
+	width: 300px;
+	height: auto;
+	overflow: hidden;
+	z-index: 5;
+	position: absolute;
+	background:#fff;
+	border:3px solid #9D9D9D;
+	border-radius: 4px;
+	display: none;
+}
+#follow .follow_head{
+	width:300px;
+	height:29px;
+	background: #F6F6F6;
+	border-bottom: 1px solid #FF9B00;
+}
+#follow .follow_head .follow_text{
+	display:block;
+	width:300px;
+	height:30px;
+	line-height:30px;
+	font-weight: bold;
+	text-indent: 1em;
+	cursor: move;
+}
+#follow .sel-group {
+	width: 260px;
+	height: 36px;
+	line-height: 36px;
+	margin: 20px auto;
+	background: #f9f9f9;
+	text-align: center;
+	border-radius: 2px;
+}
+#follow .fl-btn-wrap {
+	width: 300px;
+	height: 36px;
+	line-height: 36px;
+	text-align: right;
+	margin-bottom: 10px;
+}
+#follow .fl-btn-wrap span {
+	display: inline-block;
+	width: 58px;
+	height: 22px;
+	line-height: 22px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	text-align: center;
+	cursor: pointer;
+	margin-right: 10px;
+}
+#follow .fl-btn-wrap .add-follow-sub {
+	background: #f6f6f6;
+	color: #000;
+	border:1px solid #ccc;
+}
+#follow .fl-btn-wrap .follow-cencle {
+	background: #f6f6f6;
+}
+
+
+/*========================================*/
+#content {
+	width: 1160px;
+	height: auto;
+	/*overflow: hidden;*/
+	margin: 0 auto;
+}
+.yonghu{
+	font-family: '微软雅黑';
+	font-size: 24px;
+	font-weight: none;
+	margin-bottom: 20px;
+}
+#content ul li{
+	width: 260px;
+	height: 300px;
+	background:#fff;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	/*border-radius: 10px;*/
+	/*border: 1px solid #0099FE;*/
+}
+#content dt img{
+	display: block;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	margin: 0px auto;	
+	border-radius: 50%;  
+}
+#content dt{
+	background: url(../images/userbg1.png);
+	background-size: cover;
+	width: 100%;
+	height: 160px;
+	/*border-radius: 10px 10px 0px 0;*/
+}
+#content dt a{
+	text-align: center;
+	width: 100%;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	margin-top: 10px;
+	display: block;
+}
+#content dd{
+	line-height: 45px;
+	margin-left: 20px;
+}
+#content dd span{
+	color: #000;
+}
+#content dt span a{
+	color: #fff;
+	font-size: 18px;
+}
+#left{
+	width: 80px;
+	height: 80px;
+	background: yellow;
+}
+#content dd span a{
+	color: #0099fe;
+	font-size: 18px;
+}

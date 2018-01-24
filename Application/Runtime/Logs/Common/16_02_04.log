@@ -1,0 +1,84 @@
+[ 2016-02-04T12:28:31+08:00 ] ::1 /Hit/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-04T12:28:31+08:00 ] ::1 /Hit/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-04T12:28:31+08:00 ] ::1 /Hit/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-04T12:28:31+08:00 ] ::1 /Hit/Public/images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-04T12:28:31+08:00 ] ::1 /Hit/Public/images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-04T12:28:31+08:00 ] ::1 /Hit/Public/images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-04T12:28:31+08:00 ] ::1 /Hit/Public/images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-04T12:28:31+08:00 ] ::1 /Hit/Public/images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-04T12:28:31+08:00 ] ::1 /Hit/Public/images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-04T12:28:31+08:00 ] ::1 /Hit/Public/images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-04T12:28:31+08:00 ] ::1 /Hit/Public/images/phiz/jiyan.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-04T12:28:31+08:00 ] ::1 /Hit/Public/images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.034779s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-04T12:28:31+08:00 ] ::1 /Hit/Public/images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-04T12:28:31+08:00 ] ::1 /Hit/Public/images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+ERR: 无法加载模块:Public
+

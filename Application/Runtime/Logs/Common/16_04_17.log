@@ -1,0 +1,48 @@
+[ 2016-04-17T10:55:57+08:00 ] 58.63.18.242 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-17T10:55:59+08:00 ] 58.63.18.242 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-17T10:56:16+08:00 ] 58.63.18.242 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-17T10:56:16+08:00 ] 58.63.18.242 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-17T10:57:09+08:00 ] 58.63.18.242 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-17T10:57:10+08:00 ] 58.63.18.242 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-17T18:45:50+08:00 ] 14.215.32.236 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015832s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-17T18:45:50+08:00 ] 14.215.32.236 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+ERR: 无法加载模块:Public
+

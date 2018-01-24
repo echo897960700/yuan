@@ -1,0 +1,2147 @@
+[ 2016-05-11T15:25:50+08:00 ] ::1 /Yuan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.060846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017290s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.3291s ]
+SQL: SELECT * FROM `p_blog` WHERE `del` = 0 ORDER BY good desc LIMIT 4   [ RunTime:0.1022s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0093s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0523s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0597s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0486s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0348s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2 LIMIT 5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given D:\wamp\www\Yuan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given D:\wamp\www\Yuan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given D:\wamp\www\Yuan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.159802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008355s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.015820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013632s ]
+
+[ 2016-05-11T15:25:55+08:00 ] ::1 /Yuan/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2016-05-11T15:26:02+08:00 ] ::1 /Yuan/index.php/Home/User/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0537s ]
+NOTIC: [8] Undefined index: auth D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model.class.php 第 1264 行.
+SQL: SELECT `id`,`status`,`avater_path`,`truename`,`username` FROM `p_user` WHERE `username` = 'echo' AND `password` = '7886a14f693a1eb34d53b56b0ca88e67' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `p_user` SET `last_login`='1462951562',`last_ip`='0.0.0.0' WHERE ( id=44 ) [ RunTime:0.1450s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0317s ]
+SQL: SELECT `group_id` FROM `p_auth_group_access` WHERE `uid` = 44 LIMIT 1   [ RunTime:0.0172s ]
+
+[ 2016-05-11T15:26:02+08:00 ] ::1 /Yuan/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `p_blog` WHERE `del` = 0 ORDER BY good desc LIMIT 4   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0041s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2 LIMIT 5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given D:\wamp\www\Yuan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given D:\wamp\www\Yuan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given D:\wamp\www\Yuan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2016-05-11T15:26:07+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000276s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002067s ]
+NOTIC: [8] Undefined index: keyword D:\wamp\www\Yuan\Application\Home\Controller\SearchController.class.php 第 47 行.
+NOTIC: [8] Undefined index: keyword D:\wamp\www\Yuan\Application\Home\Controller\SearchController.class.php 第 47 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000532s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0395s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.204775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.204963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001628s ]
+
+[ 2016-05-11T15:26:10+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0531s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0955s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0270s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0242s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0005s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0009s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 111 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001408s ]
+
+[ 2016-05-11T15:27:01+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002799s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0057s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0012s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0009s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0003s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 111 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 114 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2016-05-11T15:27:10+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001872s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0038s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0006s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0005s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0002s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 111 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 114 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2016-05-11T15:28:07+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003070s ]
+
+[ 2016-05-11T15:28:15+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0044s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0006s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0005s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0004s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [4096] Object of class Think\Page could not be converted to string D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 111 行.
+NOTIC: [4096] Object of class Think\Page could not be converted to string D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 114 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001575s ]
+
+[ 2016-05-11T17:30:14+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.042331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010667s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.4249s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.3489s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0020s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0011s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0008s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 111 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 114 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.2320s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.487852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.488162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.044142s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.151356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.195867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.044739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.045013s ]
+
+[ 2016-05-11T17:38:36+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0613s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0873s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0007s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0004s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0002s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0642s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2016-05-11T17:38:41+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0033s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0005s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0005s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0002s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2016-05-11T17:38:45+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+NOTIC: [8] Undefined index: keyword D:\wamp\www\Yuan\Application\Home\Controller\SearchController.class.php 第 50 行.
+NOTIC: [8] Undefined index: keyword D:\wamp\www\Yuan\Application\Home\Controller\SearchController.class.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 114 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0696s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2016-05-11T17:38:51+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0438s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0096s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0005s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0004s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0005s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.2241s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.246600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.246722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2016-05-11T17:38:51+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0389s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0035s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0004s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0003s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0003s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0247s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2016-05-11T17:39:42+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0132s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0757s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0005s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0004s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0003s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0011s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000984s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001385s ]
+
+[ 2016-05-11T17:39:48+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001830s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0345s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0055s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0016s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0010s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0005s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000561s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001401s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003887s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001208s ]
+
+[ 2016-05-11T17:39:58+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0119s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0051s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0007s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0007s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0004s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.1066s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2016-05-11T17:40:08+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000240s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0047s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0008s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0009s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0003s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000830s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2016-05-11T17:40:19+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.1194s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.1098s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0008s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0012s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0006s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002753s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002492s ]
+
+[ 2016-05-11T17:40:19+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002530s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0199s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0980s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0008s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0006s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0004s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001946s ]
+
+[ 2016-05-11T17:40:20+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0845s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0441s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0007s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0005s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0003s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0265s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2016-05-11T17:40:21+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0115s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0055s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0004s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0003s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0002s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2016-05-11T17:40:22+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0047s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0008s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0005s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0004s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001317s ]
+
+[ 2016-05-11T17:40:22+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001859s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0132s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0008s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0018s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0027s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000490s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001883s ]
+
+[ 2016-05-11T17:41:59+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0033s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0004s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0005s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0007s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2016-05-11T17:42:00+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002138s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0194s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0052s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0009s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0007s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0005s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002130s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2016-05-11T17:42:02+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0082s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0038s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0005s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0003s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0003s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2016-05-11T17:42:02+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0179s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0044s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0007s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0005s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0005s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.1433s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.169043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.169228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001696s ]
+
+[ 2016-05-11T17:42:02+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0031s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0005s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0003s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0003s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-05-11T17:42:03+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0032s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0004s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0003s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0003s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2016-05-11T17:42:14+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002605s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0454s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0694s ]
+
+[ 2016-05-11T17:42:14+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0366s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0012s ]
+
+[ 2016-05-11T17:42:21+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0006s ]
+
+[ 2016-05-11T17:42:22+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0005s ]
+
+[ 2016-05-11T17:42:22+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0178s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0004s ]
+
+[ 2016-05-11T17:42:23+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0006s ]
+
+[ 2016-05-11T17:42:23+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0965s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0004s ]
+
+[ 2016-05-11T17:42:40+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0003s ]
+
+[ 2016-05-11T17:46:13+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0004s ]
+
+[ 2016-05-11T17:46:40+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=57bf368d0eb991b19ed4cd07fb8f04b6_eb36e4ec390f1874b31e2e1d3f1b6e67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0377s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0034s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0006s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0004s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0002s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2016-05-11T17:46:57+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=06a6e7d6c11ac17c604923f8437d10e9_64ae9009035367a654ec9e6c4f30cfa1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0519s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0395s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0005s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0003s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0003s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2016-05-11T17:46:59+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=06a6e7d6c11ac17c604923f8437d10e9_64ae9009035367a654ec9e6c4f30cfa1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002147s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0032s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0005s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0004s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0010s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2016-05-11T17:47:06+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=06a6e7d6c11ac17c604923f8437d10e9_64ae9009035367a654ec9e6c4f30cfa1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,10   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0042s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0013s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0007s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0011s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001843s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001471s ]
+
+[ 2016-05-11T17:49:45+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=06a6e7d6c11ac17c604923f8437d10e9_64ae9009035367a654ec9e6c4f30cfa1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0037s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0005s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2016-05-11T17:49:48+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser/keyword/test/__hash__/06a6e7d6c11ac17c604923f8437d10e9_64ae9009035367a654ec9e6c4f30cfa1/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 2,2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0031s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0003s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008904s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.004089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003106s ]
+
+[ 2016-05-11T17:49:50+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser/keyword/test/__hash__/06a6e7d6c11ac17c604923f8437d10e9_64ae9009035367a654ec9e6c4f30cfa1/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010373s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0032s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0005s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007022s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.004138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003116s ]
+
+[ 2016-05-11T17:49:52+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser/keyword/test/__hash__/06a6e7d6c11ac17c604923f8437d10e9_64ae9009035367a654ec9e6c4f30cfa1/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009071s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 2,2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0035s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0003s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013918s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.004244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014101s ]
+
+[ 2016-05-11T17:50:08+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser/keyword/test/__hash__/06a6e7d6c11ac17c604923f8437d10e9_64ae9009035367a654ec9e6c4f30cfa1/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 8,8   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007450s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.004073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003037s ]
+
+[ 2016-05-11T17:50:11+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=08d85874dcaf29e7f191d89fb2539730_22c8846709f16955117525204ea2b779
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0582s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,8   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0502s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0008s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0006s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0002s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000972s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2016-05-11T17:57:32+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser?keyword=test&__hash__=08d85874dcaf29e7f191d89fb2539730_22c8846709f16955117525204ea2b779
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.037341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001814s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,2   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0070s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0008s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000368s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000730s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0009s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.025057s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.003275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014936s ]
+
+[ 2016-05-11T17:57:34+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser/keyword/test/__hash__/08d85874dcaf29e7f191d89fb2539730_22c8846709f16955117525204ea2b779/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003111s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0096s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 2,2   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0029s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 52) [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 52 AND `fans` = 44 LIMIT 1   [ RunTime:0.0005s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 53) [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_follow` WHERE `follow` = 53 AND `fans` = 44 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2016-05-11T17:57:36+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser/keyword/test/__hash__/08d85874dcaf29e7f191d89fb2539730_22c8846709f16955117525204ea2b779/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 0,2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p_follow` [ RunTime:0.0042s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 50 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 50) [ RunTime:0.0006s ]
+SQL: (SELECT `follow` FROM `p_follow` WHERE `follow` = 51 AND `fans` = 44) UNION (SELECT `follow` FROM `p_follow` WHERE `follow` = 44 AND `fans` = 51) [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+NOTIC: [8] Undefined index: weibo D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 96 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001472s ]
+
+[ 2016-05-11T18:04:16+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser/keyword/test/__hash__/08d85874dcaf29e7f191d89fb2539730_22c8846709f16955117525204ea2b779/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`username`,`sex`,`location`,`sign`,`avater_path`,`follow`,`fans` FROM `p_user` WHERE `username` LIKE '%test%' AND `id` <> '44' LIMIT 8,8   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2016-05-11T18:04:20+08:00 ] ::1 /Yuan/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `p_blog` WHERE `del` = 0 ORDER BY good desc LIMIT 4   [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0058s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0482s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0047s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 ORDER BY click desc LIMIT 3   [ RunTime:0.0149s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2 LIMIT 5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given D:\wamp\www\Yuan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given D:\wamp\www\Yuan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+NOTIC: [2] mb_substr() expects at most 4 parameters, 5 given D:\wamp\www\Yuan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001964s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2016-05-11T18:04:26+08:00 ] ::1 /Yuan/index.php/Home/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `p_cate` ORDER BY sort asc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\Yuan\Application\Runtime\Cache\Home\6d164f7c2f6ca2370f3ab6859ad5b9d7.php 第 10 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\Yuan\Application\Runtime\Cache\Home\6d164f7c2f6ca2370f3ab6859ad5b9d7.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.008836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2016-05-11T18:04:26+08:00 ] ::1 /Yuan/index.php/Home/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.1102s ]
+SQL: SELECT `click` FROM `p_blog` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `p_blog` SET `click`=click+1 WHERE `id` = 0 [ RunTime:0.1345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001184s ]
+
+[ 2016-05-11T18:49:19+08:00 ] ::1 /Yuan/index.php/Home/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `p_cate` ORDER BY sort asc  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\Yuan\Application\Runtime\Cache\Home\6d164f7c2f6ca2370f3ab6859ad5b9d7.php 第 10 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\Yuan\Application\Runtime\Cache\Home\6d164f7c2f6ca2370f3ab6859ad5b9d7.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009231s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.003734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013708s ]
+
+[ 2016-05-11T18:49:19+08:00 ] ::1 /Yuan/index.php/Home/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0041s ]
+SQL: SELECT `click` FROM `p_blog` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `p_blog` SET `click`=click+1 WHERE `id` = 0 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001276s ]
+
+[ 2016-05-11T18:49:20+08:00 ] ::1 /Yuan/index.php/Home/Blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `p_cate` ORDER BY sort asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: blog D:\wamp\www\Yuan\Application\Runtime\Cache\Home\6d164f7c2f6ca2370f3ab6859ad5b9d7.php 第 10 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\Yuan\Application\Runtime\Cache\Home\6d164f7c2f6ca2370f3ab6859ad5b9d7.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2016-05-11T18:49:20+08:00 ] ::1 /Yuan/index.php/Home/Blog/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0043s ]
+SQL: SELECT `click` FROM `p_blog` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `p_blog` SET `click`=click+1 WHERE `id` = 0 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2016-05-11T18:49:21+08:00 ] ::1 /Yuan/index.php/Home/Exper/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\Yuan\Application\Runtime\Cache\Home\f7c41315f37948de092bd72800eaef1d.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001658s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2016-05-11T18:49:21+08:00 ] ::1 /Yuan/index.php/Home/Exper/clickNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0049s ]
+SQL: SELECT `click` FROM `p_exper` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `p_exper` SET `click`=click+1 WHERE `id` = 0 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001947s ]
+
+[ 2016-05-11T18:49:22+08:00 ] ::1 /Yuan/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002224s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2 LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1 LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3 LIMIT 6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2016-05-11T18:49:23+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+NOTIC: [8] Undefined index: keyword D:\wamp\www\Yuan\Application\Home\Controller\SearchController.class.php 第 50 行.
+NOTIC: [8] Undefined index: keyword D:\wamp\www\Yuan\Application\Home\Controller\SearchController.class.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 117 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2016-05-11T18:49:24+08:00 ] ::1 /Yuan/index.php/Home/PersonalCenter/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0  [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `p_attr` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='1' [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p_cate` [ RunTime:0.0043s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='2' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='5' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='6' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='8' [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='10' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='34' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='14' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='25' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='15' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='16' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='17' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='18' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='19' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='20' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='21' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='22' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='23' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='31' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='24' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title`,`blogpic`,`content`,`time`,`click`,`cid`,`userid`,`saycount`,`username`,`good`,`bad` FROM `p_blog` WHERE `del` = 0 AND `userid` = 44  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='5' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='6' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='7' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='8' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='10' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='34' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='13' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='14' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='25' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='15' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='16' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='17' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='18' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='19' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='20' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='21' [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='22' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='28' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\Yuan\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM p_blog_attr AS a, p_attr AS b WHERE a.aid = b.id AND a. bid='23' [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `p_cate` WHERE ( 1=1 AND id='31' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p_blog` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_blog` WHERE `userid` = 44 AND `del` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p_exper` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `p_exper` WHERE `del` = 0 AND `userid` = 44  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_exper` WHERE `userid` = 44 AND `del` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `p_share` WHERE `userid` = 44  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `p_share` WHERE `userid` = 44 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `p_user` WHERE `id` = 44  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_user` WHERE `id` = 44  [ RunTime:0.0003s ]
+SQL: SELECT `location`,`sex`,`avater_path`,`email` FROM `p_user` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `avater_path`,`username` FROM `p_user` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `p_shiguang` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `p_shiguang` WHERE `userid` = 44 ORDER BY time desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Use of undefined constant sta - assumed 'sta' D:\wamp\www\Yuan\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 194 行.
+NOTIC: [8] Use of undefined constant sta - assumed 'sta' D:\wamp\www\Yuan\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 194 行.
+NOTIC: [8] Use of undefined constant sta - assumed 'sta' D:\wamp\www\Yuan\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 194 行.
+NOTIC: [8] Use of undefined constant sta - assumed 'sta' D:\wamp\www\Yuan\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 194 行.
+NOTIC: [8] Use of undefined constant sta - assumed 'sta' D:\wamp\www\Yuan\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 194 行.
+NOTIC: [8] Use of undefined constant sta - assumed 'sta' D:\wamp\www\Yuan\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 194 行.
+NOTIC: [8] Use of undefined constant sta - assumed 'sta' D:\wamp\www\Yuan\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 194 行.
+NOTIC: [8] Use of undefined constant sta - assumed 'sta' D:\wamp\www\Yuan\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 194 行.
+NOTIC: [8] Use of undefined constant reg_date - assumed 'reg_date' D:\wamp\www\Yuan\Application\Runtime\Cache\Home\ae911aac82b3fcefd8db98892fa16e85.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-05-11T18:49:24+08:00 ] ::1 /Yuan/index.php/Home/Search/sechUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002065s ]
+NOTIC: [8] Undefined index: keyword D:\wamp\www\Yuan\Application\Home\Controller\SearchController.class.php 第 50 行.
+NOTIC: [8] Undefined index: keyword D:\wamp\www\Yuan\Application\Home\Controller\SearchController.class.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+NOTIC: [8] Undefined variable: page D:\wamp\www\Yuan\Application\Runtime\Cache\Home\5fa0010deefef581f418d2f12f6248b5.php 第 117 行.
+SQL: SHOW COLUMNS FROM `p_group` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `p_group` WHERE `uid` = 44  [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001614s ]
+

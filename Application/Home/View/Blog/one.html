@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+<title>猿客栈--在线Web学习交互新阵地</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="__PUBLIC__/Index/common/images/bitbug_favicon.ico">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Index/common/css/common.css"/>
+<link rel="stylesheet" href="__PUBLIC__/Index/common/css/font-awesome.min.css" />
+<link rel="stylesheet" href="__PUBLIC__/Index/blog/css/main.css" />
+
+
+</head>
+<body>
+<include file="Public:head"/>
+<div class="content">
+	<div class="left">
+		<!-- 文章展示 -->
+        <foreach name="blog" item="v">
+        <div class="left1">
+			<h1>{$v.title}
+                <foreach name='v.attr' item='value'>
+                    <strong style='color:{$value.color};padding:0 5px'>
+                        {$value.name}
+                    </strong>
+                </foreach><br/>
+            </h1>
+			<div class="info">
+				<span>{$v.username}</span>&nbsp;&nbsp;
+				发布于&nbsp;<span>{$v.time|date='Y-m-d',###}</span>&nbsp;&nbsp;频道:&nbsp;<span>{$v.cate}</span>&nbsp;&nbsp;点击量：<span><script type='text/javascript' src='{:U("Blog/clickNum",array("id"=>$v["id"]))}'></script></span>
+			</div>
+			<div class="text">
+                <div class="content_pic">
+                    <img src="
+                        <if condition='$v[blogpic]'>
+                        __ROOT__/Uploads/blogpic/{$v.blogpic}
+                        <else/>
+                        __ROOT__/Uploads/blogpic/default.jpg
+                        </if>" alt="{$v.title}">
+                </div>
+				{$v.content}
+                <div class="dianping">
+                <a href='{:U("Home/Blog/clickgood",array("id"=>$v["id"]))}'><i class="fa fa-thumbs-o-up"></i></a>{$v.good}
+                &nbsp;&nbsp;
+               <a href='{:U("Home/Blog/clickbad",array("id"=>$v["id"]))}'> <i class="fa fa-thumbs-o-down"></i></a>&nbsp;{$v.bad} 
+               </div>
+			</div>
+			<br/><hr/><br/>
+            <!-- 下载按钮 -->
+            <div>
+                <a href="{:U('Home/Blog/pdf',array('id'=>$v[id]))}" target="_blank" class="download_btn">
+                    <span>下载</span>
+                </a>
+            </div>
+		</div>
+    <!-- 文章展示结束 -->
+    <!-- 评论区 -->
+    <div class="left2">
+        <div class="pinglun">
+            <h4>网友评论<span>让点评成为一种习惯！</span></h4>
+            <form action="{:U('Home/Blog/doSay')}" method="post">
+                <textarea name="content" id="p_l" cols="30" rows="10"></textarea>
+                <input type="hidden" name="bid" value="{$v.id}">
+                 <input type="hidden" name="uid" value="<?php echo session('UID') ?>">
+                <input type="submit" class="fs" value="发送"/>
+            </form>
+        </div>
+        <div class="liuyan">
+            <div class="liuyan_title">
+            <h4>全部留言</h4>
+            </div>
+            <ul class="liuyan_nav">
+                <foreach name="say" item="vo">
+                <li>
+                    <div class="pic">
+                        <img src="
+                        <if condition='$vo[avater_path]'>
+                        __ROOT__/Uploads/Avater/{$vo.avater_path}
+                        <else/>
+                        __ROOT__/Uploads/Avater/youke.jpg
+                        </if>
+                        " alt="" />
+                    </div>
+
+                    <div class="con">
+                    <h5>{$vo.username}{$vo.youke}</h5><span>{$vo.time|date='Y-m-d H:i:s',###}</span>
+                    <p>{$vo.content}</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-thumbs-up"></i>&nbsp;(0)&nbsp;&nbsp;
+                        <i class="fa fa-share"></i>&nbsp;(0)&nbsp;&nbsp;
+                        <a href="#"><i></i><span>{$selfadd}</span></a>
+                    </div>
+                     <div class="clear"></div>
+                </li>
+               </foreach>
+            </ul>
+        </div>
+    </div>
+    <!-- 评论区结束 -->
+   
+	</div>
+	<div class="right">
+        <div class="right1">
+            <h4 class="right1_title">
+                相关推荐
+                <a href="__APP__/Home/Blog/Catelist/id/{$cid}}">更多相关文章</a>
+            </h4>
+            <div class="clear"></div>
+            <ul class="right1_nav">
+                <foreach name="connectblog" item="v">
+                    <li>
+                        <a href="__APP__/Home/Blog/one/id/{$v.id}?id={$v.id}&cid={$v.cid}" class="remen_pic search-works-img">
+                            <img src="
+                                <if condition='$v[blogpic]'>
+                                __ROOT__/Uploads/blogpic/{$v.blogpic}
+                                <else/>
+                                __ROOT__/Uploads/blogpic/default.jpg
+                            </if>" alt="{$v.title}">
+                        </a>
+                        <a href="__APP__/Home/Blog/one/id/{$v.id}?id={$v.id}&cid={$v.cid}" class="remen_text">
+                            {$v.title}
+                        </a>
+                    </li>
+                </foreach>
+            </ul>
+            <div class="clear"></div>
+        </div>
+   </div>
+</div>
+<include file="Public:footer" />
+</body>
+</html>

@@ -1,0 +1,38 @@
+<header>
+            <div class="main">
+                <!-- <div class="logo"></div> -->
+                <div class="logo">
+                    <a href="{:U('Home/Index/index')}">
+                        <img src="__PUBLIC__/Index/Index/images/logo.png" title="在线Web学习交互新阵地" class="logo" />
+                    </a>
+                </div>
+                <ul class="nav">
+					<li><a href="{:U('Home/Index/index')}">首页</a></li>
+                    <li><a href="{:U('Home/Blog/index')}">文章</a></li>
+                    <li><a href="{:U('Home/Exper/index')}">心得</a></li>
+                    <li><a href="{:U('Home/Share/index')}">共享</a></li>                   
+                    <empty name="Think.session.username">
+                    <else/>
+                    <li><a href="{:U('Home/Search/sechUser')}">发现</a></li>
+                    <li><a href="{:U('Home/PersonalCenter/index')}">个人空间</a></li>
+                    </empty>
+                </ul>
+                <div class="login">
+                    <empty name="Think.session.username">
+                        <a href="{:U('Home/User/login/')}">登录</a>
+                        <a href="{:U('Home/User/userReg')}">注册</a>
+                        <!--<a href="{:U('Admin/public/login')}">后台登录</a>-->
+                    <else/>
+                    <if condition="$Think.session.group_id eq 3 ">
+                    <a href="">{$Think.session.username}<span>，你好！</span></a>
+                    <a href="{:U('Home/User/logout')}">注销</a>
+                    <else/>
+                        <if condition="$Think.session.group_id eq 3 ">  
+                        <a href="">{$Think.session.username}<span>，你好！</span></a>
+                        <a href="{:U('Home/User/logout')}">注销</a>
+                        <!--<a href="{:U('Admin/public/login')}">后台登录</a>-->
+                        </if>
+                    </empty>
+                </div>
+                </div>
+        </header>

@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+<title>猿客栈--在线Web学习交互新阵地</title>
+<link rel="shortcut icon" href="__PUBLIC__/Index/common/images/bitbug_favicon.ico">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Index/common/css/common.css">
+<link rel="stylesheet" href="__PUBLIC__/Index/share/css/user.css" />
+<!-- add弹出框 -->
+<script type="text/javascript" src="__PUBLIC__/Index/common/js/jquery.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Index/share/js/jquery.layerModel.js"></script>
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/Index/share/css/layerModel.css"/>
+<script>
+    $(function(){
+        
+        $("#demoBtn1").click(function(){
+            $("#demo1").layerModel();
+        });
+        $("#demoBtn2").click(function(){
+            $("#demo2").layerModel();
+        });
+    });
+</script>
+</head>
+<body>
+<include file="Public:head" />
+<div class="content" style="padding-top:150px;">
+	<div class="left">
+		<div class="user">			
+			<div class="user_pic">
+				<img src="__ROOT__/Uploads/Avater/{$userface[avater_path]}" alt="" />
+			}
+			</div>
+			<div class="user_name">
+				<h4>共享学习网址，猿来有你</h4>
+			</div>
+		
+		<div class="user_web">
+			<!-- <div class="web_header">
+				<h2 style="text-align:center;">我的网站</h2>
+			</div> -->
+			<div class="web_content">
+				<div class="wrapper">
+				<a href="javascript:void(0)" id="demoBtn1" class="tag">共享学习网址，猿来有你！+</a>
+					<foreach name="myurl" item="v">	
+						<a href="{$v.url}" class="tag" target="_blank">{$v.name}</a>
+					</foreach>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+</div>
+	<div class="right">
+		<h2 style="text-align:center;padding-top:15px;">网址客栈</h2>
+		<section id="gallery-wrapper">
+		<foreach name="res" item="v">
+			<article class="white-panel">
+				<div class="content_info">
+					<a href="{$v.url}" style="font-size:18px;font-weight:bold;" target="_blank">{$v.name}</a>&nbsp;{$v.alt}
+					<span></span>
+				</div>
+			</article>
+		</foreach>
+    </section>
+	</div>
+</div>    
+<script>window.jQuery || document.write('<script src="__PUBLIC__/Index/share/js/jquery-1.11.0.min.js"><\/script>')</script>
+	<script src="__PUBLIC__/Index/share/js/pinterest_grid.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("#gallery-wrapper").pinterest_grid({
+				no_columns: 4,/*一行几个*/
+                padding_x: 10,
+                padding_y: 10,
+                margin_bottom: 50,
+                single_column_breakpoint: 700
+			});
+			
+		});
+	</script>
+	<!-- 心得添加弹出框 --> 
+    <div id="demo1">
+	    <form method="post" action="{:U('Home/Share/doAdd')}" class="tk">
+	         <div class="pos">
+	             <div>
+	                    <label for="title">标题:</label>
+	                    <input type="text" class="p_input" name="name" placeholder="请输入网站名称"/>
+	             </div>
+	             <div>
+	                    <label for="zg">链接:</label>
+	                    <input type="text" class="p_input" name="url" value="http://" placeholder="请输入网站链接"/>
+	            </div>
+	            <div class="input-group xd">
+	                    <label for="xd" class="ha">描述：</label>
+	                    <textarea name="alt" class="p_text" rows="5" placeholder="在此分享你的学习网站"></textarea>
+	            </div>
+	            <!-- <div>
+	                    <label for="pic">封面:</label>
+	                    <input type="file" id="pic" name="experpic"/>
+	                    <a href="#" class="pic_btn">上传封面</a>
+	            </div> -->
+	        </div>
+	        <input type="submit" class="form_btn" value="提交"/>
+	    </form>
+	</div>
+    <!-- 心得添加弹出框结束 -->	
+	<include file="Public:footer" />
+</body>
+</html>

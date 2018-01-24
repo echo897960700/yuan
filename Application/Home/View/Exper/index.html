@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+<title>猿客栈--在线Web学习交互新阵地</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="__PUBLIC__/Index/common/images/bitbug_favicon.ico">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Index/common/css/common.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Index/common/css/font-awesome.min.css" />
+<!-- 瀑布流css -->
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Index/exper/css/default.css">
+<!-- add弹出框 -->
+<script type="text/javascript" src="__PUBLIC__/Index/common/js/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script> -->
+<script type="text/javascript" src="__PUBLIC__/Index/exper/js/jquery.layerModel.js"></script>
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/Index/exper/css/layerModel.css"/>
+<script>
+    $(function(){
+        
+        $("#demoBtn1").click(function(){
+            $("#demo1").layerModel();
+        });
+        $("#demoBtn2").click(function(){
+            $("#demo2").layerModel();
+        });
+    });
+</script>
+<!-- 浏览次数 -->
+<script type='text/javascript' src='{:U("Home/Exper/clickNum",array("id"=>$result["id"]))}'></script>
+<!-- 打开心得展示 -->
+
+</head>
+    <body>
+        <include file="Public:head"/>
+        <div id="tit"> 
+            <ul>
+                <li>正视经历，直达巅峰</li>
+            </ul>
+        </div>
+    	<!-- 瀑布流 -->
+        <div class="pubuliu">
+            
+            <section id="gallery-wrapper">
+                <article class="white-panel">
+                    <a href="javascript:void(0)" id="demoBtn1"><img src="__ROOT__/Uploads/experpic/add.jpg" class="thumb" title="我用经历告诉你！"/></a>
+                    <h1><a href="javascript:void(0)" id="demoBtn1">我用经历告诉你！</a></h1>
+                    <p></p>
+                    <p id="biaofu">
+                       <span title="请登录"><i class="fa fa-plus-square" style="margin-right:5px;"></i>请登录后方可添加！</span>
+                    </p>
+                </article>
+            <foreach name="result" item="v">
+                <article class="white-panel"> 
+                    <a href="__APP__/Home/Exper/one/id/{$v.id}?id={$v.id}"><img src="__ROOT__/Uploads/experpic/{$v.experpic}" class="thumb" title="{$v.title}"/></a>
+                    <h1><a href="__APP__/Home/Exper/one/id/{$v.id}?id={$v.id}">{$v.title}</a></h1>
+                    <p>{$v.story|msubstr=###,0,41,'utf-8',true}</p>
+                    <p id="biaofu">
+                        <span title="浏览数" ><i class="fa fa-eye"></i>&nbsp;{$v.click}</span>&nbsp;&nbsp;
+                        <span title="评论数">
+                        <i class="fa fa-pencil-square-o" >&nbsp;{$v.saycount}</i>
+                        </span>
+                    </p>
+                </article>
+            </foreach>
+        </section>
+    </div>
+    
+    
+    <script>window.jQuery || document.write('<script src="__PUBLIC__/Index/exper/js/jquery-1.11.0.min.js"><\/script>')</script>
+    <script src="__PUBLIC__/Index/exper/js/pinterest_grid.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $("#gallery-wrapper").pinterest_grid({
+                no_columns: 5,/*一行几个*/
+                padding_x: 10,
+                padding_y: 10,
+                margin_bottom: 50,
+                single_column_breakpoint: 700
+            });
+            
+        });
+    </script>
+
+    <!-- 心得添加弹出框 -->
+    <div id="demo1">
+    <form action="{:U('Home/Exper/runAdd')}" method="post" enctype="multipart/form-data" class="tk">
+         <div class="pos">
+             <div>
+                    <label for="title">标题:</label>
+                    <input type="text" id="title" name="title" placeholder="请输入你的标题"/>
+             </div>
+             <div>
+                    <label for="zg">专攻:</label>
+                    <input type="text" id="zg" name="specialize" placeholder="请输入你的专攻"/>
+            </div>
+            <div class="input-group xd">
+                    <label for="xd" class="ha">心得:</label>
+                    <textarea name="story" id="xd" rows="8" placeholder="在此分享你的学习相关心得"></textarea>
+            </div>
+            <div>
+                    <label for="pic">封面:</label>
+                    <input type="file" id="pic" name="photo"/>
+                    <a href="#" class="pic_btn">上传封面</a>
+            </div>
+        </div>
+        <input type="submit" class="form_btn" value="提交"/>
+    </form>
+</div>
+    <!-- 心得添加弹出框结束 -->
+    <!-- 心得展示 -->
+    
+<!-- 心得展示结束 -->
+<include file="Public:footer" />
+    </body>
+</html>

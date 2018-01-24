@@ -1,0 +1,127 @@
+.content{
+	width: 1160px;
+	margin:0 auto;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	/*background: red;*/
+}
+.content_title{
+	text-align: center;
+
+}
+.content_title h1{
+	 color: #4E4E4E;
+	font-size: 32px;
+}
+.share_nav{
+	margin-top: 40px;
+	/*background: red;*/
+}
+.share{
+	width: 350px;
+	padding-bottom: 10px;
+	background: #fff;
+	position: relative;
+	margin-left: 26px;
+	float: left;
+	-webkit-transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+	-ms-transition:all 0.5s linear;
+	-o-transition:all 0.5s linear;
+	transition:all 0.5s linear;
+}
+.share:hover{
+	-webkit-box-shadow: 8px 8px 20px #888888;
+	-moz-box-shadow: 10px 10px 5px #888888;
+	-ms-box-shadow: 10px 10px 5px #888888;
+	-o-box-shadow: 10px 10px 5px #888888;
+	box-shadow: 10px 10px 5px #888888;
+}
+.pic{
+	width: 350px;
+	height: auto;
+	overflow: hidden;
+}
+.pic img{
+	width: 350px;
+	height: 200px;
+}
+.text{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 350px;
+	height: 200px;
+	text-align: center;
+	/*line-height: 200px;*/
+	/*background: red;*/
+}
+.text h3{
+	margin-top: 150px;
+	font-size: 24px;
+	color: #fff;
+	font-weight: bold;
+	-webkit-transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+	-ms-transition:all 0.5s linear;
+	-o-transition:all 0.5s linear;
+	transition:all 0.5s linear;
+}
+/*.text p{
+	position: absolute;
+	color: #fff;
+	background: blue;
+	margin-top: 40px;
+}*/
+.line{
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	width: 300px;
+	height: 150px;
+	/*background: red;*/
+	opacity: 0;
+	filter:alpha(opacity=0);
+	-webkit-transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+	-ms-transition:all 0.5s linear;
+	-o-transition:all 0.5s linear;
+	transition:all 0.5s linear;
+	-webkit-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-ms-transform:scale(1.2);
+	-o-transform:scale(1.2);
+	transform:scale(1.2);
+	border: 2px solid #fff;
+
+}
+.pic:hover .line{
+	opacity: 1;
+	filter:alpha(opacity=100);
+	-webkit-transform:scale(1);
+	-moz-transform:scale(1);
+	-ms-transform:scale(1);
+	-o-transform:scale(1);
+	transform:scale(1);
+}
+.pic:hover .text h3{
+	margin-top: 90px;
+}
+.text_nav li{
+	margin-top: 4px;
+	margin-bottom: 4px;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #eff0f4;
+}
+.text_nav li:hover{
+	background: #09f;
+}
+.text_nav li:hover a{
+	color: #fff;
+}
+.text_nav li a{
+	color: #070d0b;
+	font-size: 16px;
+	margin-left: 20px;
+}
+

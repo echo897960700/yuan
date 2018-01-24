@@ -1,0 +1,2899 @@
+[ 2016-03-19T17:14:09+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003254s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000432s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001658s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002126s ]
+
+[ 2016-03-19T17:14:09+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002345s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002080s ]
+
+[ 2016-03-19T17:14:22+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001944s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000805s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001954s ]
+
+[ 2016-03-19T17:14:23+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003092s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000575s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002431s ]
+
+[ 2016-03-19T17:14:23+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001716s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2016-03-19T17:14:58+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003939s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2016-03-19T17:15:21+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2016-03-19T17:16:06+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002755s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001505s ]
+
+[ 2016-03-19T17:16:06+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003703s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000544s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002232s ]
+
+[ 2016-03-19T17:16:07+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003185s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0562s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000562s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001789s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003674s ]
+
+[ 2016-03-19T17:16:07+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2016-03-19T17:16:28+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2016-03-19T17:16:29+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002130s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001442s ]
+
+[ 2016-03-19T17:16:46+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002887s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2016-03-19T17:16:47+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001817s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000471s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000897s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003062s ]
+
+[ 2016-03-19T17:16:57+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001955s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000507s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003572s ]
+
+[ 2016-03-19T17:16:58+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002444s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001696s ]
+
+[ 2016-03-19T17:17:19+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001642s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001254s ]
+
+[ 2016-03-19T17:17:20+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003153s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000571s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002389s ]
+
+[ 2016-03-19T17:17:27+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001460s ]
+
+[ 2016-03-19T17:17:28+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2016-03-19T17:19:17+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-03-19T17:19:30+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000284s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2016-03-19T17:19:48+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2016-03-19T17:19:48+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003617s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000508s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004228s ]
+
+[ 2016-03-19T17:19:49+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2016-03-19T17:19:57+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000761s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2016-03-19T17:20:10+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003665s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000635s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003320s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.003344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009850s ]
+
+[ 2016-03-19T17:20:10+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002340s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000514s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002968s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003311s ]
+
+[ 2016-03-19T17:20:11+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004206s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001161s ]
+
+[ 2016-03-19T17:21:46+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2016-03-19T17:21:47+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003371s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001932s ]
+
+[ 2016-03-19T17:21:47+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2016-03-19T17:21:48+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004002s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000567s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003731s ]
+
+[ 2016-03-19T17:22:07+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000986s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2016-03-19T17:22:18+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2016-03-19T17:22:32+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0701s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2016-03-19T17:23:09+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001671s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004246s ]
+
+[ 2016-03-19T17:23:24+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000452s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002126s ]
+
+[ 2016-03-19T17:23:25+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001683s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002043s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001934s ]
+
+[ 2016-03-19T17:23:33+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2016-03-19T17:24:06+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2016-03-19T17:24:07+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002285s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-03-19T17:24:07+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001461s ]
+
+[ 2016-03-19T17:24:08+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002079s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000348s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000714s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.003202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002414s ]
+
+[ 2016-03-19T17:24:16+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0648s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2016-03-19T17:24:16+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002892s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000517s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002793s ]
+
+[ 2016-03-19T17:24:17+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000256s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2016-03-19T17:24:17+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2016-03-19T17:24:36+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002502s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000514s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002186s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.003117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003076s ]
+
+[ 2016-03-19T17:24:37+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001398s ]
+
+[ 2016-03-19T17:24:38+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003131s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000394s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000829s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002424s ]
+
+[ 2016-03-19T17:24:48+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2016-03-19T17:26:33+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002488s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001980s ]
+
+[ 2016-03-19T17:27:06+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002160s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002793s ]
+
+[ 2016-03-19T17:27:49+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003359s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0724s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000511s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.003726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003777s ]
+
+[ 2016-03-19T17:28:44+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000692s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001905s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002003s ]
+
+[ 2016-03-19T17:29:29+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2016-03-19T17:29:37+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001614s ]
+
+[ 2016-03-19T17:29:41+08:00 ] ::1 /Hit/index.php/Home/Share/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2016-03-19T17:31:52+08:00 ] ::1 /Hit/index.php/Home/Share
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0399s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-03-19T22:39:07+08:00 ] ::1 /Hit/index.php/Home/Share
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2016-03-19T22:50:28+08:00 ] ::1 /Hit/index.php/Home/Share
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2016-03-19T22:51:41+08:00 ] ::1 /Hit/index.php/Home/Share/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001333s ]
+
+[ 2016-03-19T22:52:54+08:00 ] ::1 /Hit/index.php/Home/Share/doAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+NOTIC: [8] Undefined index: password D:\wamp\www\Hit\Application\Home\Controller\ShareController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0565s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userid' cannot be null
+
+[ 2016-03-19T22:53:08+08:00 ] ::1 /Hit/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2016-03-19T22:53:13+08:00 ] ::1 /Hit/index.php/Home/User/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0113s ]
+NOTIC: [8] Undefined index: auth D:\wamp\www\Hit\ThinkPHP\Library\Think\Model.class.php 第 1264 行.
+SQL: SELECT `id`,`status`,`avater_path`,`truename`,`username` FROM `p_user` WHERE `username` = 'test3' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `p_user` SET `last_login`='1458399193',`last_ip`='0.0.0.0' WHERE ( id=52 ) [ RunTime:0.0653s ]
+SQL: SHOW COLUMNS FROM `p_auth_group_access` [ RunTime:0.0094s ]
+SQL: SELECT `group_id` FROM `p_auth_group_access` WHERE `uid` = 52 LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2016-03-19T22:53:13+08:00 ] ::1 /Hit/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000309s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000471s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001300s ]
+
+[ 2016-03-19T22:53:16+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2016-03-19T22:53:19+08:00 ] ::1 /Hit/index.php/Home/Share/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2016-03-19T22:53:32+08:00 ] ::1 /Hit/index.php/Home/Share/doAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+NOTIC: [8] Undefined index: password D:\wamp\www\Hit\Application\Home\Controller\ShareController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0446s ]
+SQL: INSERT INTO `p_share` (`name`,`url`,`pass`,`nameurl`,`alt`,`userid`,`username`,`sta`) VALUES ('慕课网','http://www.imooc.com/',NULL,'<a href=http://www.imooc.com/ target=\"_blank\">慕课网</a>','  国内最大的IT技能学习平台','52','test3','2') [ RunTime:0.0695s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2016-03-19T22:53:33+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001367s ]
+
+[ 2016-03-19T22:53:46+08:00 ] ::1 /Hit/index.php/Home/Share/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000472s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001337s ]
+
+[ 2016-03-19T22:54:28+08:00 ] ::1 /Hit/index.php/Home/Share/doAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+NOTIC: [8] Undefined index: password D:\wamp\www\Hit\Application\Home\Controller\ShareController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0688s ]
+SQL: INSERT INTO `p_share` (`name`,`url`,`pass`,`nameurl`,`alt`,`userid`,`username`,`sta`) VALUES ('网盘屋','http://www.wangpanwu.com/',NULL,'<a href=http://www.wangpanwu.com/ target=\"_blank\">网盘屋</a>','百度网盘搜索引擎 ','52','test3','2') [ RunTime:0.1704s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001399s ]
+
+[ 2016-03-19T22:54:29+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002696s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001382s ]
+
+[ 2016-03-19T22:55:08+08:00 ] ::1 /Hit/index.php/Home/Share/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2016-03-19T22:55:43+08:00 ] ::1 /Hit/index.php/Home/Share/doAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+NOTIC: [8] Undefined index: password D:\wamp\www\Hit\Application\Home\Controller\ShareController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0355s ]
+SQL: INSERT INTO `p_share` (`name`,`url`,`pass`,`nameurl`,`alt`,`userid`,`username`,`sta`) VALUES ('龙天论坛','http://www.lthack.com/',NULL,'<a href=http://www.lthack.com/ target=\"_blank\">龙天论坛</a>',' 全国最大百度云盘资源分享基地','52','test3','2') [ RunTime:0.0539s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2016-03-19T22:55:44+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2016-03-19T22:56:29+08:00 ] ::1 /Hit/index.php/Home/Share/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2016-03-19T22:57:01+08:00 ] ::1 /Hit/index.php/Home/Share/doAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002294s ]
+NOTIC: [8] Undefined index: password D:\wamp\www\Hit\Application\Home\Controller\ShareController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0168s ]
+SQL: INSERT INTO `p_share` (`name`,`url`,`pass`,`nameurl`,`alt`,`userid`,`username`,`sta`) VALUES ('站长素材','http://sc.chinaz.com/',NULL,'<a href=http://sc.chinaz.com/ target=\"_blank\">站长素材</a>',' 网站开发、设计、图像素材等','52','test3','2') [ RunTime:0.1276s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001265s ]
+
+[ 2016-03-19T22:57:02+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001298s ]
+
+[ 2016-03-19T22:57:40+08:00 ] ::1 /Hit/index.php/Home/Share/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2016-03-19T22:58:19+08:00 ] ::1 /Hit/index.php/Home/Share/doAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+NOTIC: [8] Undefined index: password D:\wamp\www\Hit\Application\Home\Controller\ShareController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0651s ]
+SQL: INSERT INTO `p_share` (`name`,`url`,`pass`,`nameurl`,`alt`,`userid`,`username`,`sta`) VALUES ('前端开发仓','http://code.ciaoca.com/',NULL,'<a href=http://code.ciaoca.com/ target=\"_blank\">前端开发仓</a>',' 前端标签、工具、文档等','52','test3','2') [ RunTime:0.0976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001291s ]
+
+[ 2016-03-19T22:58:20+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2016-03-19T22:58:38+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001685s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2016-03-19T22:58:58+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002962s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001292s ]
+
+[ 2016-03-19T22:59:33+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0684s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2016-03-19T23:00:13+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2016-03-19T23:00:31+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2016-03-19T23:00:43+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2016-03-19T23:14:56+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2016-03-19T23:14:56+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2016-03-19T23:14:57+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001194s ]
+
+[ 2016-03-19T23:15:23+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002616s ]
+
+[ 2016-03-19T23:15:23+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0311s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001622s ]
+
+[ 2016-03-19T23:16:02+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2016-03-19T23:16:25+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000351s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000846s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002642s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003108s ]
+
+[ 2016-03-19T23:16:32+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002715s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001853s ]
+
+[ 2016-03-19T23:17:24+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.1271s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001178s ]
+
+[ 2016-03-19T23:17:43+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001346s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2016-03-19T23:17:50+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2016-03-19T23:17:59+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000831s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004187s ]
+
+[ 2016-03-19T23:19:49+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000432s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001444s ]
+
+[ 2016-03-19T23:19:50+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2016-03-19T23:19:51+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2016-03-19T23:19:51+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2016-03-19T23:19:51+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2016-03-19T23:19:56+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000939s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001255s ]
+
+[ 2016-03-19T23:49:46+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001351s ]
+
+[ 2016-03-19T23:49:47+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001012s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2016-03-19T23:50:48+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001639s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2016-03-19T23:51:18+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2016-03-19T23:51:46+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001349s ]
+
+[ 2016-03-19T23:51:47+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001915s ]
+
+[ 2016-03-19T23:51:48+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2016-03-19T23:51:48+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2016-03-19T23:51:58+08:00 ] ::1 /Hit/index.php/Home/Share/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+SQL: SHOW COLUMNS FROM `p_share` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `p_share` WHERE `sta` = 3  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined index: group_id D:\wamp\www\Hit\Application\Runtime\Cache\Home\ebf14e25328f70423c0b1406e4559d36.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+

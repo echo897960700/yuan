@@ -1,0 +1,48 @@
+[ 2016-04-14T00:01:41+08:00 ] 122.228.113.161 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-14T00:01:43+08:00 ] 122.228.113.161 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000704s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008464s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-14T15:53:50+08:00 ] 123.125.71.88 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+ERR: 无法加载模块:Robots
+
+[ 2016-04-14T17:20:23+08:00 ] 183.24.97.169 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-14T23:21:24+08:00 ] 183.24.97.47 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-04-14T23:21:26+08:00 ] 183.24.97.47 /Public/Index/Index/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-14T23:21:27+08:00 ] 183.24.97.47 /Public/Index/common/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-14T23:21:34+08:00 ] 183.24.97.47 /Public/Index/common/fonts/fontawesome-webfont.woff?v=4.2.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+ERR: 无法加载模块:Public
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>猿客栈--在线Web学习交互新阵地</title>
+	<link rel="shortcut icon" href="__PUBLIC__/Index/common/images/bitbug_favicon.ico">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Index/common/css/common.css" />
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Index/blog/css/blog.css"> 
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Index/blog/css/class.css"> 
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Index/common/css/font-awesome.min.css" />
+	<script type='text/javascript' src='{:U("/Blog/clickNum",array("id"=>$blog["id"]))}'></script> 
+</head>
+<body>
+<!-- 头部 -->
+<include file="Public:head" />
+<!-- 头部结束 -->
+<!-- 主体 -->
+<div id="main-container" class="container clearfix">
+	<!-- 频道 -->
+	<div class="tag-head">
+		<div class="cate-num">
+			{$cate}共有文章
+			<br>
+			<span class="num">{$catecount}</span>篇
+		</div>
+		<div class="tag-bread">{$cate}</div>
+	</div>
+	<!-- 频道结束 -->
+
+	<!-- 排序 -->
+	<div class="sort" _hover-ignore="1">
+		<span _hover-ignore="1">排序：</span>
+		<?php $id =$_GET['id']; ?>
+		<a href="{:U('Home/Blog/Catelist/id/'.$id,array('id'=>$v['id']))}">最新发布</a>
+		<a href="{:U('Home/Blog/clickList/id/'.$id,array('id'=>$v['id']))}">浏览最多</a>
+		<div class="channel-all">
+			<span>所有频道
+				<em class="arrow-bottom"><i></i></em>
+			</span>
+			<div class="channel-item clearfix">
+				<foreach name="allcate" item="v">
+					<a href="{:U('Home/Blog/Catelist',array('id'=>$v['id']))}">{$v.name}</a>
+				</foreach>
+			</div>
+		</div>		
+	</div>
+	<!-- 排序结束 -->
+
+	<!-- 文章放置 -->
+		<ul id="post-list" class="search-works-list clearfix">
+		<li>
+			<a href="{:U('/Home/Blog/Blog/')}" title="" class="search-works-img" target="_blank">
+			<img src="__PUBLIC__/Index/blog/images/add.png" alt="#">
+				<div class="bottom-cover">
+					<span class="film-time"></span>
+				</div>
+			</a>
+		<div class="works-text">
+        <h4><a href="{:U('/Home/Blog/Blog/')}">添加博文</a></h4>
+        <div class="works-ope">
+	          <div class="fr">
+	          	<div class="rating"></div>
+	          </div>
+	        <!--   <span title="评论数" style="margin-left:0;"><i class="fa fa-paper-plane"></i>18</span>
+	          <span title="喜欢数">70</span> -->
+	          <span title="请登录"><i class="fa fa-plus-square" style="margin-right:5px;"></i>请登录后方可添加！</span>
+	        </div>
+  		</div>
+		</li>
+		<!-- --------------------------------- -->
+		<foreach name="blog" item="v">
+			<li>
+				<a href="__APP__/Home/Blog/one/id/{$v.id}?id={$v.id}&cid={$v.cid}" title="{$v.title}" class="search-works-img">
+				<img src="
+				<if condition='$v[blogpic]'>
+				__ROOT__/Uploads/blogpic/{$v.blogpic}
+				<else/>
+				__ROOT__/Uploads/blogpic/default.jpg
+			</if>" alt="{$v.title}" width="268px;" height="180px;">
+					<div class="bottom-cover">
+						<span class="film-time"><i class="fa fa-yelp"></i>{$cate}</span>
+					</div>
+				</a>
+			<div class="works-text">
+	        <h4><a href="__APP__/Home/Blog/one/id/{$v.id}?id={$v.id}&cid={$v.cid}" target="_blank">{$v.title}</a></h4>
+	        	<div class="works-ope">
+			          <div class="fr">
+			          	<div class="rating"></div>
+
+			          </div>
+			          <span title="浏览数" style="margin-left:0px;"><i class="fa fa-eye"></i>&nbsp;{$v.click}</span>
+			          <span title="评论数" style="margin-left:5px;">
+			          <i class="fa fa-pencil-square-o" >&nbsp;{$v.saycount}</i>
+			          </span>
+			          <span title="作者" class="writerpos" style="margin-left:5px;"><i class="fa fa-user"></i>&nbsp;{$v.username}</span>
+		        </div>
+	  		</div>
+			</li>
+			</foreach>
+
+</ul>
+	<!-- 文章放置结束 -->
+	{$page}
+</div>
+<include file="Public:footer" />
+</body>
+</html>
